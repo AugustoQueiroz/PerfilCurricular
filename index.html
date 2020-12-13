@@ -29,7 +29,7 @@
             dropdown = document.getElementById('dropdown-cursos');
             optgroup = null;
             campusName = '';
-            lines = loadFile('/course_pdflink.csv').split('\n');
+            lines = loadFile('/PerfilCurricular/course_pdflink.csv').split('\n');
 
             for (i = 0; i < lines.length; i++) {
                 if (lines[i].split(',').length == 1) {
@@ -47,7 +47,7 @@
         </script>
         <script>
             function loadPDF() {
-                document.getElementById('pdf-viewer').src = '/outputs/' + document.getElementById('dropdown-cursos').value + '.pdf';
+                document.getElementById('pdf-viewer').src = '/PerfilCurricular/outputs/' + document.getElementById('dropdown-cursos').value + '.pdf';
             }
         </script>
     </body>
