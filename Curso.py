@@ -32,7 +32,7 @@ class Curso:
     def perfil_curricular_dot(self):
         dot = Digraph('Perfil Curricular %s' % self.nome)
         dot.attr(labelloc='t', label='Perfil Curricular de %s' % self.nome)
-        dot.attr(rankdir='LR')
+        dot.attr(rankdir='LR', splines='ortho')
 
         ultimo_periodo = max(map(lambda disciplina: disciplina.periodo, self.disciplinas))
         for i in range(1, ultimo_periodo+2):
