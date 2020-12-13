@@ -1,0 +1,160 @@
+digraph "Perfil Curricular Nutrição - Bacharelado" {
+	label="Perfil Curricular de Nutrição - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AN001 [label="AN001
+ANATOMIA1" shape=box width=3.5]
+		BQ001 [label="BQ001
+BIOQUIMICA 1" shape=box width=3.5]
+		HE240 [label="HE240
+CITOLOGIA" shape=box width=3.5]
+		HE019 [label="HE019
+EMBRIOLOGIA" shape=box width=3.5]
+		BR011 [label="BR011
+FISICA E BIOFISICA" shape=box width=3.5]
+		HE011 [label="HE011
+HISTOLOGIA" shape=box width=3.5]
+		NU541 [label="NU541
+INTRODUÇÃO A SAÚDE E NUTRIÇÃO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	NU543 -> BQ001 [constraint=true]
+	NU543 -> BR011 [constraint=true]
+	NU540 -> AN001 [constraint=true]
+	NU540 -> HE011 [constraint=true]
+	GN215 -> BQ001 [constraint=true]
+	GN215 -> HE240 [constraint=true]
+	MT200 -> BQ001 [constraint=true]
+	MT200 -> HE240 [constraint=true]
+	MT210 -> HE011 [constraint=true]
+	MT210 -> HE240 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		NU543 [label="NU543
+BROMATOLOGIA" shape=box width=3.5]
+		CS643 [label="CS643
+CIÊNCIAS SOCIAIS E DA SAÚDE" shape=box width=3.5]
+		NU540 [label="NU540
+FISIOLOGIA GERAL DA NUTRIÇÃO" shape=box width=3.5]
+		GN215 [label="GN215
+GENETICA HUMANA 1" shape=box width=3.5]
+		MT200 [label="MT200
+MICROBIOLOGIA E IMUNOLOGIA" shape=box width=3.5]
+		NU542 [label="NU542
+MÉTODO DE INVESTIGAÇÃO EM NUTRIÇÃO" shape=box width=3.5]
+		MT210 [label="MT210
+PARASITOLOGIA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	NU322 -> BQ001 [constraint=true]
+	NU544 -> NU540 [constraint=true]
+	NU323 -> MT200 [constraint=true]
+	NU323 -> MT210 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		NU322 [label="NU322
+BIOQUIMICA DA NUTRICAO" shape=box width=3.5]
+		NU545 [label="NU545
+BIOQUÍMICA DOS ALIMENTOS" shape=box width=3.5]
+		NU544 [label="NU544
+FISIOLOGIA DA NUTRIÇÃO" shape=box width=3.5]
+		NU323 [label="NU323
+HIGIENE DOS ALIMENTOS" shape=box width=3.5]
+		NU546 [label="NU546
+NUTRIÇÃO EM SAÚDE PÚBLICA 1" shape=box width=3.5]
+		NU549 [label="NU549
+NUTRIÇÃO EXPERIMENTAL" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	NU548 -> NU544 [constraint=true]
+	PA210 -> NU540 [constraint=true]
+	NU326 -> NU545 [constraint=true]
+	NU550 -> NU323 [constraint=true]
+	NU550 -> NU545 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		NU552 [label="NU552
+AVALIAÇÃO DO ESTADO NUTRICIONAL" shape=box width=3.5]
+		NU548 [label="NU548
+NUTRIÇÃO NORMAL E DIETÉTICA" shape=box width=3.5]
+		PA210 [label="PA210
+PROCESSOS PATOLOGICOS GERAIS" shape=box width=3.5]
+		NU326 [label="NU326
+TECNICA DIETETICA" shape=box width=3.5]
+		NU550 [label="NU550
+TECNOLOGIA DE ALIMENTOS" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	NU551 -> NU326 [constraint=true]
+	NU554 -> NU548 [constraint=true]
+	NU553 -> NU548 [constraint=true]
+	NU547 -> NU542 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		NU551 [label="NU551
+ADMINISTRAÇÃO DE UNIDADE DE ALIMENTAÇÃO ENUTRIÇÃO 1" shape=box width=3.5]
+		NU554 [label="NU554
+EDUCAÇÃO NUTRICIONAL 1" shape=box width=3.5]
+		NU570 [label="NU570
+EPIDEMIOLOGIA APLICADA À NUTRIÇÃO 1" shape=box width=3.5]
+		MS234 [label="MS234
+ETICA PROFISSIONAL4" shape=box width=3.5]
+		NU553 [label="NU553
+NUTRIÇÃO CLÍNICA 1" shape=box width=3.5]
+		NU547 [label="NU547
+TRABALHO DE CONCLUSÃO 1" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	NU555 -> NU551 [constraint=true]
+	NU558 -> NU554 [constraint=true]
+	NU559 -> NU322 [constraint=true]
+	NU559 -> NU548 [constraint=true]
+	NU556 -> NU553 [constraint=true]
+	NU557 -> NU546 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		NU555 [label="NU555
+ADMINISTRAÇÃO DE UNIDADES DE ALIMENTAÇÃO ENUTRIÇÃO 2" shape=box width=3.5]
+		NU558 [label="NU558
+EDUCAÇÃO NUTRICIONAL 2" shape=box width=3.5]
+		NU559 [label="NU559
+INTERAÇÃO FISIOLÓGICA ALIMENTO-MEDICAMENTO" shape=box width=3.5]
+		NU556 [label="NU556
+NUTRIÇÃO CLÍNICA 2" shape=box width=3.5]
+		NU557 [label="NU557
+NUTRIÇÃO EM SAÚDE PÚBLICA 2" shape=box width=3.5]
+		PS530 [label="PS530
+PSICOLOGIA APLIC.A NUTRICAO" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	NU561 -> NU556 [constraint=true]
+	NU560 -> NU555 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		NU561 [label="NU561
+ESTÁGIO EM NUTRIÇÃO CLÍNICA" shape=box width=3.5]
+		NU560 [label="NU560
+ESTÁGIO EM UNIDADE DE ALIMENTAÇÃO E NUTRIÇÃO" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	NU562 -> NU557 [constraint=true]
+	NU562 -> NU560 [constraint=true]
+	NU562 -> NU561 [constraint=true]
+	NU563 -> NU547 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		NU562 [label="NU562
+ESTÁGIO EM NUTRIÇÃO EM SAÚDE PÚBLICA" shape=box width=3.5]
+		NU563 [label="NU563
+TRABALHO DE CONCLUSÃO 2" shape=box width=3.5]
+	}
+}

@@ -1,0 +1,94 @@
+digraph "Perfil Curricular LETRAS - BACHARELADO" {
+	label="Perfil Curricular de LETRAS - BACHARELADO" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		LE733 [label="LE733
+COMPREENSÃO E PRODUÇÃO DE TEXTO EM LÍNGUAPORTUGUESA" shape=box width=3.5]
+		LE676 [label="LE676
+LEITURA E PRODUÇÃO DE TEXTO ACADÊMICO" shape=box width=3.5]
+		LE735 [label="LE735
+LINGUÍSTICA I " shape=box width=3.5]
+		LE740 [label="LE740
+PORTUGUÊS I " shape=box width=3.5]
+		LE736 [label="LE736
+TEORIA DA LITERATURA I -FORMAÇÃO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	LE742 -> LE735 [constraint=true]
+	LE744 -> LE736 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		LE760 [label="LE760
+LATIM I " shape=box width=3.5]
+		LE742 [label="LE742
+LINGUÍSTICA II " shape=box width=3.5]
+		LE831 [label="LE831
+PORTUGUÊS II " shape=box width=3.5]
+		LE744 [label="LE744
+TEORIA DA LITERATURA II-POESIA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	LE761 -> LE760 [constraint=true]
+	LE743 -> LE742 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		LE741 [label="LE741
+CULTURA BRASILEIRA I" shape=box width=3.5]
+		LE761 [label="LE761
+LATIM II " shape=box width=3.5]
+		LE743 [label="LE743
+LINGUÍSTICA III " shape=box width=3.5]
+		LE832 [label="LE832
+PORTUGUÊS III " shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	LE838 -> LE741 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		LE838 [label="LE838
+CULTURA BRASILEIRA II" shape=box width=3.5]
+		LE833 [label="LE833
+PORTUGUÊS IV " shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	{
+		rank=same
+		5 [shape=none]
+		LE716 [label="LE716
+INTRODUÇÃO A LIBRAS" shape=box width=3.5]
+		LE834 [label="LE834
+PORTUGUÊS V " shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	{
+		rank=same
+		6 [shape=none]
+		LE868 [label="LE868
+ESTÁGIO CURRICULAR SUPERVISIONADO I" shape=box width=3.5]
+		LE835 [label="LE835
+PORTUGUÊS VI " shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	LE869 -> LE868 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		LE869 [label="LE869
+ESTÁGIO CURRICULAR SUPERVISIONADO II" shape=box width=3.5]
+		LE745 [label="LE745
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	LE746 -> LE745 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		LE746 [label="LE746
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}

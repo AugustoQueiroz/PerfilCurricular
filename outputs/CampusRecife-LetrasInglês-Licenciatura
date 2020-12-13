@@ -1,0 +1,158 @@
+digraph "Perfil Curricular Letras Inglês - Licenciatura" {
+	label="Perfil Curricular de Letras Inglês - Licenciatura" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		LE733 [label="LE733
+COMPREENSÃO E PRODUÇÃO DE TEXTO EM LÍNGUAPORTUGUESA" shape=box width=3.5]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		LE739 [label="LE739
+INGLÊS I " shape=box width=3.5]
+		LE676 [label="LE676
+LEITURA E PRODUÇÃO DE TEXTO ACADÊMICO" shape=box width=3.5]
+		LE735 [label="LE735
+LINGUÍSTICA I " shape=box width=3.5]
+		LE736 [label="LE736
+TEORIA DA LITERATURA I -FORMAÇÃO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	LE804 -> LE739 [constraint=true]
+	LE742 -> LE735 [constraint=true]
+	LE744 -> LE736 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		LE804 [label="LE804
+INGLÊS II " shape=box width=3.5]
+		LE742 [label="LE742
+LINGUÍSTICA II " shape=box width=3.5]
+		LE744 [label="LE744
+TEORIA DA LITERATURA II-POESIA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	LE805 -> LE804 [constraint=true]
+	LE743 -> LE742 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		LE741 [label="LE741
+CULTURA BRASILEIRA I" shape=box width=3.5]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		LE802 [label="LE802
+FONÉTICA E FONOLOGIA DA LÍNGUA INGLESA" shape=box width=3.5]
+		LE805 [label="LE805
+INGLÊS III " shape=box width=3.5]
+		LE743 [label="LE743
+LINGUÍSTICA III " shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	LE806 -> LE805 [constraint=true]
+	LE813 -> LE805 [constraint=true]
+	LE817 -> LE805 [constraint=true]
+	LE817 -> PO492 [constraint=true]
+	LE817 -> SF451 [constraint=true]
+	LE817 -> TE707 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		LE797 [label="LE797
+CULTURA DOS POVOS DE LÍNGUA INGLESA" shape=box width=3.5]
+		LE806 [label="LE806
+INGLÊS IV " shape=box width=3.5]
+		LE811 [label="LE811
+LINGUÍSTICA APLICADA À LÍNGUA INGLESA I" shape=box width=3.5]
+		LE813 [label="LE813
+LITERATURA EM LÍNGUA INGLESA I PRIMÓRDIOS AORENASCIMENTO" shape=box width=3.5]
+		LE817 [label="LE817
+METODOLOGIA DE ENSINO DE LÍNGUA INGLESA I" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	LE798 -> LE817 [constraint=true]
+	LE807 -> LE806 [constraint=true]
+	LE812 -> LE811 [constraint=true]
+	LE814 -> LE813 [constraint=true]
+	LE818 -> LE817 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		LE798 [label="LE798
+ESTÁGIO CURRICULAR EM INGLÊS I" shape=box width=3.5]
+		LE807 [label="LE807
+INGLÊS V " shape=box width=3.5]
+		LE716 [label="LE716
+INTRODUÇÃO A LIBRAS" shape=box width=3.5]
+		LE812 [label="LE812
+LINGUÍSTICA APLICADA À LÍNGUA INGLESA II" shape=box width=3.5]
+		LE814 [label="LE814
+LITERATURA EM LÍNGUA INGLESA II " shape=box width=3.5]
+		LE818 [label="LE818
+METODOLOGIA DE ENSINO DE LÍNGUA INGLESA II" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	LE799 -> LE818 [constraint=true]
+	LE808 -> LE807 [constraint=true]
+	LE815 -> LE814 [constraint=true]
+	LE819 -> LE818 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		LE799 [label="LE799
+ESTÁGIO CURRICULAR EM INGLÊS II" shape=box width=3.5]
+		LE808 [label="LE808
+INGLÊS VI " shape=box width=3.5]
+		LE815 [label="LE815
+LITERATURA EM LÍNGUA INGLESA III " shape=box width=3.5]
+		LE819 [label="LE819
+METODOLOGIA DE ENSINO DE LÍNGUA INGLESA III" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	LE800 -> LE819 [constraint=true]
+	LE809 -> LE808 [constraint=true]
+	LE816 -> LE815 [constraint=true]
+	LE820 -> LE819 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		LE800 [label="LE800
+ESTÁGIO CURRICULAR EM INGLÊS III" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		LE809 [label="LE809
+INGLÊS VII " shape=box width=3.5]
+		LE816 [label="LE816
+LITERATURA EM LÍNGUA INGLESA IV " shape=box width=3.5]
+		LE820 [label="LE820
+METODOLOGIA DE ENSINO DE LÍNGUA INGLESA IV" shape=box width=3.5]
+		LE745 [label="LE745
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	LE796 -> LE809 [constraint=true]
+	LE801 -> LE820 [constraint=true]
+	LE810 -> LE809 [constraint=true]
+	LE821 -> LE820 [constraint=true]
+	LE746 -> LE745 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		LE796 [label="LE796
+COMPREENSÃO E PRODUÇÃO DE TEXTO EM LÍNGUAINGLÊSA" shape=box width=3.5]
+		LE801 [label="LE801
+ESTÁGIO CURRICULAR EM INGLÊS IV" shape=box width=3.5]
+		LE810 [label="LE810
+INGLÊS VIII " shape=box width=3.5]
+		LE821 [label="LE821
+METODOLOGIA DE ENSINO LÍNGUA INGLESA V" shape=box width=3.5]
+		LE746 [label="LE746
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}

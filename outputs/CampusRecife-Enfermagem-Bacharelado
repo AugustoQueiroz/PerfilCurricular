@@ -1,0 +1,196 @@
+digraph "Perfil Curricular Enfermagem - Bacharelado" {
+	label="Perfil Curricular de Enfermagem - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		EF540 [label="EF540
+PROCESSO DE TRABALHO EM ENFERMAGEM" shape=box width=3.5]
+		PS577 [label="PS577
+PSICOLOGIA APLICADA À ENFERMAGEM" shape=box width=3.5]
+		CS661 [label="CS661
+SOCIOLOGIA APLICADA À SAÚDE" shape=box width=3.5]
+		HE247 [label="HE247
+TÓPICOS DE BIOLOGIA CELULAR E HISTOLOGIA" shape=box width=3.5]
+		EF541 [label="EF541
+VIVÊNCIAS DE EDUCAÇÃO NA SAÚDE DO TRABALHADOR" shape=box width=3.5]
+		FL524 [label="FL524
+ÉTICA DO CUIDADO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	BQ318 -> HE247 [constraint=true]
+	FF256 -> HE247 [constraint=true]
+	MT200 -> HE247 [constraint=true]
+	EF543 -> EF541 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		AN230 [label="AN230
+ANATOMIA PARA ENFERMAGEM I" shape=box width=3.5]
+		BQ318 [label="BQ318
+BIOQUÍMICA DE MACROMOLÉCULAS" shape=box width=3.5]
+		EF542 [label="EF542
+ENFERMAGEM EM SITUAÇÕES DE URGÊNCIA NACOMUNIDADE" shape=box width=3.5]
+		BR011 [label="BR011
+FISICA E BIOFISICA" shape=box width=3.5]
+		FF256 [label="FF256
+FISIOLOGIA PARA ENFERMAGEM I" shape=box width=3.5]
+		EF544 [label="EF544
+METODOLOGIA DA PESQUISA I" shape=box width=3.5]
+		MT200 [label="MT200
+MICROBIOLOGIA E IMUNOLOGIA" shape=box width=3.5]
+		MS418 [label="MS418
+ORGANIZAÇÃO DO SISTEMA DE SAÚDE NO BRASIL" shape=box width=3.5]
+		EF543 [label="EF543
+VIVÊNCIAS DE EDUCAÇÃO EM SAÚDE" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	AN231 -> AN230 [constraint=true]
+	FF257 -> BQ318 [constraint=true]
+	FF257 -> FF256 [constraint=true]
+	NU571 -> BQ318 [constraint=true]
+	FF258 -> BQ318 [constraint=true]
+	EF547 -> MS418 [constraint=true]
+	MT210 -> MT200 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		AN231 [label="AN231
+ANATOMIA PARA ENFERMAGEM II" shape=box width=3.5]
+		EF545 [label="EF545
+BIOESTATÍSTICA" shape=box width=3.5]
+		EF548 [label="EF548
+ENFERMAGEM NA SAÚDE DO ADULTO E DO IDOSO NAATENÇÃO PRIMÁRIA I" shape=box width=3.5]
+		FF257 [label="FF257
+FISIOLOGIA PARA ENFERMAGEM II" shape=box width=3.5]
+		NU571 [label="NU571
+FUNDAMENTOS DA NUTRIÇÃO" shape=box width=3.5]
+		FF258 [label="FF258
+INTRODUÇÃO A FARMACOLOGIA" shape=box width=3.5]
+		EF546 [label="EF546
+INTRODUÇÃO À ENFERMAGEM EM SAÚDE MENTAL" shape=box width=3.5]
+		EF547 [label="EF547
+ORGANIZAÇÃO DOS SERVIÇOS DE SAÚDE NA ATENÇÃOPRIMÁRIA" shape=box width=3.5]
+		MT210 [label="MT210
+PARASITOLOGIA" shape=box width=3.5]
+		PA210 [label="PA210
+PROCESSOS PATOLOGICOS GERAIS" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	BQ319 -> BQ318 [constraint=true]
+	EF550 -> EF546 [constraint=true]
+	EF549 -> EF548 [constraint=true]
+	EF549 -> PA210 [constraint=true]
+	NU572 -> NU571 [constraint=true]
+	EF551 -> EF543 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		HE248 [label="HE248
+BIOLOGIA DO DESENVOLVIMENTO HUMANO" shape=box width=3.5]
+		BQ319 [label="BQ319
+BIOQUÍMICA METABÓLICA" shape=box width=3.5]
+		EF550 [label="EF550
+ENFERMAGEM EM SAÚDE MENTAL NA ATENÇÃOPRIMÁRIA" shape=box width=3.5]
+		EF549 [label="EF549
+ENFERMAGEM NA SAÚDE DO ADULTO E DO IDOSO NAATENÇÃO PRIMÁRIA II" shape=box width=3.5]
+		GN215 [label="GN215
+GENETICA HUMANA 1" shape=box width=3.5]
+		NU572 [label="NU572
+NUTRIÇÃO CLÍNICA" shape=box width=3.5]
+		EF551 [label="EF551
+PRÁTICAS DE EDUCAÇÃO PERMANENTE EM SAÚDE" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	EF553 -> EF549 [constraint=true]
+	EF553 -> FF257 [constraint=true]
+	FF259 -> FF258 [constraint=true]
+	EF552 -> EF547 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		EF553 [label="EF553
+ENFERMAGEM NAS SITUAÇÕES CLÍNICAS E CIRÚRGICASDO ADULTO E IDOSO" shape=box width=3.5]
+		FF259 [label="FF259
+FARMACOLOGIA II" shape=box width=3.5]
+		EF552 [label="EF552
+ORGANIZAÇÃO DOS SISTEMAS DE SAÚDE NOSDIFERENTES NÍVEIS DE COMPLEXIDADE" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	EF556 -> EF553 [constraint=true]
+	EF554 -> EF553 [constraint=true]
+	EF555 -> EF550 [constraint=true]
+	EF557 -> EF544 [constraint=true]
+	EF557 -> EF545 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		EF556 [label="EF556
+ASSISTÊNCIA DE ENFERMAGEM AO PACIENTE CRÍTICO" shape=box width=3.5]
+		EF554 [label="EF554
+ENFERMAGEM E CUIDADOS PALIATIVOS" shape=box width=3.5]
+		EF555 [label="EF555
+ENFERMAGEM NOS TRANSTORNOS MENTAIS I" shape=box width=3.5]
+		MC262 [label="MC262
+INFORMÁTICA APLICADA A ENFERMAGEM" shape=box width=3.5]
+		EF557 [label="EF557
+METODOLOGIA DA PESQUISA II" shape=box width=3.5]
+		EF558 [label="EF558
+PRÁTICAS INTEGRATIVAS E COMPLEMENTARES" shape=box width=3.5]
+		PS214 [label="PS214
+PSICOLOGIA DO DESENVOLVIMENTO4" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	AN232 -> AN231 [constraint=true]
+	EF560 -> EF556 [constraint=true]
+	EF561 -> EF555 [constraint=true]
+	EF561 -> PS214 [constraint=true]
+	FF260 -> FF257 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		AN232 [label="AN232
+ANATOMIA PARA ENFERMAGEM III" shape=box width=3.5]
+		EF560 [label="EF560
+ENFERMAGEM NA SAÚDE DA MULHER EM SITUAÇÃOGINECO-OBSTÉTRICA NOS DIFER. NÍVEIS DE COMPLEX." shape=box width=3.5]
+		EF559 [label="EF559
+ENFERMAGEM NA SAÚDE DA MULHER NA ATENÇÃOBÁSICA" shape=box width=3.5]
+		EF561 [label="EF561
+ENFERMAGEM NOS TRANSTORNOS MENTAIS II" shape=box width=3.5]
+		FF260 [label="FF260
+FISIOLOGIA PARA ENFERMAGEM III" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	EF562 -> EF559 [constraint=true]
+	EF563 -> EF560 [constraint=true]
+	EF564 -> EF543 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		EF562 [label="EF562
+ENFERMAGEM NA SAÚDE DA CRIANÇA " shape=box width=3.5]
+		EF563 [label="EF563
+ENFERMAGEM NA SAÚDE DO RECÉM-NASCIDO AOADOLESC. EM SERVIÇ. DE MÉDIA E ALTA COMPLEXID" shape=box width=3.5]
+		EF564 [label="EF564
+VIVÊNCIAS DE EDUCAÇÃO NA SAÚDE DA MULHER ECRIANÇA E ADOLESCENTE" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	{
+		rank=same
+		9 [shape=none]
+		EF565 [label="EF565
+ESTÁGIO CURRICULAR DE ENFERMAGEM NA ATENÇÃOPRIMÁRIA" shape=box width=3.5]
+		EF566 [label="EF566
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	EF568 -> EF566 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		EF567 [label="EF567
+ESTÁGIO CURRICULAR DE ENFERMAGEM NOS SERVIÇOSDE DIFERENTES NÍVEIS COMPLEXIDADE" shape=box width=3.5]
+		EF568 [label="EF568
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}

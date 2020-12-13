@@ -1,0 +1,222 @@
+digraph "Perfil Curricular ENGENHARIA ELÉTRICA" {
+	label="Perfil Curricular de ENGENHARIA ELÉTRICA" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		EG407 [label="EG407
+INTRODUÇÃO AO DESENHO" shape=box width=3.5]
+		IN701 [label="IN701
+INTRODUÇÃO À ENGENHARIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA046 -> MA036 [constraint=true]
+	MA027 -> MA026 [constraint=true]
+	FI021 -> FI006 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA046 [label="MA046
+ALGEBRA LINEAR 1" shape=box width=3.5]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		IF165 [label="IF165
+COMPUTACAO ELETRONICA" shape=box width=3.5]
+		FI021 [label="FI021
+FISICA EXPERIMENTAL 1" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		QF001 [label="QF001
+QUIMICA GERAL 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA128 -> MA027 [constraint=true]
+	MA128 -> MA036 [constraint=true]
+	IF215 -> IF165 [constraint=true]
+	IF215 -> MA027 [constraint=true]
+	ET625 -> MA027 [constraint=true]
+	CI107 -> FI006 [constraint=true]
+	FI108 -> FI007 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA128 [label="MA128
+CALCULO DIFERENCIAL E INTEGRAL 3" shape=box width=3.5]
+		IF215 [label="IF215
+CALCULO NUMERICO" shape=box width=3.5]
+		ET625 [label="ET625
+ESTATÍSTICA 1" shape=box width=3.5]
+		CI107 [label="CI107
+FENOMENOS DE TRANSPORTES" shape=box width=3.5]
+		FI108 [label="FI108
+FISICA GERAL 3" shape=box width=3.5]
+		CS100 [label="CS100
+SOCIOLOGIA E MEIO AMBIENTE" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MA129 -> MA128 [constraint=true]
+	EL390 -> FI108 [constraint=true]
+	ES446 -> FI108 [constraint=true]
+	FI122 -> FI021 [constraint=true]
+	FI122 -> FI108 [constraint=true]
+	FI109 -> FI108 [constraint=true]
+	EL398 -> FI108 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MA129 [label="MA129
+CALCULO DIFERENCIAL E INTEGRAL 4" shape=box width=3.5]
+		EL390 [label="EL390
+CIRCUITOS ELÉTRICOS 1" shape=box width=3.5]
+		MA326 [label="MA326
+COMPLEMENTOS DE MATEMATICA 1" shape=box width=3.5]
+		ES446 [label="ES446
+ELETRÔNICA DOS SEMICONDUTORES" shape=box width=3.5]
+		FI122 [label="FI122
+FISICA EXPERIMENTAL 2" shape=box width=3.5]
+		FI109 [label="FI109
+FISICA GERAL 4" shape=box width=3.5]
+		EL398 [label="EL398
+LABORATÓRIO DE CIRCUITOS ELÉTRICOS 1" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	EL415 -> EL390 [constraint=true]
+	EL389 -> FI108 [constraint=true]
+	EL389 -> MA129 [constraint=true]
+	ES221 -> EL390 [constraint=true]
+	ES221 -> ES446 [constraint=true]
+	CI112 -> MA128 [constraint=true]
+	EL210 -> EL390 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		EL415 [label="EL415
+CIRCUITOS ELÉTRICOS 2" shape=box width=3.5]
+		EL389 [label="EL389
+ELETROMAGNETISMO" shape=box width=3.5]
+		ES221 [label="ES221
+ELETRONICA 1" shape=box width=3.5]
+		CI112 [label="CI112
+INTRODUÇÃO ÁMECANICA E A RESISTÊNCIA DOSMATERIAIS" shape=box width=3.5]
+		EL210 [label="EL210
+MEDIDAS ELETROMAGNETICAS A" shape=box width=3.5]
+		EQ400 [label="EQ400
+SEGURANCA NO TRABALHO" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	EL392 -> EL389 [constraint=true]
+	EL393 -> ES221 [constraint=true]
+	EC335 -> ET625 [constraint=true]
+	ME217 -> FI109 [constraint=true]
+	ES256 -> EL415 [constraint=true]
+	EL416 -> ES446 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		EL392 [label="EL392
+CONVERSÃO ELETROMECÂNICA DA ENERGIA" shape=box width=3.5]
+		EL393 [label="EL393
+ELETRÔNICA INDUSTRIAL" shape=box width=3.5]
+		EC335 [label="EC335
+ENGENHARIA ECONOMICA" shape=box width=3.5]
+		EL399 [label="EL399
+LABORATÓRIO DE CONVERSÃO ELETROMECÂNICA DAENERGIA" shape=box width=3.5]
+		ME217 [label="ME217
+MAQUINAS PRIMARIAS 1" shape=box width=3.5]
+		ES256 [label="ES256
+SERVOMECANISMO" shape=box width=3.5]
+		EL416 [label="EL416
+TECNOLOGIA DOS MATERIAIS" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	EL417 -> EL392 [constraint=true]
+	EL418 -> EL390 [constraint=true]
+	EL418 -> EL416 [constraint=true]
+	EL258 -> EL392 [constraint=true]
+	EL258 -> EL399 [constraint=true]
+	EL391 -> EL415 [constraint=true]
+	EL421 -> ES256 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		AD200 [label="AD200
+ADMINISTRACAO" shape=box width=3.5]
+		EL417 [label="EL417
+COMPONENTES DE SISTEMAS ELÉTRICOS" shape=box width=3.5]
+		EL418 [label="EL418
+EQUIPAMENTOS ELÉTRICOS" shape=box width=3.5]
+		EL258 [label="EL258
+MAQUINAS ELETRICAS" shape=box width=3.5]
+		EL391 [label="EL391
+MÉTODOS COMPUTACIONAIS PARA ENGENHARIAELÉTRICA" shape=box width=3.5]
+		EL421 [label="EL421
+SISTEMAS DE CONTROLE" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	EL260 -> EL258 [constraint=true]
+	EL260 -> EL417 [constraint=true]
+	EG330 -> EG407 [constraint=true]
+	EL401 -> EL258 [constraint=true]
+	EL401 -> EL391 [constraint=true]
+	EL396 -> EL393 [constraint=true]
+	ME218 -> CI107 [constraint=true]
+	EL419 -> EL392 [constraint=true]
+	EL419 -> ME217 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		EL260 [label="EL260
+CALCULO DE FALTAS" shape=box width=3.5]
+		EG330 [label="EG330
+DESENHO TECNICO 4A" shape=box width=3.5]
+		EL401 [label="EL401
+DINÂMICA DE MÁQUINAS ELÉTRICAS" shape=box width=3.5]
+		EL396 [label="EL396
+ELETRÔNICA DE POTÊNCIA" shape=box width=3.5]
+		PG300 [label="PG300
+INTRODUCAO AO DIREITO" shape=box width=3.5]
+		ME218 [label="ME218
+MAQUINAS PRIMARIAS 2" shape=box width=3.5]
+		EL419 [label="EL419
+PRODUÇÃO DA ENERGIA ELÉTRICA" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	EL394 -> EL417 [constraint=true]
+	EL402 -> EL391 [constraint=true]
+	EL402 -> EL417 [constraint=true]
+	EL420 -> EG330 [constraint=true]
+	EL420 -> EL418 [constraint=true]
+	EL395 -> EL260 [constraint=true]
+	EL395 -> EL418 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		EL394 [label="EL394
+DISTRIBUIÇÃO DE ENERGIA ELÉTRICA 1" shape=box width=3.5]
+		EL402 [label="EL402
+FLUXO DE CARGA E ESTABILIDADE" shape=box width=3.5]
+		EL420 [label="EL420
+INSTALAÇÕES ELÉTRICAS" shape=box width=3.5]
+		EL395 [label="EL395
+PROTEÇÃO DE SISTEMAS ELÉTRICOS" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	EL397 -> EL210 [constraint=true]
+	EL397 -> EL392 [constraint=true]
+	EL397 -> EL415 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		EL397 [label="EL397
+ESTÁGIO CURRICULAR" shape=box width=3.5]
+		EL403 [label="EL403
+TRABALHO DE CONCLUSÃO DE CURSO" shape=box width=3.5]
+	}
+}

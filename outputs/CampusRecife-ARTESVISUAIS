@@ -1,0 +1,143 @@
+digraph "Perfil Curricular ARTES VISUAIS" {
+	label="Perfil Curricular de ARTES VISUAIS" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AR626 [label="AR626
+ARGILA" shape=box width=3.5]
+		AR614 [label="AR614
+DESENHO 1" shape=box width=3.5]
+		AR615 [label="AR615
+FUNDAMENTOS DA ARTE EDUCAÇÃO" shape=box width=3.5]
+		AR612 [label="AR612
+FUNDAMENTOS DA LINGUAGEM VISUAL 1" shape=box width=3.5]
+		AR611 [label="AR611
+HISTÓRIA DA ARTE 1" shape=box width=3.5]
+		LE716 [label="LE716
+INTRODUÇÃO A LIBRAS" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	AR618 -> AR614 [constraint=true]
+	AR617 -> AR612 [constraint=true]
+	AR616 -> AR611 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		AR618 [label="AR618
+DESENHO 2" shape=box width=3.5]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		AR617 [label="AR617
+FUNDAMENTOS DA LINGUAGEM VISUAL 2" shape=box width=3.5]
+		AR616 [label="AR616
+HISTÓRIA DA ARTE 2" shape=box width=3.5]
+		BI476 [label="BI476
+METODOLOGIA DO TRABALHO CIENTIFICO" shape=box width=3.5]
+		AR619 [label="AR619
+PINTURA 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	AR620 -> AR616 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		AR622 [label="AR622
+FOTOGRAFIA E ARTE" shape=box width=3.5]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		AR692 [label="AR692
+GRAVURA A" shape=box width=3.5]
+		AR620 [label="AR620
+HISTÓRIA DA ARTE 3" shape=box width=3.5]
+		AR621 [label="AR621
+PINTURA 2" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	AR624 -> AR620 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		AR690 [label="AR690
+ESTÉTICA A" shape=box width=3.5]
+		AR650 [label="AR650
+EXPRESSÃO PLÁSTICA INFANTIL" shape=box width=3.5]
+		AR693 [label="AR693
+GRAVURA B" shape=box width=3.5]
+		AR624 [label="AR624
+HISTÓRIA DA ARTE 4" shape=box width=3.5]
+		AR695 [label="AR695
+METODOLOGIA DO ENSINO DAS ARTES VISUAIS 1" shape=box width=3.5]
+		AR623 [label="AR623
+TRIDIMENSIONALIDADE" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	AR686 -> AR695 [constraint=true]
+	AR630 -> AR624 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		AR686 [label="AR686
+ESTÁGIO CURRICULAREM ENSINO DAS ARTES VISUAIS 1" shape=box width=3.5]
+		AR631 [label="AR631
+HISTORIA DA ARTE BRASILEIRA 1" shape=box width=3.5]
+		AR630 [label="AR630
+HISTÓRIA DA ARTE 5" shape=box width=3.5]
+		AR696 [label="AR696
+METODOLOGIA DO ENSINO DAS ARTES VISUAIS 2" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	AR687 -> AR696 [constraint=true]
+	AR635 -> AR631 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		AR683 [label="AR683
+ARTE E ANTROPOLOGIA" shape=box width=3.5]
+		AR647 [label="AR647
+CURRÍCULO E CULTURA" shape=box width=3.5]
+		AR687 [label="AR687
+ESTÁGIO CURRICULAREM ENSINO DAS ARTES VISUAIS 2" shape=box width=3.5]
+		AR635 [label="AR635
+HISTÓRIA DA ARTE BRASILEIRA 2" shape=box width=3.5]
+		AR697 [label="AR697
+METODOLOGIA DO ENSINO DAS ARTES VISUAIS 3" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	AR691 -> AR690 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		AR684 [label="AR684
+ARTE E DIVERSIDADE ÉTNICO-CULTURAL" shape=box width=3.5]
+		AR685 [label="AR685
+ARTE E SOCIEDADE" shape=box width=3.5]
+		AR688 [label="AR688
+ESTÁGIO CURRICULAREM ENSINO DAS ARTES VISUAIS 3" shape=box width=3.5]
+		AR691 [label="AR691
+ESTÉTICA B" shape=box width=3.5]
+		AR694 [label="AR694
+INICIAÇÃO AO TRABALHO DE CONCLUSÃO DE CURSO DELICENCIATURA EM ARTES VISUAIS" shape=box width=3.5]
+		AR661 [label="AR661
+LEITURA DA OBRA DE ARTE 1" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	AR689 -> AR697 [constraint=true]
+	AR643 -> AR694 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		AR689 [label="AR689
+ESTÁGIO CURRICULAREM ENSINO DAS ARTES VISUAIS 4" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		AR643 [label="AR643
+TRABALHO DE CONCLUSÃO DE CURSO DE LICENCIATURAEM ARTES VISUAIS" shape=box width=3.5]
+	}
+}

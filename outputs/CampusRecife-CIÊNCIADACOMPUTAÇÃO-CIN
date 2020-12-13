@@ -1,0 +1,117 @@
+digraph "Perfil Curricular CIÊNCIA DA COMPUTAÇÃO - CIN" {
+	label="Perfil Curricular de CIÊNCIA DA COMPUTAÇÃO - CIN" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA531 [label="MA531
+ALGEBRA VET LINEAR P/COMPUTACAO" shape=box width=3.5]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		IF668 [label="IF668
+INTRODUCAO A COMPUTACAO" shape=box width=3.5]
+		IF669 [label="IF669
+INTRODUCAO A PROGRAMACAO" shape=box width=3.5]
+		IF670 [label="IF670
+MATEMAT DISCRETA P/COMPUTACAO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	IF672 -> IF669 [constraint=true]
+	ET586 -> MA026 [constraint=true]
+	IF673 -> IF670 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		IF672 [label="IF672
+ALGORITMOS E ESTRUTURAS DE DADOS" shape=box width=3.5]
+		ET586 [label="ET586
+ESTATIST PROBABILIDADE COMPUTACAO" shape=box width=3.5]
+		FI582 [label="FI582
+FISICA PARA COMPUTACAO" shape=box width=3.5]
+		IF673 [label="IF673
+LOGICA PARA COMPUTACAO" shape=box width=3.5]
+		IF675 [label="IF675
+SISTEMAS DIGITAIS" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	IF678 -> IF669 [constraint=true]
+	IF674 -> IF669 [constraint=true]
+	IF674 -> IF675 [constraint=true]
+	IF677 -> IF669 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		IF679 [label="IF679
+INFORMATICA E SOCIEDADE" shape=box width=3.5]
+		IF678 [label="IF678
+INFRA-ESTRUTURA DE COMUNICACAO" shape=box width=3.5]
+		IF674 [label="IF674
+INFRA-ESTRUTURA DE HARDWARE" shape=box width=3.5]
+		IF677 [label="IF677
+INFRA-ESTRUTURA DE SOFTWARE" shape=box width=3.5]
+		LE530 [label="LE530
+INGLES PARA COMPUTACAO" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	IF682 -> IF672 [constraint=true]
+	IF682 -> IF673 [constraint=true]
+	IF685 -> IF672 [constraint=true]
+	IF689 -> IF672 [constraint=true]
+	IF689 -> IF673 [constraint=true]
+	IF681 -> IF669 [constraint=true]
+	IF680 -> MA026 [constraint=true]
+	IF680 -> MA531 [constraint=true]
+	IF684 -> IF672 [constraint=true]
+	IF684 -> IF673 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		IF682 [label="IF682
+ENGENHARIA SOFTWARE E SISTEMAS" shape=box width=3.5]
+		IF685 [label="IF685
+GERENCIAMENTO DADOS E INFORMACAO" shape=box width=3.5]
+		IF689 [label="IF689
+INFORMATICA TEORICA" shape=box width=3.5]
+		IF681 [label="IF681
+INTERFACES USUARIO-MAQUINA" shape=box width=3.5]
+		IF680 [label="IF680
+PROCESSAMENTO GRAFICO" shape=box width=3.5]
+		IF684 [label="IF684
+SISTEMAS INTELIGENTES" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	IF690 -> IF668 [constraint=true]
+	IF687 -> IF669 [constraint=true]
+	IF676 -> IF668 [constraint=true]
+	IF683 -> IF669 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		IF690 [label="IF690
+HISTORIA E FUTURO DA COMPUTACAO" shape=box width=3.5]
+		IF687 [label="IF687
+INTRODUÇÃO A MULTIMIDIA" shape=box width=3.5]
+		IF676 [label="IF676
+METODOL EXPRESSAO TEC-CIENTIFICA" shape=box width=3.5]
+		IF686 [label="IF686
+PARADIGMAS LING.COMPUTACIONAIS" shape=box width=3.5]
+		IF683 [label="IF683
+PROJETO DE DESENVOLVIMENTO" shape=box width=3.5]
+		IF688 [label="IF688
+TEO.IMPLEMEN.LING. COMPUTACIONAIS" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	{
+		rank=same
+		6 [shape=none]
+	}
+	6 -> 7 [dir=none]
+	{
+		rank=same
+		7 [shape=none]
+		IF421 [label="IF421
+ESTAGIO 1" shape=box width=3.5]
+		IF691 [label="IF691
+TRABALHO DE GRADUAÇÃO" shape=box width=3.5]
+	}
+}

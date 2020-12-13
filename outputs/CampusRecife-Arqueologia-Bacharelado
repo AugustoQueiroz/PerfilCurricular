@@ -1,0 +1,133 @@
+digraph "Perfil Curricular Arqueologia - Bacharelado" {
+	label="Perfil Curricular de Arqueologia - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		ARQL0033 [label="ARQL0033
+ARQUEOLOGIA BRASILEIRA" shape=box width=3.5]
+		ARQL0011 [label="ARQL0011
+ARQUEOMÁTICA 1" shape=box width=3.5]
+		ARQL0004 [label="ARQL0004
+INTRODUÇÃO À ARQUEOLOGIA" shape=box width=3.5]
+		ARQL0006 [label="ARQL0006
+INTRODUÇÃO À GEOARQUEOLOGIA" shape=box width=3.5]
+		ARQL0047 [label="ARQL0047
+INTRODUÇÃO À HISTÓRIA DA ARTE" shape=box width=3.5]
+		ARQL0048 [label="ARQL0048
+MATEMÁTICA APLICADA À ARQUEOLOGIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		ARQL0049 [label="ARQL0049
+ARQUEOLOGIA ETNOHISTÓRIA" shape=box width=3.5]
+		ARQL0014 [label="ARQL0014
+EVOLUÇÃO HUMANA E CULTURA" shape=box width=3.5]
+		ARQL0010 [label="ARQL0010
+INTRODUÇÃO A RESTAURAÇÃO" shape=box width=3.5]
+		ARQL0008 [label="ARQL0008
+INTRODUÇÃO AOS MÉTODOS FÍSICO-QUÍMICOS EMARQUEOLOGIA" shape=box width=3.5]
+		ARQL0050 [label="ARQL0050
+LABORATÓRIO I" shape=box width=3.5]
+		ARQL0012 [label="ARQL0012
+TEORIAS SÓCIO-CULTURAIS" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	{
+		rank=same
+		3 [shape=none]
+		ARQL0019 [label="ARQL0019
+ARQUEOLOGIA PRÉ-HISTÓRICA I" shape=box width=3.5]
+		ARQL0005 [label="ARQL0005
+CONSERVAÇÃO PATRIMONIAL" shape=box width=3.5]
+		ARQL0057 [label="ARQL0057
+LABORATÓRIO II" shape=box width=3.5]
+		ARQL0017 [label="ARQL0017
+MÉTODOS E TÉCNICAS ARQUEOLÓGICAS I" shape=box width=3.5]
+		ARQL0020 [label="ARQL0020
+MÉTODOS E TÉCNICAS DE RESTAURAÇÃO I" shape=box width=3.5]
+		ARQL0016 [label="ARQL0016
+TEORIA ARQUEOLÓGICA I" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	ARQL0029 -> ARQL0019 [constraint=true]
+	ARQL0051 -> ARQL0017 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		ARQL0029 [label="ARQL0029
+ARQUEOLOGIA PRÉ-HISTÓRICA II" shape=box width=3.5]
+		ARQL0058 [label="ARQL0058
+LABORATÓRIO III" shape=box width=3.5]
+		ARQL0009 [label="ARQL0009
+METROLOGIA ARQUEOLÓGICA" shape=box width=3.5]
+		ARQL0051 [label="ARQL0051
+MÉTODOS E TÉCNICAS ARQUEOLÓGICAS II -ARQUEOLOGIA PRÉ-HISTÓRICA" shape=box width=3.5]
+		ARQL0025 [label="ARQL0025
+MÉTODOS E TÉCNICAS DE RESTAURAÇÃO II" shape=box width=3.5]
+		ARQL0067 [label="ARQL0067
+TOPOGRAFIA APLICADA À ARQUEOLOGIA" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	{
+		rank=same
+		5 [shape=none]
+		ARQL0055 [label="ARQL0055
+ARQUEOLOGIA HISTÓRICA" shape=box width=3.5]
+		ARQL0018 [label="ARQL0018
+GEOARQUEOLOGIA I" shape=box width=3.5]
+		ARQL0059 [label="ARQL0059
+LABORATÓRIO IV" shape=box width=3.5]
+		ARQL0066 [label="ARQL0066
+TEORIA ARQUEOLÓGICA II " shape=box width=3.5]
+		ARQL0007 [label="ARQL0007
+TEORIA E MÉTODOS DA PESQUISA CIENTÍFICA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	ARQL0036 -> ARQL0011 [constraint=true]
+	ARQL0027 -> ARQL0018 [constraint=true]
+	ARQL0052 -> ARQL0051 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		ARQL0062 [label="ARQL0062
+ARQUEOLOGIA PREVENTIVA" shape=box width=3.5]
+		ARQL0061 [label="ARQL0061
+ARQUEOLOGIA SUBAQUÁTICA" shape=box width=3.5]
+		ARQL0036 [label="ARQL0036
+ARQUEOMÁTICA II" shape=box width=3.5]
+		ARQL0027 [label="ARQL0027
+GEOARQUEOLOGIA II" shape=box width=3.5]
+		ARQL0052 [label="ARQL0052
+MÉTODOS E TÉCNICAS ARQUEOLÓGICAS III -ARQUEOLOGIA HISTÓRICA" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	ARQL0032 -> ARQL0052 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		ARQL0056 [label="ARQL0056
+ARQUEOLOGIAFUNERÁRIA" shape=box width=3.5]
+		ARQL0064 [label="ARQL0064
+GESTÃO DO PATRIMÔNIO CULTURAL" shape=box width=3.5]
+		ARQL0060 [label="ARQL0060
+GRAFISMO RUPESTRES PRÉ-HISTÓRICOS" shape=box width=3.5]
+		ARQL0032 [label="ARQL0032
+MÉTODOS E TÉCNICAS ARQUEOLÓGICAS IV" shape=box width=3.5]
+		ARQL0038 [label="ARQL0038
+SEMINÁRIO DE PESQUISA" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	{
+		rank=same
+		8 [shape=none]
+		ARQL0063 [label="ARQL0063
+EDUCAÇÃO PATRIMONIAL" shape=box width=3.5]
+		ARQL0065 [label="ARQL0065
+ESTÁGIO CURRICULAR SUPERVISIONADO" shape=box width=3.5]
+		ARQL0037 [label="ARQL0037
+TRABALHO DE CONCLUSÃO DE CURSO TCC" shape=box width=3.5]
+	}
+}

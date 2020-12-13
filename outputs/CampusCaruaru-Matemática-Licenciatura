@@ -1,0 +1,149 @@
+digraph "Perfil Curricular Matemática - Licenciatura" {
+	label="Perfil Curricular de Matemática - Licenciatura" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		FISC0005 [label="FISC0005
+INTRODUÇÃO À FÍSICA" shape=box width=3.5]
+		QUIM0003 [label="QUIM0003
+INTRODUÇÃO À QUÍMICA" shape=box width=3.5]
+		MATM0020 [label="MATM0020
+MATEMÁTICA BÁSICA" shape=box width=3.5]
+		EDUC0157 [label="EDUC0157
+METODOLOGIA DO ESTUDO" shape=box width=3.5]
+		EDUC0043 [label="EDUC0043
+PORTUGUÊS INSTRUMENTAL" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		MATM0025 [label="MATM0025
+ESTATÍSTICA" shape=box width=3.5]
+		MATM0026 [label="MATM0026
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		MATM0024 [label="MATM0024
+GEOMETRIA ANALÍTICA" shape=box width=3.5]
+		MATM0023 [label="MATM0023
+MATEMÁTICA 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MATM0028 -> MATM0020 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MATM0028 [label="MATM0028
+CÁLCULO DIFERENCIAL E INTEGRAL I" shape=box width=3.5]
+		MATM0030 [label="MATM0030
+DIDÁTICA" shape=box width=3.5]
+		FISC0084 [label="FISC0084
+FUNDAMENTOS DE FÍSICA I" shape=box width=3.5]
+		MATM0029 [label="MATM0029
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO I" shape=box width=3.5]
+		MATM0027 [label="MATM0027
+MATEMÁTICA II" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MATM0032 -> MATM0028 [constraint=true]
+	MATM0033 -> FISC0084 [constraint=true]
+	MATM0034 -> MATM0029 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MATM0032 [label="MATM0032
+CÁLCULO DIFERENCIAL E INTEGRAL II" shape=box width=3.5]
+		MATM0033 [label="MATM0033
+FUNDAMENTOS DE FÍSICA II" shape=box width=3.5]
+		MATM0034 [label="MATM0034
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO II" shape=box width=3.5]
+		MATM0031 [label="MATM0031
+MATEMÁTICA III" shape=box width=3.5]
+		MATM0035 [label="MATM0035
+POLÍTICAS EDUCACIONAIS " shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	MATM0042 -> MATM0032 [constraint=true]
+	MATM0040 -> MATM0020 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		MATM0041 [label="MATM0041
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		MATM0042 [label="MATM0042
+CÁLCULO DIFERENCIAL E INTEGRAL III" shape=box width=3.5]
+		MATM0037 [label="MATM0037
+FUNDAMENTOS DA GEOMETRIA PLANA" shape=box width=3.5]
+		EDUC0174 [label="EDUC0174
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		MATM0040 [label="MATM0040
+METODOLOGIA DO ENSINO DE MATEMÁTICA 1" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	MATM0045 -> MATM0037 [constraint=true]
+	MATM0039 -> MATM0024 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		MATM0048 [label="MATM0048
+ESTÁGIO SUPERVISIONADO I" shape=box width=3.5]
+		MATM0045 [label="MATM0045
+FUNDAMENTOS DE GEOMETRIA ESPACIAL" shape=box width=3.5]
+		MATM0043 [label="MATM0043
+INTRODUÇÃO À COMPUTAÇÃO" shape=box width=3.5]
+		MATM0046 [label="MATM0046
+METODOLOGIA DO ENSINO DE MATEMÁTICA II" shape=box width=3.5]
+		MATM0044 [label="MATM0044
+TEORIA DOS NÚMEROS" shape=box width=3.5]
+		MATM0039 [label="MATM0039
+ÁLGEBRA LINEAR" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	{
+		rank=same
+		7 [shape=none]
+		MATM0053 [label="MATM0053
+A MATEMÁTICA NA EDUCAÇÃO BÁSICA" shape=box width=3.5]
+		MATM0049 [label="MATM0049
+EQUAÇÕES DIFERENCIAIS" shape=box width=3.5]
+		MATM0054 [label="MATM0054
+ESTRUTURAS ALGÉBRICAS" shape=box width=3.5]
+		MATM0050 [label="MATM0050
+ESTÁGIO SUPERVISIONADO II" shape=box width=3.5]
+		MATM0052 [label="MATM0052
+METODOLOGIA DA PESQUISA EDUCACIONAL" shape=box width=3.5]
+		MATM0051 [label="MATM0051
+METODOLOGIA DO ENSINO DE MATEMÁTICA III" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	MATM0055 -> MATM0032 [constraint=true]
+	MATM0056 -> MATM0028 [constraint=true]
+	MATM0056 -> MATM0043 [constraint=true]
+	MATM0059 -> MATM0039 [constraint=true]
+	MATM0059 -> MATM0049 [constraint=true]
+	MATM0059 -> MATM0052 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		MATM0055 [label="MATM0055
+ANÁLISE REAL" shape=box width=3.5]
+		MATM0057 [label="MATM0057
+DESENHO GEOMÉTRICO" shape=box width=3.5]
+		MATM0056 [label="MATM0056
+ELEMENTOS DE CÁLCULO NUMÉRICO" shape=box width=3.5]
+		MATM0058 [label="MATM0058
+ESTÁGIO SUPERVISIONADO III" shape=box width=3.5]
+		MATM0059 [label="MATM0059
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	MATM0061 -> MATM0059 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		MATM0060 [label="MATM0060
+ESTÁGIO SUPERVISIONADO IV" shape=box width=3.5]
+		MATM0061 [label="MATM0061
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}

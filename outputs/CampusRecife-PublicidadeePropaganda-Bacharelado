@@ -1,0 +1,143 @@
+digraph "Perfil Curricular Publicidade e Propaganda - Bacharelado" {
+	label="Perfil Curricular de Publicidade e Propaganda - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		AR005 [label="AR005
+HISTORIA DAS ARTES" shape=box width=3.5]
+		LE005 [label="LE005
+LINGUA PORTUGUESA 3" shape=box width=3.5]
+		BI030 [label="BI030
+METODOLOGIA DO ESTUDO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	LE004 -> LE005 [constraint=true]
+	CO208 -> CS004 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		CO276 [label="CO276
+INTROD A PUBLIC E PROPAGANDA" shape=box width=3.5]
+		FL009 [label="FL009
+INTRODUCAO A FILOSOFIA" shape=box width=3.5]
+		CO280 [label="CO280
+INTRODUCAO A FOTOGRAFIA" shape=box width=3.5]
+		LE004 [label="LE004
+LINGUA PORTUGUESA4" shape=box width=3.5]
+		CO208 [label="CO208
+SOCIOLOGIA DA COMUNICACAO 1" shape=box width=3.5]
+		CO300 [label="CO300
+TEORIA DA COMUNICACAO" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	CO324 -> BI030 [constraint=true]
+	CO240 -> LE004 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		CO214 [label="CO214
+ETICA E LEGISLACAO PUBLICITARIA" shape=box width=3.5]
+		CO324 [label="CO324
+METODO DE PESQ EM COMUNICACAO 1" shape=box width=3.5]
+		CO220 [label="CO220
+PSICOLOGIA DA COMUNICACAO" shape=box width=3.5]
+		CS429 [label="CS429
+REAL SOC ECON POLIT CULT BRASIL" shape=box width=3.5]
+		CO240 [label="CO240
+REDACAO P/ MEIOS DE COMUNICACAO" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	CO224 -> AR005 [constraint=true]
+	CO325 -> CO324 [constraint=true]
+	CO442 -> CO240 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		CO224 [label="CO224
+CRIACAO PUBLICITARIA 1" shape=box width=3.5]
+		CO232 [label="CO232
+MERCADOLOGIA" shape=box width=3.5]
+		CO325 [label="CO325
+METODO DE PESQ EM COMUNICACAO 2A" shape=box width=3.5]
+		CO307 [label="CO307
+PLANEJAMENTO EM COMUNICACAO" shape=box width=3.5]
+		CO236 [label="CO236
+PRODUCAO GRAFICA 1A" shape=box width=3.5]
+		CO442 [label="CO442
+REDACAO PUBLICITARIA 1" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	CO225 -> CO224 [constraint=true]
+	CO243 -> CO280 [constraint=true]
+	CO237 -> CO236 [constraint=true]
+	CO443 -> CO442 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		CO225 [label="CO225
+CRIACAO PUBLICITARIA 2" shape=box width=3.5]
+		CO243 [label="CO243
+FOTOPUBLICITARIA" shape=box width=3.5]
+		CO237 [label="CO237
+PRODUCAO GRAFICA 2" shape=box width=3.5]
+		CO443 [label="CO443
+REDACAO PUBLICITARIA 2" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	CO444 -> CO443 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		CO306 [label="CO306
+COMUNICACAO COMPARADA" shape=box width=3.5]
+		CO241 [label="CO241
+PLANEJAMENTO DE CAMPANHA 1A" shape=box width=3.5]
+		CO279 [label="CO279
+PRODUCAO PUBLICITARIA EM RADIO 1" shape=box width=3.5]
+		CO444 [label="CO444
+REDACAO PUBLICITARIA 3" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	CO242 -> CO241 [constraint=true]
+	CO445 -> CO444 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		CO245 [label="CO245
+ADM EM PUBLICIDADE E PROPAGANDA" shape=box width=3.5]
+		CO244 [label="CO244
+MIDIA" shape=box width=3.5]
+		CO242 [label="CO242
+PLANEJAMENTO DE CAMPANHA 2" shape=box width=3.5]
+		CO278 [label="CO278
+PRODUCAO PUBLICITARIA EM TVC" shape=box width=3.5]
+		CO445 [label="CO445
+REDACAO PUBLICITARIA 4" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	CO228 -> CO220 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		ET401 [label="ET401
+ESTATIST P/ PUBLIC E PROPAGANDA" shape=box width=3.5]
+		CO228 [label="CO228
+PSICOLOGIA PUBLICITARIA 1" shape=box width=3.5]
+		CO309 [label="CO309
+TECNICAS DE PROJETOS" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	CO447 -> CO214 [constraint=true]
+	CO447 -> CO309 [constraint=true]
+	CO447 -> CO325 [constraint=true]
+	CO447 -> CO445 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		CO447 [label="CO447
+PROJETOS EXPERIMENTAIS 3" shape=box width=3.5]
+	}
+}

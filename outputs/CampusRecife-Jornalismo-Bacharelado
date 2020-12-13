@@ -1,0 +1,128 @@
+digraph "Perfil Curricular Jornalismo - Bacharelado" {
+	label="Perfil Curricular de Jornalismo - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		AR005 [label="AR005
+HISTORIA DAS ARTES" shape=box width=3.5]
+		LE005 [label="LE005
+LINGUA PORTUGUESA 3" shape=box width=3.5]
+		BI030 [label="BI030
+METODOLOGIA DO ESTUDO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		FL009 [label="FL009
+INTRODUCAO A FILOSOFIA" shape=box width=3.5]
+		CO280 [label="CO280
+INTRODUCAO A FOTOGRAFIA" shape=box width=3.5]
+		CO277 [label="CO277
+INTRODUCAO AO JORNALISMO" shape=box width=3.5]
+		LE004 [label="LE004
+LINGUA PORTUGUESA4" shape=box width=3.5]
+		CO208 [label="CO208
+SOCIOLOGIA DA COMUNICACAO 1" shape=box width=3.5]
+		CO300 [label="CO300
+TEORIA DA COMUNICACAO" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	{
+		rank=same
+		3 [shape=none]
+		CO283 [label="CO283
+LEGISLACAO E ETICA DO JORNALISMO" shape=box width=3.5]
+		CO324 [label="CO324
+METODO DE PESQ EM COMUNICACAO 1" shape=box width=3.5]
+		CO220 [label="CO220
+PSICOLOGIA DA COMUNICACAO" shape=box width=3.5]
+		CO240 [label="CO240
+REDACAO P/ MEIOS DE COMUNICACAO" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	CO306 -> CO300 [constraint=true]
+	CO325 -> CO324 [constraint=true]
+	CO340 -> CO240 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		CO306 [label="CO306
+COMUNICACAO COMPARADA" shape=box width=3.5]
+		CO325 [label="CO325
+METODO DE PESQ EM COMUNICACAO 2A" shape=box width=3.5]
+		CS429 [label="CS429
+REAL SOC ECON POLIT CULT BRASIL" shape=box width=3.5]
+		CO340 [label="CO340
+REDACAO JORNALISTICA 1" shape=box width=3.5]
+		CO344 [label="CO344
+TEC DE ENTREVISTA E REPORTAGEM 1" shape=box width=3.5]
+		CO326 [label="CO326
+TECNICA DE PESQUISA JORNALISTICA" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	CO246 -> CO240 [constraint=true]
+	CO341 -> CO340 [constraint=true]
+	CO345 -> CO340 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		CO249 [label="CO249
+PLANEJ GRAFICO EM JORNALISMO" shape=box width=3.5]
+		CO246 [label="CO246
+RADIOJORNALISMO" shape=box width=3.5]
+		CO341 [label="CO341
+REDACAO JORNALISTICA 2" shape=box width=3.5]
+		CO345 [label="CO345
+TEC DE ENTREVISTA E REPORTAGEM 2" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	CO247 -> CO280 [constraint=true]
+	CO342 -> CO341 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		CO254 [label="CO254
+EDICAO" shape=box width=3.5]
+		CO247 [label="CO247
+FOTOJORNALISMO" shape=box width=3.5]
+		CO253 [label="CO253
+INTRODUCAO A TV" shape=box width=3.5]
+		CO264 [label="CO264
+PREPARACAO E REVISAO DE ORIGINAIS" shape=box width=3.5]
+		CO342 [label="CO342
+REDACAO JORNALISTICA 3" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	CO343 -> CO342 [constraint=true]
+	CO346 -> CO253 [constraint=true]
+	CO248 -> CO253 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		CO307 [label="CO307
+PLANEJAMENTO EM COMUNICACAO" shape=box width=3.5]
+		CO343 [label="CO343
+REDACAO JORNALISTICA 4" shape=box width=3.5]
+		CO346 [label="CO346
+TEC DE ENTREVISTA E REPORTAGEM 3" shape=box width=3.5]
+		CO309 [label="CO309
+TECNICAS DE PROJETOS" shape=box width=3.5]
+		CO248 [label="CO248
+TELECINEJORNALISMO" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	CO446 -> CO283 [constraint=true]
+	CO446 -> CO309 [constraint=true]
+	CO446 -> CO325 [constraint=true]
+	CO446 -> CO343 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		CO446 [label="CO446
+PROJETOS EXPERIMENTAIS 1" shape=box width=3.5]
+	}
+}

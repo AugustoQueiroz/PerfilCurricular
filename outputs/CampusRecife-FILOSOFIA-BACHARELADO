@@ -1,0 +1,85 @@
+digraph "Perfil Curricular FILOSOFIA-BACHARELADO" {
+	label="Perfil Curricular de FILOSOFIA-BACHARELADO" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		FL211 [label="FL211
+HISTORIA DA FILOSOFIA ANTIGA1" shape=box width=3.5]
+		FL252 [label="FL252
+INICIACAO A PESQUISA FILOSOFICA" shape=box width=3.5]
+		FL010 [label="FL010
+INTRODUCAO A FILOSOFIA 1" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		FL261 [label="FL261
+FILOSOFIA DA ARTE" shape=box width=3.5]
+		FL212 [label="FL212
+HISTORIA DA FILOSOFIA ANTIGA2" shape=box width=3.5]
+		FL517 [label="FL517
+LÓGICA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	{
+		rank=same
+		3 [shape=none]
+		FL237 [label="FL237
+ETICA" shape=box width=3.5]
+		FL260 [label="FL260
+FILOSOFIA DA CIENCIA" shape=box width=3.5]
+		FL213 [label="FL213
+HISTORIA DA FILOSOFIA MEDIEVAL1" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	{
+		rank=same
+		4 [shape=none]
+		FL518 [label="FL518
+FILOSOFIA SOCIAL E POLÍTICA" shape=box width=3.5]
+		FL214 [label="FL214
+HISTORIA DA FILOSOFIA MEDIEVAL2" shape=box width=3.5]
+		FL519 [label="FL519
+TEORIA DO CONHECIMENTO" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	{
+		rank=same
+		5 [shape=none]
+		FL215 [label="FL215
+HISTORIA DA FILOSOFIA MODERNA1" shape=box width=3.5]
+		FL325 [label="FL325
+METAFISICA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	{
+		rank=same
+		6 [shape=none]
+		FL520 [label="FL520
+FILOSOFIA DA LINGUAGEM" shape=box width=3.5]
+		FL216 [label="FL216
+HISTORIA DA FILOSOFIA MODERNA2" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	{
+		rank=same
+		7 [shape=none]
+		FL515 [label="FL515
+HISTÓRIA DA FILOSOFIA CONTEMPORÂNEA 1" shape=box width=3.5]
+		FL253 [label="FL253
+MONOGRAFIA 1" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	{
+		rank=same
+		8 [shape=none]
+		FL516 [label="FL516
+HISTÓRIA DA FILOSOFIA CONTEMPORÂNEA 2" shape=box width=3.5]
+		FL254 [label="FL254
+MONOGRAFIA 2" shape=box width=3.5]
+		FL521 [label="FL521
+PENSAMENTO FILOSÓFICO BRASILEIRO" shape=box width=3.5]
+	}
+}

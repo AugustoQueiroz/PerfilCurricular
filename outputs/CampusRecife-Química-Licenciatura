@@ -1,0 +1,171 @@
+digraph "Perfil Curricular Química - Licenciatura" {
+	label="Perfil Curricular de Química - Licenciatura" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		QF564 [label="QF564
+ELEMENTOS DE QUÍMICA" shape=box width=3.5]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		QF563 [label="QF563
+INTRODUÇÃO À QUÍMICA EXPERIMENTAL" shape=box width=3.5]
+		MA053 [label="MA053
+MATEMATICA L1A" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA016 -> MA053 [constraint=true]
+	TE707 -> SF451 [constraint=true]
+	QF566 -> QF563 [constraint=true]
+	QF565 -> QF564 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA016 [label="MA016
+CALCULO L1A" shape=box width=3.5]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		QF566 [label="QF566
+EXPERIMENTOS EM TERMODINÂMICA E EQUILÍBRIOQUÍMICO" shape=box width=3.5]
+		FI130 [label="FI130
+FISICA EXPERIMENTAL L1" shape=box width=3.5]
+		FI202 [label="FI202
+FISICA L1" shape=box width=3.5]
+		QF565 [label="QF565
+INTRODUÇÃO À TERMODINÂMICA E EQUILÍBRIO QUÍMICO" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA017 -> MA016 [constraint=true]
+	QF568 -> QF566 [constraint=true]
+	FI203 -> FI202 [constraint=true]
+	QF567 -> MA016 [constraint=true]
+	QF567 -> QF565 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA017 [label="MA017
+CALCULO L2A" shape=box width=3.5]
+		QF568 [label="QF568
+EXPERIMENTOS EM LIGAÇÃO QUÍMICA E ESTRUTURAMOLECULAR" shape=box width=3.5]
+		FI203 [label="FI203
+FISICA L2" shape=box width=3.5]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		QF567 [label="QF567
+LIGAÇÃO QUÍMICA E ESTRUTURA MOLECULAR" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	QF569 -> QF565 [constraint=true]
+	QF571 -> QF566 [constraint=true]
+	QF570 -> QF566 [constraint=true]
+	INT0009 -> SF451 [constraint=true]
+	QF200 -> QF565 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		QF569 [label="QF569
+CINÉTICA E ELETROQUÍMICA" shape=box width=3.5]
+		QF571 [label="QF571
+EXPERIMENTOS EM CINÉTICA E ELETROQUÍMICA" shape=box width=3.5]
+		QF570 [label="QF570
+EXPERIMENTOS EM QUÍMICA ANALÍTICA" shape=box width=3.5]
+		INT0009 [label="INT0009
+FUNDAMENTOS DA HISTÓRIA DA QUÍMICA NA SUARELAÇÃO COM O ENSINO" shape=box width=3.5]
+		INT0010 [label="INT0010
+METODOLOGIA DO ENSINO DE QUÍMICA I" shape=box width=3.5]
+		QF200 [label="QF200
+QUIMICA ANALITICA L1" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	INT0016 -> INT0010 [constraint=true]
+	QF573 -> MA016 [constraint=true]
+	QF573 -> QF565 [constraint=true]
+	QF573 -> QF567 [constraint=true]
+	QF572 -> QF567 [constraint=true]
+	INT0011 -> INT0010 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		INT0016 [label="INT0016
+ESTÁGIO SUPERVISIONADO EM ENSINO DE QUÍMICA L1" shape=box width=3.5]
+		QF573 [label="QF573
+FÍSICO-QUÍMICA MOLECULAR" shape=box width=3.5]
+		QF572 [label="QF572
+INTRODUÇÃO À QUÍMICA ORGÂNICA" shape=box width=3.5]
+		INT0011 [label="INT0011
+METODOLOGIA DO ENSINO DE QUÍMICA II" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	INT0014 -> INT0011 [constraint=true]
+	INT0014 -> INT0016 [constraint=true]
+	QF575 -> QF566 [constraint=true]
+	QF576 -> QF566 [constraint=true]
+	INT0012 -> INT0011 [constraint=true]
+	QF204 -> QF572 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		INT0014 [label="INT0014
+ESTÁGIO SUPERVISIONADO EM ENSINO DE QUÍMICA L2" shape=box width=3.5]
+		QF575 [label="QF575
+EXPERIMENTOS EM FÍSICO-QUÍMICA" shape=box width=3.5]
+		QF576 [label="QF576
+EXPERIMENTOS EM QUÍMICA ORGÂNICA" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		INT0012 [label="INT0012
+METODOLOGIA DO ENSINO DE QUÍMICA III" shape=box width=3.5]
+		QF204 [label="QF204
+QUIMICA ORGANICA L1" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	INT0015 -> INT0012 [constraint=true]
+	INT0015 -> INT0014 [constraint=true]
+	QF577 -> QF568 [constraint=true]
+	INT0013 -> INT0012 [constraint=true]
+	INT0013 -> QF565 [constraint=true]
+	INT0013 -> QF566 [constraint=true]
+	INT0013 -> QF567 [constraint=true]
+	QF203 -> QF567 [constraint=true]
+	QF574 -> QF567 [constraint=true]
+	QF574 -> QF569 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		INT0015 [label="INT0015
+ESTÁGIO SUPERVISIONADO EM ENSINO DE QUÍMICA L3" shape=box width=3.5]
+		QF577 [label="QF577
+EXPERIMENTOS EM QUÍMICA INORGÂNICA" shape=box width=3.5]
+		PO494 [label="PO494
+FUNDAMENTOS DA LÍNGUA BRASILEIRA DE SINAIS -LIBRAS" shape=box width=3.5]
+		INT0013 [label="INT0013
+METODOLOGIA DO ENSINO DE QUÍMICA IV" shape=box width=3.5]
+		QF203 [label="QF203
+QUIMICA INORGANICA L1" shape=box width=3.5]
+		QF574 [label="QF574
+TRABALHOS DIRIGIDOS PARA O ENSINO DE QUÍMICA" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	QF579 -> QF200 [constraint=true]
+	QF579 -> QF572 [constraint=true]
+	INT0017 -> INT0012 [constraint=true]
+	INT0017 -> INT0015 [constraint=true]
+	QF578 -> QF573 [constraint=true]
+	QF580 -> QF574 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		QF579 [label="QF579
+ANÁLISE INSTRUMENTAL L" shape=box width=3.5]
+		INT0017 [label="INT0017
+ESTÁGIO SUPERVISIONADO EM ENSINO DE QUÍMICA L4" shape=box width=3.5]
+		QF578 [label="QF578
+INTRODUÇÃO A QUÍMICA QUÂNTICA E ESPECTROSCOPIAMOLECULAR" shape=box width=3.5]
+		QF580 [label="QF580
+TRABALHO DE CONCLUSÃO DE CURSO" shape=box width=3.5]
+	}
+}

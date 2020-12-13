@@ -1,0 +1,144 @@
+digraph "Perfil Curricular CIÊNCIAS ECONÔMICAS" {
+	label="Perfil Curricular de CIÊNCIAS ECONÔMICAS" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		EC450 [label="EC450
+ECONOMIA 1" shape=box width=3.5]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		EC241 [label="EC241
+HISTORIA ECONOMICA GERAL" shape=box width=3.5]
+		EC444 [label="EC444
+MATEMÁTICA 1" shape=box width=3.5]
+		LE006 [label="LE006
+PORTUGUES INSTRUMENTAL" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	EC451 -> EC450 [constraint=true]
+	EC445 -> EC444 [constraint=true]
+	CS002 -> CS004 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		CS011 [label="CS011
+CIENCIA POLITICA" shape=box width=3.5]
+		EC451 [label="EC451
+ECONOMIA 12" shape=box width=3.5]
+		EC445 [label="EC445
+ELEMENTOS DE ECONOMIA MATEMÁTICA 1" shape=box width=3.5]
+		AD203 [label="AD203
+INTRODUCAO A ADMINISTRACAO3" shape=box width=3.5]
+		CS002 [label="CS002
+SOCIOLOGIA2" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	EC421 -> EC451 [constraint=true]
+	EC446 -> EC445 [constraint=true]
+	EC213 -> EC451 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		EC421 [label="EC421
+CONTABILIDADE SOCIAL" shape=box width=3.5]
+		EC446 [label="EC446
+ELEMENTOS DE ECONOMIA MATEMÁTICA 2" shape=box width=3.5]
+		ET405 [label="ET405
+INTROD A ESTATISTICA ECONOMICA" shape=box width=3.5]
+		EC447 [label="EC447
+LABORATÓRIO DE MATEMÁTICA" shape=box width=3.5]
+		EC213 [label="EC213
+MICROECONOMIA 1" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	ET406 -> ET405 [constraint=true]
+	EC273 -> EC445 [constraint=true]
+	EC214 -> EC213 [constraint=true]
+	EC214 -> EC445 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		ET406 [label="ET406
+ESTATISTICA ECONOMICA" shape=box width=3.5]
+		EC245 [label="EC245
+FORMACAO ECONOMICA DO BRASIL" shape=box width=3.5]
+		EC231 [label="EC231
+MACROECONOMIA 1" shape=box width=3.5]
+		EC273 [label="EC273
+MATEMATICA FINANCEIRA3" shape=box width=3.5]
+		EC214 [label="EC214
+MICROECONOMIA 2" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	EC276 -> EC445 [constraint=true]
+	EC276 -> ET406 [constraint=true]
+	EC370 -> EC245 [constraint=true]
+	EC364 -> EC231 [constraint=true]
+	EC232 -> EC231 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		EC276 [label="EC276
+ECONOMETRIA2" shape=box width=3.5]
+		EC370 [label="EC370
+ECONOMIA BRASILEIRA 3" shape=box width=3.5]
+		EC364 [label="EC364
+ECONOMIA REGIONAL" shape=box width=3.5]
+		EC248 [label="EC248
+HIST DO PENSAMENTO ECONOMICO 2" shape=box width=3.5]
+		EC232 [label="EC232
+MACROECONOMIA 2" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	CT209 -> EC444 [constraint=true]
+	CT209 -> EC445 [constraint=true]
+	EC243 -> EC214 [constraint=true]
+	EC234 -> EC214 [constraint=true]
+	EC426 -> EC231 [constraint=true]
+	EC249 -> EC248 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		CT209 [label="CT209
+CONT E ANALISE DE BALANCOS" shape=box width=3.5]
+		EC243 [label="EC243
+ECONOMIA DO SETOR PUBLICO" shape=box width=3.5]
+		EC234 [label="EC234
+ECONOMIA INTERNACIONAL 1" shape=box width=3.5]
+		EC426 [label="EC426
+ECONOMIA MONETARIA" shape=box width=3.5]
+		EC249 [label="EC249
+HIST DO PENSAMENTO ECONOMICO 3" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	EC239 -> EC231 [constraint=true]
+	EC383 -> EC231 [constraint=true]
+	EC236 -> EC273 [constraint=true]
+	EC281 -> EC214 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		PG200 [label="PG200
+DIREITO (PUBLICO E PRIVADO)" shape=box width=3.5]
+		EC239 [label="EC239
+ECONOMIA AGRICOLA" shape=box width=3.5]
+		EC383 [label="EC383
+METOD DA CIENCIA ECONOMICA" shape=box width=3.5]
+		EC236 [label="EC236
+PROJETOS" shape=box width=3.5]
+		EC281 [label="EC281
+TECNICAS PESQUISA EM ECONOMIA" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	EC237 -> EC231 [constraint=true]
+	EC385 -> EC281 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		EC237 [label="EC237
+DESENVOLVIMENTO ECONOMICO 1" shape=box width=3.5]
+		EC385 [label="EC385
+MONOGRAFIA" shape=box width=3.5]
+	}
+}

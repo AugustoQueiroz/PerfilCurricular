@@ -1,0 +1,147 @@
+digraph "Perfil Curricular Música - Licenciatura" {
+	label="Perfil Curricular de Música - Licenciatura" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		MU948 [label="MU948
+HARMONIA 1" shape=box width=3.5]
+		MU911 [label="MU911
+HISTÓRIA DA MÚSICA OCIDENTAL 1" shape=box width=3.5]
+		LE676 [label="LE676
+LEITURA E PRODUÇÃO DE TEXTO ACADÊMICO" shape=box width=3.5]
+		BI601 [label="BI601
+METODOLOGIA DO TRABALHO CIENTÍFICO" shape=box width=3.5]
+		MU056 [label="MU056
+PERCEPCAO MUSICAL 1" shape=box width=3.5]
+		MU277 [label="MU277
+TECNICA VOCAL 1" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MU949 -> MU948 [constraint=true]
+	MU912 -> MU911 [constraint=true]
+	MU924 -> MU056 [constraint=true]
+	MU278 -> MU277 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		MU909 [label="MU909
+FUNDAMENTOS FILOSÓFICOS E ANTROPOLÓGICOS DAEDUCAÇÃO MUSICAL" shape=box width=3.5]
+		MU949 [label="MU949
+HARMONIA 2" shape=box width=3.5]
+		MU912 [label="MU912
+HISTÓRIA DA MÚSICA OCIDENTAL 2" shape=box width=3.5]
+		MU914 [label="MU914
+HISTÓRIA E CULTURA AFRO-BRASILEIRA" shape=box width=3.5]
+		MU924 [label="MU924
+PERCEPÇÃO MUSICAL 2" shape=box width=3.5]
+		MU278 [label="MU278
+TECNICA VOCAL 2" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MU950 -> MU949 [constraint=true]
+	MU925 -> MU924 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		MU910 [label="MU910
+FUNDAMENTOS SOCIOLÓGICOS E PSICOLÓGICOS DAEDUCAÇÃO MUSICAL" shape=box width=3.5]
+		MU950 [label="MU950
+HARMONIA 3" shape=box width=3.5]
+		MU913 [label="MU913
+HISTÓRIA DA MÚSICA OCIDENTAL 3" shape=box width=3.5]
+		MU925 [label="MU925
+PERCEPÇÃO MUSICAL 3" shape=box width=3.5]
+		MU945 [label="MU945
+TECNOLOGIA APLICADA À EDUCAÇÃO MUSICAL" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MU926 -> MU925 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MU907 [label="MU907
+FORMAS MUSICAIS E ANÁLISE 1" shape=box width=3.5]
+		MU205 [label="MU205
+HISTORIA DA MUSICA BRASILEIRA" shape=box width=3.5]
+		MU918 [label="MU918
+METODOLOGIA DO ENSINO DE MÚSICA 1" shape=box width=3.5]
+		MU926 [label="MU926
+PERCEPÇÃO MUSICAL 4" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+		MU941 [label="MU941
+RITMOS PERNAMBUCANOS" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	MU903 -> MU918 [constraint=true]
+	MU908 -> MU907 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		MU903 [label="MU903
+ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DAMÚSICA 1" shape=box width=3.5]
+		MU908 [label="MU908
+FORMAS MUSICAIS E ANÁLISE 2" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		MU919 [label="MU919
+METODOLOGIA DO ENSINO DE MÚSICA 2" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	MU904 -> MU918 [constraint=true]
+	MU939 -> MU908 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		MU947 [label="MU947
+ANÁLISE E PRODUÇÃO DE MATERIAIS DIDÁTICOS EMEDUCAÇÃO MUSICAL" shape=box width=3.5]
+		MU904 [label="MU904
+ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DAMÚSICA 2" shape=box width=3.5]
+		LE716 [label="LE716
+INTRODUÇÃO A LIBRAS" shape=box width=3.5]
+		MU920 [label="MU920
+METODOLOGIA DO ENSINO DE MÚSICA 3" shape=box width=3.5]
+		MU939 [label="MU939
+REGÊNCIA 1 " shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	MU905 -> MU918 [constraint=true]
+	MU940 -> MU939 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		MU905 [label="MU905
+ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DAMÚSICA 3" shape=box width=3.5]
+		MU921 [label="MU921
+METODOLOGIA DO ENSINO DE MÚSICA 4" shape=box width=3.5]
+		MU940 [label="MU940
+REGÊNCIA 2 " shape=box width=3.5]
+		MU942 [label="MU942
+TRABALHO DE CONCLUSÃO DE CURSO EM ENSINO DEMÚSICA-TCC 1" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	MU906 -> MU918 [constraint=true]
+	MU268 -> MU939 [constraint=true]
+	MU943 -> MU942 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		MU906 [label="MU906
+ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DAMÚSICA 4" shape=box width=3.5]
+		MU268 [label="MU268
+REGÊNCIA 3" shape=box width=3.5]
+		MU943 [label="MU943
+TRABALHO DE CONCLUSÃO DE CURSO EM ENSINO DEMÚSICA-TCC 2" shape=box width=3.5]
+		MU679 [label="MU679
+TÉCNICA DE GRAVAÇÃO" shape=box width=3.5]
+	}
+}

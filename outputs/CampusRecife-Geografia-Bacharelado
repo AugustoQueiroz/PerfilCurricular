@@ -1,0 +1,109 @@
+digraph "Perfil Curricular Geografia - Bacharelado" {
+	label="Perfil Curricular de Geografia - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		CG650 [label="CG650
+GEOGRAFIA ECONÔMICA DO MUNDO ATUAL" shape=box width=3.5]
+		CG031 [label="CG031
+INTRODUCAO A CIENCIA GEOGRAFICA" shape=box width=3.5]
+		EC462 [label="EC462
+INTRODUÇÃO À ECONOMIA" shape=box width=3.5]
+		GE567 [label="GE567
+INTRODUÇÃO À PETROGRAFIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		CG683 [label="CG683
+FORMAÇÃO ECONÔMICA E TERRITORIAL DO BRASIL" shape=box width=3.5]
+		CG664 [label="CG664
+FUNDAMENTOS DE CLIMATOLOGIA" shape=box width=3.5]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		GE566 [label="GE566
+GEOLOGIA GERAL" shape=box width=3.5]
+		CG680 [label="CG680
+TEORIAS GEOGRÁFICAS" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	{
+		rank=same
+		3 [shape=none]
+		CG667 [label="CG667
+BIOGEOGRAFIA" shape=box width=3.5]
+		CA304 [label="CA304
+CARTOGRAFIA" shape=box width=3.5]
+		CG506 [label="CG506
+INTRODUCAO A GEOMORFOLOGIA" shape=box width=3.5]
+		CG649 [label="CG649
+METODOLOGIA DO TRABALHO CIENTÍFICO" shape=box width=3.5]
+		CG214 [label="CG214
+PEDOLOGIA" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	{
+		rank=same
+		4 [shape=none]
+		CG202 [label="CG202
+GEOGRAFIA DA POPULACAO" shape=box width=3.5]
+		CG668 [label="CG668
+GEOGRAFIA INDUSTRIAL" shape=box width=3.5]
+		CG335 [label="CG335
+GEOGRAFIA REGIONAL DO BRASIL" shape=box width=3.5]
+		CG666 [label="CG666
+GEOMORFOLOGIA ESTRUTURAL" shape=box width=3.5]
+		CG665 [label="CG665
+RECURSOS HÍDRICOS E GESTÃO DE BACIASHIDROGRÁFICAS" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	{
+		rank=same
+		5 [shape=none]
+		CG648 [label="CG648
+CLIMATOLOGIA DINÂMICA" shape=box width=3.5]
+		CG237 [label="CG237
+GEOGRAFIA AGRARIA" shape=box width=3.5]
+		CG307 [label="CG307
+GEOGRAFIA DOS SERVICOS" shape=box width=3.5]
+		CG646 [label="CG646
+GEOGRAFIA URBANA" shape=box width=3.5]
+		CG329 [label="CG329
+GEOMORFOLOGIA CLIMATICA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	{
+		rank=same
+		6 [shape=none]
+		CG659 [label="CG659
+GEOGRAFIA CULTURAL" shape=box width=3.5]
+		CG674 [label="CG674
+GEOGRAFIA REGIONAL DO NORDESTE" shape=box width=3.5]
+		CG441 [label="CG441
+PESQUISA GEOGRAFICA 1" shape=box width=3.5]
+		CG670 [label="CG670
+TÉCNICAS COMPUTACIONAIS APLICADAS À GEOGRAFIA" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	{
+		rank=same
+		7 [shape=none]
+		CG675 [label="CG675
+AGROECOLOGIA" shape=box width=3.5]
+		CG341 [label="CG341
+GEOGRAFIA POLITICA" shape=box width=3.5]
+		CG442 [label="CG442
+PESQUISA GEOGRAFICA 2" shape=box width=3.5]
+		CG440 [label="CG440
+PLANEJAMENTO REGIONAL" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	{
+		rank=same
+		8 [shape=none]
+		CG679 [label="CG679
+TRABALHO DE CONCLUSÃO DE CURSO-TCC" shape=box width=3.5]
+	}
+}

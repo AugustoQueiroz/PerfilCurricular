@@ -1,0 +1,195 @@
+digraph "Perfil Curricular ENGENHARIA DE ENERGIA" {
+	label="Perfil Curricular de ENGENHARIA DE ENERGIA" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		EG407 [label="EG407
+INTRODUÇÃO AO DESENHO" shape=box width=3.5]
+		IN701 [label="IN701
+INTRODUÇÃO À ENGENHARIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA046 -> MA036 [constraint=true]
+	MA027 -> MA026 [constraint=true]
+	FI021 -> FI006 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA046 [label="MA046
+ALGEBRA LINEAR 1" shape=box width=3.5]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		IF165 [label="IF165
+COMPUTACAO ELETRONICA" shape=box width=3.5]
+		FI021 [label="FI021
+FISICA EXPERIMENTAL 1" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		QF001 [label="QF001
+QUIMICA GERAL 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA128 -> MA027 [constraint=true]
+	MA128 -> MA036 [constraint=true]
+	IF215 -> IF165 [constraint=true]
+	IF215 -> MA027 [constraint=true]
+	ET625 -> MA027 [constraint=true]
+	FI108 -> FI007 [constraint=true]
+	EN231 -> IF165 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA128 [label="MA128
+CALCULO DIFERENCIAL E INTEGRAL 3" shape=box width=3.5]
+		IF215 [label="IF215
+CALCULO NUMERICO" shape=box width=3.5]
+		EN230 [label="EN230
+ENERGIA E MEIO AMBIENTE" shape=box width=3.5]
+		ET625 [label="ET625
+ESTATÍSTICA 1" shape=box width=3.5]
+		FI108 [label="FI108
+FISICA GERAL 3" shape=box width=3.5]
+		EN231 [label="EN231
+PROJETOS ASSISTIDOS POR COMPUTADOR " shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MA129 -> MA128 [constraint=true]
+	EN232 -> FI108 [constraint=true]
+	CI107 -> FI006 [constraint=true]
+	CI107 -> MA128 [constraint=true]
+	FI122 -> FI021 [constraint=true]
+	FI122 -> FI108 [constraint=true]
+	FI109 -> FI108 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MA129 [label="MA129
+CALCULO DIFERENCIAL E INTEGRAL 4" shape=box width=3.5]
+		EN232 [label="EN232
+ENGENHARIA DE SISTEMAS DE ENERGIA" shape=box width=3.5]
+		CI107 [label="CI107
+FENOMENOS DE TRANSPORTES" shape=box width=3.5]
+		FI122 [label="FI122
+FISICA EXPERIMENTAL 2" shape=box width=3.5]
+		FI109 [label="FI109
+FISICA GERAL 4" shape=box width=3.5]
+		CI106 [label="CI106
+MECANICA GERAL 1" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	EL215 -> FI108 [constraint=true]
+	EC335 -> ET625 [constraint=true]
+	EN234 -> CI107 [constraint=true]
+	EN234 -> ET625 [constraint=true]
+	EN234 -> IF215 [constraint=true]
+	EN233 -> FI109 [constraint=true]
+	ME102 -> FI108 [constraint=true]
+	ME102 -> QF001 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		EL215 [label="EL215
+CIRCUITOS ELETRICOS 1A" shape=box width=3.5]
+		EN238 [label="EN238
+ENERGIAS RENOVÁVEIS" shape=box width=3.5]
+		EC335 [label="EC335
+ENGENHARIA ECONOMICA" shape=box width=3.5]
+		EN241 [label="EN241
+ESTÁGIO SUPERVISIONADO" shape=box width=3.5]
+		EN234 [label="EN234
+HIDROLOGIA APLICADA A GERAÇÃO DE ENERGIA" shape=box width=3.5]
+		EN233 [label="EN233
+SEGURANÇA E HIGIENE OCUPACIONAL" shape=box width=3.5]
+		CS100 [label="CS100
+SOCIOLOGIA E MEIO AMBIENTE" shape=box width=3.5]
+		ME102 [label="ME102
+TERMODINAMICA 1" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	EN245 -> EN238 [constraint=true]
+	EN237 -> FI109 [constraint=true]
+	ME262 -> FI007 [constraint=true]
+	ME262 -> MA129 [constraint=true]
+	CI213 -> CI106 [constraint=true]
+	CI213 -> MA129 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		EP003 [label="EP003
+ADMINISTRACAO PARA ENGENHARIA" shape=box width=3.5]
+		ME105 [label="ME105
+CIENCIA ENGENHARIA DOS MATERIAIS" shape=box width=3.5]
+		EN245 [label="EN245
+INTRODUÇÃO A ENERGIA SOLAR" shape=box width=3.5]
+		EN237 [label="EN237
+INTRODUÇÃO À ENGENHARIA NUCLEAR" shape=box width=3.5]
+		ME262 [label="ME262
+MECANICA DOS FLUIDOS2" shape=box width=3.5]
+		EN235 [label="EN235
+PLANEJAMENTO E GESTÃO DE SISTEMAS DE ENERGIA" shape=box width=3.5]
+		CI213 [label="CI213
+RESISTENCIA DOS MATERIAIS3" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	EN239 -> ME102 [constraint=true]
+	EN239 -> QF001 [constraint=true]
+	EL268 -> FI108 [constraint=true]
+	ME138 -> FI109 [constraint=true]
+	ME138 -> MA129 [constraint=true]
+	EN246 -> EN238 [constraint=true]
+	EN247 -> EN238 [constraint=true]
+	ME155 -> ME102 [constraint=true]
+	ME155 -> ME262 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		EN239 [label="EN239
+COMBUSTÃO E MÁQUINAS" shape=box width=3.5]
+		EL268 [label="EL268
+ELETROTECNICA GERAL 1A" shape=box width=3.5]
+		EN222 [label="EN222
+GERACAO NUCLEAR1" shape=box width=3.5]
+		ME138 [label="ME138
+INTRODUCAO A TEORIA DO CONTROLE" shape=box width=3.5]
+		EN246 [label="EN246
+INTRODUÇÃO À ENERGIA EÓLICA" shape=box width=3.5]
+		EN247 [label="EN247
+INTRODUÇÃO À ENGENHARIA DE BIOMASSA" shape=box width=3.5]
+		EN248 [label="EN248
+PROJETO DE GRADUAÇÃO " shape=box width=3.5]
+		ME155 [label="ME155
+TRANSMISSAO DE CALOR 1A" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	EP028 -> ET625 [constraint=true]
+	EN240 -> EC335 [constraint=true]
+	EN240 -> EP003 [constraint=true]
+	EN242 -> ET625 [constraint=true]
+	EN244 -> EN237 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		EP028 [label="EP028
+ANALISE DA DECISAO" shape=box width=3.5]
+		EN273 [label="EN273
+GERENCIAMENTO DE RISCOS EM ENERGIA" shape=box width=3.5]
+		EN240 [label="EN240
+GERÊNCIA DE PROJETOS" shape=box width=3.5]
+		EN226 [label="EN226
+INTRODUÇÃO À PROTEÇÃO RADIOLÓGICA" shape=box width=3.5]
+		LE037 [label="LE037
+LINGUA INGLESA INSTRUMENTAL 1" shape=box width=3.5]
+		EN242 [label="EN242
+MODELAGEM DE PROCESSOS EM ENGENHARIA" shape=box width=3.5]
+		EN244 [label="EN244
+RADIOATIVIDADE E ECOLOGIA" shape=box width=3.5]
+	}
+}

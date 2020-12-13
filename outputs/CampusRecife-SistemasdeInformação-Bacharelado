@@ -1,0 +1,138 @@
+digraph "Perfil Curricular Sistemas de Informação - Bacharelado" {
+	label="Perfil Curricular de Sistemas de Informação - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AD431 [label="AD431
+ADMINISTRAÇÃO CONTEMPORÂNEA" shape=box width=3.5]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		IF966 [label="IF966
+INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO" shape=box width=3.5]
+		IF967 [label="IF967
+MATEMÁTICA DISCRETA PARA COMPUTAÇÃO" shape=box width=3.5]
+		IF968 [label="IF968
+PROGRAMAÇÃO 1" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	IF969 -> IF968 [constraint=true]
+	AD291 -> AD431 [constraint=true]
+	IF971 -> MA026 [constraint=true]
+	IF972 -> IF967 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		IF969 [label="IF969
+ALGORITMOS E ESTRUTURAS DE DADOS" shape=box width=3.5]
+		AD291 [label="AD291
+ANÁLISE DAS ORGANIZACOES" shape=box width=3.5]
+		IF971 [label="IF971
+ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO" shape=box width=3.5]
+		LE732 [label="LE732
+INGLÊS PARA COMPUTAÇÃO" shape=box width=3.5]
+		IF972 [label="IF972
+LÓGICA PARA COMPUTAÇÃO" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	AD193 -> AD291 [constraint=true]
+	CT503 -> IF971 [constraint=true]
+	IF973 -> IF966 [constraint=true]
+	IF974 -> IF969 [constraint=true]
+	IF975 -> IF968 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		AD193 [label="AD193
+COMPORTAMENTO ORGANIZACIONAL" shape=box width=3.5]
+		CT503 [label="CT503
+CONTABILIDADE DE CUSTOS E GERENCIAL" shape=box width=3.5]
+		IF973 [label="IF973
+FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO" shape=box width=3.5]
+		IF974 [label="IF974
+ORGANIZAÇÃO DE COMPUTADORES E SISTEMASOPERACIONAIS" shape=box width=3.5]
+		IF975 [label="IF975
+REDES DE COMPUTADORES" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	IF976 -> IF966 [constraint=true]
+	IF976 -> IF969 [constraint=true]
+	IF977 -> IF966 [constraint=true]
+	IF977 -> IF968 [constraint=true]
+	IF978 -> AD193 [constraint=true]
+	IF978 -> IF973 [constraint=true]
+	IF979 -> AD291 [constraint=true]
+	IF980 -> IF973 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		IF976 [label="IF976
+BANCO DE DADOS" shape=box width=3.5]
+		IF977 [label="IF977
+ENGENHARIA DE SOFTWARE" shape=box width=3.5]
+		IF978 [label="IF978
+GESTÃO DE PROCESSOS DE NEGÓCIO" shape=box width=3.5]
+		IF979 [label="IF979
+PLANEJAMENTO E GERENCIAMENTO DE PROJETOS" shape=box width=3.5]
+		IF980 [label="IF980
+SISTEMAS DE GESTÃO EMPRESARIAL" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	IF982 -> IF976 [constraint=true]
+	IF982 -> IF980 [constraint=true]
+	IF983 -> IF971 [constraint=true]
+	IF983 -> IF973 [constraint=true]
+	IF983 -> IF976 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		CO691 [label="CO691
+COMUNICAÇÃO TÉCNICA E CIENTÍFICA" shape=box width=3.5]
+		IF982 [label="IF982
+GESTÃO DA INFORMAÇÃO E DO CONHECIMENTO" shape=box width=3.5]
+		IF983 [label="IF983
+SISTEMAS DE APOIO À DECISÃO" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	IF985 -> IF976 [constraint=true]
+	IF985 -> IF977 [constraint=true]
+	IF985 -> IF979 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		IF984 [label="IF984
+ESTÁGIO SUPERVISIONADO" shape=box width=3.5]
+		IF985 [label="IF985
+PROJETO DE SISTEMA DE INFORMAÇÃO" shape=box width=3.5]
+		IF986 [label="IF986
+VIABILIDADE ECONÔMICO-FINANCEIRA DE PROJETOS DE SI" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	IF987 -> IF973 [constraint=true]
+	IF987 -> IF974 [constraint=true]
+	IF987 -> IF975 [constraint=true]
+	AD432 -> AD193 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		IF987 [label="IF987
+AUDITORIA E SEGURANÇA DE SISTEMAS DE INFORMAÇÃO" shape=box width=3.5]
+		AD432 [label="AD432
+ESTRATÉGIA E PLANEJAMENTO" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	IF988 -> AD432 [constraint=true]
+	IF988 -> IF985 [constraint=true]
+	IF989 -> IF985 [constraint=true]
+	IF990 -> CO691 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		IF988 [label="IF988
+EMPREENDIMENTOS EM INFORMÁTICA" shape=box width=3.5]
+		IF989 [label="IF989
+TENDÊNCIAS E DESAFIOS EM SISTEMAS DE INFORMAÇÃO" shape=box width=3.5]
+		IF990 [label="IF990
+TRABALHO DE CONCLUSÃO DE CURSO EM SISTEMAS DEINFORMAÇÃO" shape=box width=3.5]
+	}
+}

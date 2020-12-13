@@ -1,0 +1,118 @@
+digraph "Perfil Curricular HISTÓRIA - LICENCIATURA" {
+	label="Perfil Curricular de HISTÓRIA - LICENCIATURA" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		HI547 [label="HI547
+HISTÓRIA DO BRASIL COLÔNIA" shape=box width=3.5]
+		HI552 [label="HI552
+HISTÓRIA DOS IMPÉRIOS PORTUGUÊS E ESPANHOL" shape=box width=3.5]
+		FL526 [label="FL526
+HISTÓRIA E INTERDISCIPLINARIDADE " shape=box width=3.5]
+		CG663 [label="CG663
+HISTÓRIA E INTERDISCIPLINARIDADE " shape=box width=3.5]
+		HI539 [label="HI539
+METODOLOGIA E PRODUÇÃO DE TEXTOS" shape=box width=3.5]
+		AG008 [label="AG008
+PRÉ-HISTÓRIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		HI540 [label="HI540
+HISTORIOGRAFIA" shape=box width=3.5]
+		HI541 [label="HI541
+HISTÓRIA ANTIGA" shape=box width=3.5]
+		HI551 [label="HI551
+HISTÓRIA DA ÁFRICA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	{
+		rank=same
+		3 [shape=none]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		HI548 [label="HI548
+HISTÓRIA DO BRASIL IMPÉRIO" shape=box width=3.5]
+		HI542 [label="HI542
+HISTÓRIA MEDIEVAL" shape=box width=3.5]
+		HI538 [label="HI538
+TEORIA DA HISTÓRIA I" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	{
+		rank=same
+		4 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		HI545 [label="HI545
+HISTÓRIA DA AMÉRICA " shape=box width=3.5]
+		HI543 [label="HI543
+HISTÓRIA MODERNA" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	{
+		rank=same
+		5 [shape=none]
+		TE757 [label="TE757
+ESTÁGIO SUPERVISIONADO EM HISTÓRIA I" shape=box width=3.5]
+		HI544 [label="HI544
+HISTÓRIA CONTEMPORÂNEA" shape=box width=3.5]
+		HI546 [label="HI546
+HISTÓRIA DA AMÉRICA " shape=box width=3.5]
+		HI549 [label="HI549
+HISTÓRIA DO BRASIL REPÚBLICA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	{
+		rank=same
+		6 [shape=none]
+		TE758 [label="TE758
+ESTÁGIO SUPERVISIONADO EM HISTÓRIA 2" shape=box width=3.5]
+		HI550 [label="HI550
+HISTÓRIA DE PERNAMBUCO" shape=box width=3.5]
+		TE754 [label="TE754
+METODOLOGIA DO ENSINO DE HISTÓRIA 1" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	{
+		rank=same
+		7 [shape=none]
+		TE708 [label="TE708
+EDUCAÇÃO PATRIMONIAL" shape=box width=3.5]
+		TE759 [label="TE759
+ESTÁGIO SUPERVISIONADO EM HISTÓRIA 3" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		TE755 [label="TE755
+METODOLOGIA DO ENSINO DE HISTÓRIA 2" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	{
+		rank=same
+		8 [shape=none]
+		TE760 [label="TE760
+ESTÁGIO SUPERVISIONADO EM HISTÓRIA 4" shape=box width=3.5]
+		PO494 [label="PO494
+FUNDAMENTOS DA LÍNGUA BRASILEIRA DE SINAIS -LIBRAS" shape=box width=3.5]
+		HI553 [label="HI553
+TCC 1" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	{
+		rank=same
+		9 [shape=none]
+		TE756 [label="TE756
+METODOLOGIA DO ENSINO DE HISTÓRIA 3" shape=box width=3.5]
+		HI581 [label="HI581
+TCC 2" shape=box width=3.5]
+	}
+}

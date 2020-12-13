@@ -1,0 +1,123 @@
+digraph "Perfil Curricular Ciências Sociais - Bacharelado" {
+	label="Perfil Curricular de Ciências Sociais - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AM076 [label="AM076
+ANTROPOLOGIA" shape=box width=3.5]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		HI493 [label="HI493
+HISTÓRIA DAS SOCIEDADES CONTEMPORÂNEAS" shape=box width=3.5]
+		FL010 [label="FL010
+INTRODUCAO A FILOSOFIA 1" shape=box width=3.5]
+		CP002 [label="CP002
+INTRODUÇÃO À CIÊNCIA POLÍTICA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	AM096 -> AM076 [constraint=true]
+	CP003 -> CP002 [constraint=true]
+	CS652 -> CS004 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		AM100 [label="AM100
+ETNOLOGIA BRASILEIRA" shape=box width=3.5]
+		CS644 [label="CS644
+METODOLOGIA DAS CIÊNCIAS SOCIAIS" shape=box width=3.5]
+		AM096 [label="AM096
+TEORIA ANTROPOLÓGICA 1" shape=box width=3.5]
+		CP003 [label="CP003
+TEORIA POLÍTICA CLÁSSICA" shape=box width=3.5]
+		CS652 [label="CS652
+TEORIA SOCIOLÓGICA 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	AM097 -> AM096 [constraint=true]
+	CP004 -> CP003 [constraint=true]
+	CS653 -> CS652 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		CG260 [label="CG260
+GEOGRAFIA HUMANA E ECONOMICA" shape=box width=3.5]
+		CS651 [label="CS651
+SOCIOLOGIA DA SOCIEDADE BRASILEIRA" shape=box width=3.5]
+		AM097 [label="AM097
+TEORIA ANTROPOLÓGICA 2" shape=box width=3.5]
+		CP004 [label="CP004
+TEORIA POLÍTICA CONTEMPOÂNEA" shape=box width=3.5]
+		CS653 [label="CS653
+TEORIA SOCIOLÓGICA 2" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	AM098 -> AM097 [constraint=true]
+	CS654 -> CS653 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		AM093 [label="AM093
+MÉTODOS E TÉCNICAS DA PESQUISA SOCIALQUALITATIVA" shape=box width=3.5]
+		CS647 [label="CS647
+MÉTODOS E TÉCNICAS DE PESQUISA SOCIALQUANTITATIVA" shape=box width=3.5]
+		AM098 [label="AM098
+TEORIA ANTROPOLÓGICA 3" shape=box width=3.5]
+		CS654 [label="CS654
+TEORIA SOCIOLÓGICA 3" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	CS646 -> CS647 [constraint=true]
+	CS022 -> CS004 [constraint=true]
+	IN810 -> AM076 [constraint=true]
+	IN810 -> AM096 [constraint=true]
+	IN810 -> AM100 [constraint=true]
+	IN810 -> CP002 [constraint=true]
+	IN810 -> CP003 [constraint=true]
+	IN810 -> CS004 [constraint=true]
+	IN810 -> CS644 [constraint=true]
+	IN810 -> CS652 [constraint=true]
+	IN810 -> FL010 [constraint=true]
+	IN810 -> HI493 [constraint=true]
+	AM094 -> AM096 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		CS646 [label="CS646
+ANÁLISE DE DADOS QUANTITATIVOS" shape=box width=3.5]
+		CS022 [label="CS022
+DESIGUALDADE SOCIAL" shape=box width=3.5]
+		IN810 [label="IN810
+ESTÁGIO" shape=box width=3.5]
+		AM094 [label="AM094
+ORGANIZAÇÃO SOCIAL E PARENTESCO" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	AM099 -> AM096 [constraint=true]
+	CS203 -> CS004 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		AM099 [label="AM099
+ETNOGRAFIA" shape=box width=3.5]
+		CS203 [label="CS203
+MUDANCA SOCIAL" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	IN823 -> AM093 [constraint=true]
+	IN823 -> CS647 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		IN823 [label="IN823
+SEMINÁRIO DE PESQUISA" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	IN817 -> IN823 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		IN817 [label="IN817
+TRABALHO DE GRADUAÇÃO" shape=box width=3.5]
+	}
+}

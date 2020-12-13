@@ -1,0 +1,159 @@
+digraph "Perfil Curricular Engenharia Biomédica - Bacharelado" {
+	label="Perfil Curricular de Engenharia Biomédica - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AN203 [label="AN203
+ANATOMIA 5" shape=box width=3.5]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		IF165 [label="IF165
+COMPUTACAO ELETRONICA" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		QF001 [label="QF001
+QUIMICA GERAL 1" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA046 -> MA036 [constraint=true]
+	MA027 -> MA026 [constraint=true]
+	FI021 -> FI006 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	QF002 -> MA026 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA046 [label="MA046
+ALGEBRA LINEAR 1" shape=box width=3.5]
+		BQ309 [label="BQ309
+BIQUIMICA APLICADA" shape=box width=3.5]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		FI021 [label="FI021
+FISICA EXPERIMENTAL 1" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		QF002 [label="QF002
+QUIMICA GERAL 2" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA128 -> MA036 [constraint=true]
+	MA128 -> MA027 [constraint=true]
+	IF215 -> IF165 [constraint=true]
+	ET101 -> MA027 [constraint=true]
+	FI108 -> FI007 [constraint=true]
+	FF242 -> AN203 [constraint=true]
+	FF242 -> BQ309 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA128 [label="MA128
+CALCULO DIFERENCIAL E INTEGRAL 3" shape=box width=3.5]
+		IF215 [label="IF215
+CALCULO NUMERICO" shape=box width=3.5]
+		ET101 [label="ET101
+ESTATISTICA 1" shape=box width=3.5]
+		FI108 [label="FI108
+FISICA GERAL 3" shape=box width=3.5]
+		FF242 [label="FF242
+FISIOLOGIA HUMANA" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MA129 -> MA128 [constraint=true]
+	EL215 -> FI108 [constraint=true]
+	FI122 -> FI108 [constraint=true]
+	FI122 -> FI021 [constraint=true]
+	FI109 -> FI108 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		BR245 [label="BR245
+BIOFISICA DOS SISTEMAS" shape=box width=3.5]
+		MA129 [label="MA129
+CALCULO DIFERENCIAL E INTEGRAL 4" shape=box width=3.5]
+		EL215 [label="EL215
+CIRCUITOS ELETRICOS 1A" shape=box width=3.5]
+		FI122 [label="FI122
+FISICA EXPERIMENTAL 2" shape=box width=3.5]
+		FI109 [label="FI109
+FISICA GERAL 4" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	ES238 -> EL215 [constraint=true]
+	ME435 -> FI006 [constraint=true]
+	EN229 -> FI007 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		MA326 [label="MA326
+COMPLEMENTOS DE MATEMATICA 1" shape=box width=3.5]
+		ES238 [label="ES238
+ELETRONICA 1" shape=box width=3.5]
+		ME435 [label="ME435
+FENOMENOS DE TRANSPORTES" shape=box width=3.5]
+		EN229 [label="EN229
+FÍSICA MÉDICA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	ES239 -> ES238 [constraint=true]
+	ES235 -> MA326 [constraint=true]
+	ES265 -> MA326 [constraint=true]
+	ES256 -> MA326 [constraint=true]
+	ES256 -> EL215 [constraint=true]
+	MA327 -> MA326 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		ES239 [label="ES239
+ELETRONICA 2" shape=box width=3.5]
+		ES235 [label="ES235
+PROCESSAMENTO DE IMAGEM" shape=box width=3.5]
+		ES265 [label="ES265
+PROCESSAMENTO DIGITAL DE SINAIS" shape=box width=3.5]
+		ES256 [label="ES256
+SERVOMECANISMO" shape=box width=3.5]
+		MA327 [label="MA327
+SISTEMAS LINEARES" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	{
+		rank=same
+		7 [shape=none]
+		IN435 [label="IN435
+ESTAGIO HOSPITALAR OU INDUSTRIAL" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	IN430 -> AN203 [constraint=true]
+	IN430 -> EN229 [constraint=true]
+	IN429 -> AN203 [constraint=true]
+	IN429 -> EN229 [constraint=true]
+	IN433 -> EL215 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		IN430 [label="IN430
+EQUIPAM. MEDICO HOSPITALARES 2" shape=box width=3.5]
+		IN429 [label="IN429
+EQUIPAM.MEDICO HOSPITALARES 1" shape=box width=3.5]
+		IN433 [label="IN433
+MANUTENCAO SEGURANCA HOSPITALAR" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	IN431 -> BQ309 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		IN431 [label="IN431
+EQUIPAM. MEDICO HOSPITALARES 3" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	{
+		rank=same
+		10 [shape=none]
+		IN436 [label="IN436
+TRAB.SUPERV.HOSP.IND-LABORATORIO" shape=box width=3.5]
+	}
+}

@@ -1,0 +1,274 @@
+digraph "Perfil Curricular Odontologia - Bacharelado" {
+	label="Perfil Curricular de Odontologia - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AN001 [label="AN001
+ANATOMIA1" shape=box width=3.5]
+		BR253 [label="BR253
+BIOFÍSICA" shape=box width=3.5]
+		BQ313 [label="BQ313
+BIOQUÍMICA" shape=box width=3.5]
+		IN739 [label="IN739
+BIOSSEGURANÇA E ERGONOMIA 1" shape=box width=3.5]
+		HE017 [label="HE017
+CITOLOGIA" shape=box width=3.5]
+		HE019 [label="HE019
+EMBRIOLOGIA" shape=box width=3.5]
+		HE011 [label="HE011
+HISTOLOGIA" shape=box width=3.5]
+		IN738 [label="IN738
+INTRODUÇÃO À ODONTOLOGIA" shape=box width=3.5]
+		IN740 [label="IN740
+SAÚDE" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	AN219 -> AN001 [constraint=true]
+	AN219 -> HE011 [constraint=true]
+	FF249 -> AN001 [constraint=true]
+	FF249 -> HE011 [constraint=true]
+	GN215 -> IN739 [constraint=true]
+	HE234 -> HE011 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		AN219 [label="AN219
+ANATOMIA DENTÁRIA-CABEÇA E PESCOÇO" shape=box width=3.5]
+		IN742 [label="IN742
+BIOÉTICA" shape=box width=3.5]
+		FF249 [label="FF249
+FISIOLOGIA HUMANA 1" shape=box width=3.5]
+		GN215 [label="GN215
+GENETICA HUMANA 1" shape=box width=3.5]
+		HE234 [label="HE234
+HISTOLOGIA DOS SISTEMAS" shape=box width=3.5]
+		IN741 [label="IN741
+METODOLOGIA DO TRABALHO CIENTÍFICO" shape=box width=3.5]
+		PS001 [label="PS001
+PSICOLOGIA1" shape=box width=3.5]
+		CS641 [label="CS641
+SAÚDE" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	CB422 -> AN219 [constraint=true]
+	CB422 -> FF249 [constraint=true]
+	HE235 -> HE234 [constraint=true]
+	MT413 -> HE011 [constraint=true]
+	MT413 -> HE017 [constraint=true]
+	PA514 -> AN001 [constraint=true]
+	PA514 -> FF249 [constraint=true]
+	PA514 -> GN215 [constraint=true]
+	PA514 -> HE011 [constraint=true]
+	OP350 -> AN219 [constraint=true]
+	OP350 -> BR253 [constraint=true]
+	OP350 -> IN742 [constraint=true]
+	IN743 -> CS641 [constraint=true]
+	IN743 -> IN742 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		CB422 [label="CB422
+FISIOLOGIA ORAL E OCLUSÃO" shape=box width=3.5]
+		HE235 [label="HE235
+HISTOLOGIA E EMBRIOLOGIA ORAL" shape=box width=3.5]
+		MT414 [label="MT414
+MICROBIOLOGIA E IMUNOLOGIA" shape=box width=3.5]
+		MT413 [label="MT413
+PARASITOLOGIA" shape=box width=3.5]
+		PA514 [label="PA514
+PROCESSOS PATOLÓGICOS GERAIS" shape=box width=3.5]
+		OP350 [label="OP350
+RADIOLOGIA 1" shape=box width=3.5]
+		IN743 [label="IN743
+SAÚDE COLETIVA 1" shape=box width=3.5]
+		IN744 [label="IN744
+SAÚDE" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	IN746 -> IN739 [constraint=true]
+	FF221 -> FF249 [constraint=true]
+	FF221 -> MT414 [constraint=true]
+	OP352 -> HE235 [constraint=true]
+	OP352 -> IN739 [constraint=true]
+	OP352 -> PA514 [constraint=true]
+	OP351 -> OP350 [constraint=true]
+	IN745 -> IN743 [constraint=true]
+	IN745 -> IN744 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		IN746 [label="IN746
+BIOSSEGURANÇA E ERGONOMIA 2" shape=box width=3.5]
+		IN748 [label="IN748
+ESTÁGIO CURRICULAR SUPERVISIONADO NO SISTEMAPÚBLICO DE SAÚDE 1" shape=box width=3.5]
+		FF221 [label="FF221
+FARMACOLOGIA 4A" shape=box width=3.5]
+		CB432 [label="CB432
+MATERIAIS DENTÁRIOS 1" shape=box width=3.5]
+		OP352 [label="OP352
+PATOLOGIA ORAL" shape=box width=3.5]
+		IN747 [label="IN747
+PRIMEIROS SOCORROS" shape=box width=3.5]
+		OP351 [label="OP351
+RADIOLOGIA 2" shape=box width=3.5]
+		CS642 [label="CS642
+SAÚDEEDUCAÇÃO E SOCIEDADE 4" shape=box width=3.5]
+		IN745 [label="IN745
+SAÚDE COLEIVA 2" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	CB423 -> CB422 [constraint=true]
+	CB423 -> CB432 [constraint=true]
+	CB423 -> IN746 [constraint=true]
+	OP355 -> IN743 [constraint=true]
+	OP355 -> OP352 [constraint=true]
+	OP354 -> OP351 [constraint=true]
+	IN749 -> IN745 [constraint=true]
+	OP353 -> FF221 [constraint=true]
+	OP353 -> OP352 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		CB423 [label="CB423
+DENTÍSTICA" shape=box width=3.5]
+		OP356 [label="OP356
+ESTOMATOLOGIA" shape=box width=3.5]
+		OP355 [label="OP355
+ONCOLOGIA ORAL" shape=box width=3.5]
+		OP354 [label="OP354
+PERIODONTIA" shape=box width=3.5]
+		IN750 [label="IN750
+SAÚDEEDUCAÇÃO E SOCIEDADE 5" shape=box width=3.5]
+		IN749 [label="IN749
+SAÚDE COLETIVA 3" shape=box width=3.5]
+		OP353 [label="OP353
+TERAPÊUTICA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	CB425 -> OP356 [constraint=true]
+	IN751 -> CB423 [constraint=true]
+	IN751 -> IN750 [constraint=true]
+	IN751 -> OP354 [constraint=true]
+	IN751 -> OP356 [constraint=true]
+	CB426 -> CB422 [constraint=true]
+	CB426 -> CB423 [constraint=true]
+	CB426 -> OP352 [constraint=true]
+	IN752 -> IN748 [constraint=true]
+	CB424 -> CB432 [constraint=true]
+	MS415 -> IN742 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		CB425 [label="CB425
+CIRURGIA BUCO MAXILO FACIAL" shape=box width=3.5]
+		IN751 [label="IN751
+CLÍNICA INTEGRAL 1 " shape=box width=3.5]
+		CB426 [label="CB426
+ENDODONTIA" shape=box width=3.5]
+		IN752 [label="IN752
+ESTÁGIO CURRICULAR SUPERVISIONADO NO SISTEMAPÚBLICO DE SAÚDE 2" shape=box width=3.5]
+		CB424 [label="CB424
+MATERIAIS DENTÁRIOS 2" shape=box width=3.5]
+		MS415 [label="MS415
+ÉTICA PROFISSIONAL EM ODONTOLOGIA" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	IN753 -> CB425 [constraint=true]
+	IN753 -> CB426 [constraint=true]
+	IN753 -> IN751 [constraint=true]
+	MS416 -> MS415 [constraint=true]
+	CB430 -> CB424 [constraint=true]
+	CB430 -> IN751 [constraint=true]
+	CB427 -> CB424 [constraint=true]
+	CB427 -> IN751 [constraint=true]
+	CB428 -> CB424 [constraint=true]
+	CB428 -> IN751 [constraint=true]
+	CB429 -> CB424 [constraint=true]
+	CB429 -> IN751 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		IN753 [label="IN753
+CLÍNICA INTEGRAL 2 " shape=box width=3.5]
+		MS416 [label="MS416
+ODONTOLOGIA LEGAL" shape=box width=3.5]
+		CB430 [label="CB430
+PRÓTESE BUCO-MAXILO-FACIAL" shape=box width=3.5]
+		CB427 [label="CB427
+PRÓTESE FIXA" shape=box width=3.5]
+		CB428 [label="CB428
+PRÓTESE REMOVÍVEL" shape=box width=3.5]
+		CB429 [label="CB429
+PRÓTESE TOTAL" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	CB431 -> CB425 [constraint=true]
+	IN754 -> CB427 [constraint=true]
+	IN754 -> CB428 [constraint=true]
+	IN754 -> CB429 [constraint=true]
+	IN754 -> IN753 [constraint=true]
+	IN757 -> IN752 [constraint=true]
+	IN757 -> IN753 [constraint=true]
+	IN755 -> IN741 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		CB431 [label="CB431
+CIRURGIA E TRAUMATOLOGIA BUCO MAXILO FACIAL" shape=box width=3.5]
+		IN754 [label="IN754
+CLÍNICA INTEGRAL 3 " shape=box width=3.5]
+		IN757 [label="IN757
+ESTÁGIO CURRICULAR SUPERVISIONADO NO SISTEMAPÚBLICO DE SAÚDE 3" shape=box width=3.5]
+		IN756 [label="IN756
+IMPLANTODONTIA" shape=box width=3.5]
+		IN755 [label="IN755
+TRABALHO DE CONCLUSÃO DE CURSO 1" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	IN758 -> IN754 [constraint=true]
+	IN760 -> IN754 [constraint=true]
+	OP358 -> IN753 [constraint=true]
+	IN759 -> IN754 [constraint=true]
+	OP357 -> IN753 [constraint=true]
+	OP359 -> IN753 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		IN758 [label="IN758
+ATENDIMENTO A PACIENTES COM NECESSIDADESESPECIAIS E ODONTOLOGIA HOSPITALAR" shape=box width=3.5]
+		IN760 [label="IN760
+CLÍNICA INTEGRAL 4 " shape=box width=3.5]
+		IN761 [label="IN761
+ESTÁGIO CURRICULAR SUPERVISIONADO EM CLÍNICASODONTOLÓGICAS 1" shape=box width=3.5]
+		OP358 [label="OP358
+ODONTOPEDIATRIA" shape=box width=3.5]
+		IN759 [label="IN759
+ORIENTAÇÃO PROFISSIONAL E EMPREENDEDORISMO" shape=box width=3.5]
+		OP357 [label="OP357
+ORTODONTIA" shape=box width=3.5]
+		OP359 [label="OP359
+ORTOPEDIA FUNCIONAL DOS MAXILARES" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	IN762 -> IN760 [constraint=true]
+	IN762 -> OP357 [constraint=true]
+	IN762 -> OP358 [constraint=true]
+	IN762 -> OP359 [constraint=true]
+	IN764 -> IN761 [constraint=true]
+	IN765 -> IN757 [constraint=true]
+	IN765 -> IN760 [constraint=true]
+	IN763 -> IN755 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		IN762 [label="IN762
+CLÍNICA INTEGRAL 5 " shape=box width=3.5]
+		IN764 [label="IN764
+ESTÁGIO CURRICULAR SUPERVISIONADO EM CLÍNICASODONTOLÓGICAS 2" shape=box width=3.5]
+		IN765 [label="IN765
+ESTÁGIO CURRICULAR SUPERVISIONADO NO SISTEMAPÚBLICO DE SAÚDE 4" shape=box width=3.5]
+		IN763 [label="IN763
+TRABALHO DE CONCLUSÃO DE CURSO 2" shape=box width=3.5]
+	}
+}

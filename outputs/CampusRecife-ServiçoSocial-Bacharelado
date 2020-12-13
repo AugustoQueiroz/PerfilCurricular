@@ -1,0 +1,110 @@
+digraph "Perfil Curricular Serviço Social - Bacharelado" {
+	label="Perfil Curricular de Serviço Social - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		FL010 [label="FL010
+INTRODUCAO A FILOSOFIA 1" shape=box width=3.5]
+		SE205 [label="SE205
+INTRODUCAO AO SERVICO SOCIAL" shape=box width=3.5]
+		CS449 [label="CS449
+TEORIA POLITICA 1" shape=box width=3.5]
+		CS448 [label="CS448
+TEORIAS SOCIOLOGICAS 1" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	FL203 -> FL010 [constraint=true]
+	CS508 -> CS449 [constraint=true]
+	CS507 -> CS448 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		FL203 [label="FL203
+INTRODUCAO A FILOSOFIA 2" shape=box width=3.5]
+		PS001 [label="PS001
+PSICOLOGIA1" shape=box width=3.5]
+		SE355 [label="SE355
+SERVICO SOCIAL 1" shape=box width=3.5]
+		CS508 [label="CS508
+TEORIA POLITICA 2" shape=box width=3.5]
+		CS507 [label="CS507
+TEORIAS SOCIOLOGICAS 2" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	SE359 -> SE355 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		PE229 [label="PE229
+DIREITO E LEGISLACAO SOCIAL 1" shape=box width=3.5]
+		EC242 [label="EC242
+HISTORIA DO PENSAMENTO ECONOMICO" shape=box width=3.5]
+		SE359 [label="SE359
+SERVICO SOCIAL 2" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	SE360 -> SE359 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		SE372 [label="SE372
+MOVIMENTOS SOCIAIS CONTEMPORANEOS" shape=box width=3.5]
+		SE211 [label="SE211
+POLITICA SOCIAL1" shape=box width=3.5]
+		SE371 [label="SE371
+QUESTAO SOCIAL NO BRASIL" shape=box width=3.5]
+		SE360 [label="SE360
+SERVICO SOCIAL 3" shape=box width=3.5]
+		SE373 [label="SE373
+TRABALHO E SOCIABILIDADE" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	SE212 -> SE211 [constraint=true]
+	SE361 -> SE360 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		SE302 [label="SE302
+ETICA PROFISSIONAL" shape=box width=3.5]
+		SE251 [label="SE251
+PESQUISA EM SERVICO SOCIAL1" shape=box width=3.5]
+		SE212 [label="SE212
+POLITICA SOCIAL2" shape=box width=3.5]
+		SE361 [label="SE361
+SERVICO SOCIAL 4" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	SE225 -> SE251 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		SE374 [label="SE374
+DEBATE CONTEMP SERVICO SOCIAL" shape=box width=3.5]
+		SE263 [label="SE263
+ESTAGIO 1A" shape=box width=3.5]
+		SE225 [label="SE225
+PESQUISA DE SERVICO SOCIAL 2" shape=box width=3.5]
+		PS572 [label="PS572
+PSICOLOGIA SOCIAL" shape=box width=3.5]
+		SE362 [label="SE362
+SEMINARIO TEMATICO 1" shape=box width=3.5]
+		SE375 [label="SE375
+SERVICO SOCIAL E PROCESSO DE TRABALHO" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	SE264 -> SE263 [constraint=true]
+	SE363 -> SE362 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		SE264 [label="SE264
+ESTAGIO 2A" shape=box width=3.5]
+		SE215 [label="SE215
+PLANEJAMENTO SOCIAL" shape=box width=3.5]
+		SE364 [label="SE364
+SEMINARIO DE MONOGRAFIA" shape=box width=3.5]
+		SE363 [label="SE363
+SEMINARIO TEMATICO 2" shape=box width=3.5]
+	}
+}

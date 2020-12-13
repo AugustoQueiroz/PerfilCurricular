@@ -1,0 +1,219 @@
+digraph "Perfil Curricular ENGENHARIA MECÂNICA" {
+	label="Perfil Curricular de ENGENHARIA MECÂNICA" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		EG407 [label="EG407
+INTRODUÇÃO AO DESENHO" shape=box width=3.5]
+		IN701 [label="IN701
+INTRODUÇÃO À ENGENHARIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA046 -> MA036 [constraint=true]
+	MA027 -> MA026 [constraint=true]
+	FI021 -> FI006 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA046 [label="MA046
+ALGEBRA LINEAR 1" shape=box width=3.5]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		IF165 [label="IF165
+COMPUTACAO ELETRONICA" shape=box width=3.5]
+		FI021 [label="FI021
+FISICA EXPERIMENTAL 1" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		QF001 [label="QF001
+QUIMICA GERAL 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA128 -> MA027 [constraint=true]
+	MA128 -> MA036 [constraint=true]
+	IF215 -> IF165 [constraint=true]
+	IF215 -> MA027 [constraint=true]
+	ET625 -> MA027 [constraint=true]
+	ME440 -> MA046 [constraint=true]
+	FI108 -> FI007 [constraint=true]
+	EG302 -> EG407 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA128 [label="MA128
+CALCULO DIFERENCIAL E INTEGRAL 3" shape=box width=3.5]
+		IF215 [label="IF215
+CALCULO NUMERICO" shape=box width=3.5]
+		CS005 [label="CS005
+ELEMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		ET625 [label="ET625
+ESTATÍSTICA 1" shape=box width=3.5]
+		ME440 [label="ME440
+ESTÁTICA" shape=box width=3.5]
+		FI108 [label="FI108
+FISICA GERAL 3" shape=box width=3.5]
+		EG302 [label="EG302
+GEOMETRIA DESCRITIVA 2-A" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MA129 -> MA128 [constraint=true]
+	ME105 -> QF001 [constraint=true]
+	ME572 -> ME440 [constraint=true]
+	EL246 -> FI108 [constraint=true]
+	ME098 -> MA128 [constraint=true]
+	ME098 -> ME440 [constraint=true]
+	ME115 -> EG302 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MA129 [label="MA129
+CALCULO DIFERENCIAL E INTEGRAL 4" shape=box width=3.5]
+		ME105 [label="ME105
+CIENCIA ENGENHARIA DOS MATERIAIS" shape=box width=3.5]
+		ME572 [label="ME572
+DINÂMICA" shape=box width=3.5]
+		EL246 [label="EL246
+ELETROTECNICA GERAL" shape=box width=3.5]
+		ME098 [label="ME098
+MECANICA DOS SOLIDOS 1" shape=box width=3.5]
+		ME115 [label="ME115
+METROLOGIA" shape=box width=3.5]
+		ME441 [label="ME441
+PROCESSOS DE FABRICAÇÃO POR USINAGEM" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	ME565 -> EL246 [constraint=true]
+	ME104 -> EG302 [constraint=true]
+	ME443 -> MA129 [constraint=true]
+	ME119 -> ET625 [constraint=true]
+	ME262 -> FI006 [constraint=true]
+	ME262 -> MA128 [constraint=true]
+	ME469 -> MA129 [constraint=true]
+	ME469 -> ME098 [constraint=true]
+	ME102 -> FI007 [constraint=true]
+	ME102 -> QF001 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		ME565 [label="ME565
+AUTOMAÇÃO INDUSTRIAL" shape=box width=3.5]
+		ME104 [label="ME104
+DESENHO DE MAQUINAS" shape=box width=3.5]
+		ME443 [label="ME443
+ENGENHARIA DE CONTROLE 1" shape=box width=3.5]
+		ME119 [label="ME119
+ENSAIOS MECANICOS" shape=box width=3.5]
+		PG300 [label="PG300
+INTRODUCAO AO DIREITO" shape=box width=3.5]
+		ME262 [label="ME262
+MECANICA DOS FLUIDOS2" shape=box width=3.5]
+		ME469 [label="ME469
+MECÂNICA DOS SÓLIDOS 2" shape=box width=3.5]
+		ME102 [label="ME102
+TERMODINAMICA 1" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	EL337 -> EL246 [constraint=true]
+	ME444 -> ME098 [constraint=true]
+	ME472 -> ME443 [constraint=true]
+	ME472 -> ME565 [constraint=true]
+	ME111 -> ME105 [constraint=true]
+	ME270 -> ME572 [constraint=true]
+	ME449 -> ME102 [constraint=true]
+	ME436 -> ME102 [constraint=true]
+	ME436 -> ME262 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		EL337 [label="EL337
+EQUIPAMENTOS ELETROMECANICOS" shape=box width=3.5]
+		ME444 [label="ME444
+INTRODUÇÃO AO PROJETO MECÂNICO" shape=box width=3.5]
+		ME472 [label="ME472
+LABORATÓRIO DE AUTOMAÇÃO E CONTROLE" shape=box width=3.5]
+		ME111 [label="ME111
+MATERIAIS DE CONSTRUCAO MECANICA" shape=box width=3.5]
+		ME270 [label="ME270
+MECANISMOS" shape=box width=3.5]
+		ME449 [label="ME449
+TERMODINÂMICA APLICADA" shape=box width=3.5]
+		ME436 [label="ME436
+TRANSMISSÃO DE CALOR 1 A" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	AD214 -> ET625 [constraint=true]
+	ME446 -> ME270 [constraint=true]
+	ME446 -> ME444 [constraint=true]
+	EC335 -> ET625 [constraint=true]
+	ME114 -> ME262 [constraint=true]
+	ME237 -> ME436 [constraint=true]
+	ME237 -> ME449 [constraint=true]
+	ME448 -> ME111 [constraint=true]
+	ME108 -> MA129 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		AD214 [label="AD214
+ADMINISTRACAO" shape=box width=3.5]
+		ME446 [label="ME446
+ELEMENTOS DE MÁQUINAS" shape=box width=3.5]
+		EC335 [label="EC335
+ENGENHARIA ECONOMICA" shape=box width=3.5]
+		ME114 [label="ME114
+MAQUINAS HIDRAULICAS" shape=box width=3.5]
+		ME237 [label="ME237
+MAQUINAS TERMICAS1" shape=box width=3.5]
+		ME448 [label="ME448
+TECNOLOGIA METALÚRGICA" shape=box width=3.5]
+		ME108 [label="ME108
+VIBRACOES MECANICAS" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	ME123 -> ME443 [constraint=true]
+	ME447 -> AD214 [constraint=true]
+	ME153 -> ME114 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		ME123 [label="ME123
+CIRCUITOS FLUIDOS-MECANICOS" shape=box width=3.5]
+		ME447 [label="ME447
+ENGENHARIA DA QUALIDADE" shape=box width=3.5]
+		ME153 [label="ME153
+INSTALACOES INDUSTRIAIS A" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	ME122 -> AD214 [constraint=true]
+	ME450 -> ME108 [constraint=true]
+	ME450 -> ME448 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		CI100 [label="CI100
+ECOLOGIA E CONTROLE DA POLUICAO" shape=box width=3.5]
+		ME122 [label="ME122
+ENGENHARIA DE PRODUCAO" shape=box width=3.5]
+		ME100 [label="ME100
+ENGENHARIA DE SEGURANCA" shape=box width=3.5]
+		ME450 [label="ME450
+TRABALHO DE CONCLUSÃO DE CURSO 1 " shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	ME451 -> ME450 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		ME125 [label="ME125
+ESTAGIO CURRICULAR" shape=box width=3.5]
+		ME451 [label="ME451
+TRABALHO DE CONCLUSÃO DE CURSO 2" shape=box width=3.5]
+	}
+}

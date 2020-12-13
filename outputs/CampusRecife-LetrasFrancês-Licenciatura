@@ -1,0 +1,158 @@
+digraph "Perfil Curricular Letras Francês - Licenciatura" {
+	label="Perfil Curricular de Letras Francês - Licenciatura" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		LE733 [label="LE733
+COMPREENSÃO E PRODUÇÃO DE TEXTO EM LÍNGUAPORTUGUESA" shape=box width=3.5]
+		LE738 [label="LE738
+FRANCÊS I" shape=box width=3.5]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		LE676 [label="LE676
+LEITURA E PRODUÇÃO DE TEXTO ACADÊMICO" shape=box width=3.5]
+		LE735 [label="LE735
+LINGUÍSTICA I " shape=box width=3.5]
+		LE736 [label="LE736
+TEORIA DA LITERATURA I -FORMAÇÃO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	LE779 -> LE738 [constraint=true]
+	LE742 -> LE735 [constraint=true]
+	LE744 -> LE736 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		LE779 [label="LE779
+FRANCÊS II " shape=box width=3.5]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		LE760 [label="LE760
+LATIM I " shape=box width=3.5]
+		LE742 [label="LE742
+LINGUÍSTICA II " shape=box width=3.5]
+		LE744 [label="LE744
+TEORIA DA LITERATURA II-POESIA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	LE780 -> LE779 [constraint=true]
+	LE743 -> LE742 [constraint=true]
+	LE766 -> LE760 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		LE741 [label="LE741
+CULTURA BRASILEIRA I" shape=box width=3.5]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		LE780 [label="LE780
+FRANCÊS III " shape=box width=3.5]
+		LE761 [label="LE761
+LATIM II " shape=box width=3.5]
+		LE743 [label="LE743
+LINGUÍSTICA III " shape=box width=3.5]
+		LE766 [label="LE766
+LITERATURA LATINA" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	LE786 -> LE780 [constraint=true]
+	LE791 -> LE780 [constraint=true]
+	LE791 -> PO492 [constraint=true]
+	LE791 -> SF451 [constraint=true]
+	LE791 -> TE707 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		LE781 [label="LE781
+FRANCÊS IV " shape=box width=3.5]
+		LE786 [label="LE786
+LITERATURA DE LÍNGUA FRANCESA I " shape=box width=3.5]
+		LE791 [label="LE791
+METODOLOGIA DE ENSINO DE LÍNGUA FRANCESA I" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	LE774 -> LE791 [constraint=true]
+	LE782 -> LE781 [constraint=true]
+	LE792 -> LE743 [constraint=true]
+	LE792 -> LE781 [constraint=true]
+	LE792 -> LE791 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		LE772 [label="LE772
+CULTURA DOS POVOS DE LÍNGUA FRANCESA I" shape=box width=3.5]
+		LE774 [label="LE774
+ESTÁGIO CURRICULAR EM FRANCÊS I" shape=box width=3.5]
+		LE782 [label="LE782
+FRANCÊS V " shape=box width=3.5]
+		LE716 [label="LE716
+INTRODUÇÃO A LIBRAS" shape=box width=3.5]
+		LE787 [label="LE787
+LITERATURA EM LÍNGUA FRANCESA II " shape=box width=3.5]
+		LE792 [label="LE792
+METODOLOGIA DE ENSINO DE LÍNGUA FRANCESA II" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	LE775 -> LE792 [constraint=true]
+	LE783 -> LE782 [constraint=true]
+	LE788 -> LE787 [constraint=true]
+	LE793 -> LE792 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		LE775 [label="LE775
+ESTÁGIO CURRICULAR EM FRANCÊS II" shape=box width=3.5]
+		LE783 [label="LE783
+FRANCÊS VI " shape=box width=3.5]
+		LE788 [label="LE788
+LITERATURA DE LÍNGUA FRANCESA III " shape=box width=3.5]
+		LE793 [label="LE793
+METODOLOGIA DE ENSINO DE LÍNGUA FRANCESA III" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	LE776 -> LE793 [constraint=true]
+	LE784 -> LE783 [constraint=true]
+	LE789 -> LE788 [constraint=true]
+	LE794 -> LE793 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		LE776 [label="LE776
+ESTÁGIO CURRICULAR EM FRANCÊS III" shape=box width=3.5]
+		LE784 [label="LE784
+FRANCÊS VII " shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		LE789 [label="LE789
+LITERATURA EM LÍNGUA FRANCESA IV " shape=box width=3.5]
+		LE794 [label="LE794
+METODOLOGIA DE ENSINO DE LÍNGUA FRANCESA IV" shape=box width=3.5]
+		LE745 [label="LE745
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	LE773 -> LE772 [constraint=true]
+	LE777 -> LE794 [constraint=true]
+	LE785 -> LE784 [constraint=true]
+	LE795 -> LE794 [constraint=true]
+	LE746 -> LE745 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		LE773 [label="LE773
+CULTURA DOS POVOS DE LÍNGUA FRANCESA II" shape=box width=3.5]
+		LE777 [label="LE777
+ESTÁGIO CURRICULAR EM FRANCÊS IV" shape=box width=3.5]
+		LE785 [label="LE785
+FRANCÊS VIII " shape=box width=3.5]
+		LE795 [label="LE795
+METODOLOGIA DE ENSINO DE LÍNGUA FRANCESA V" shape=box width=3.5]
+		LE746 [label="LE746
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}

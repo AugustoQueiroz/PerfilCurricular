@@ -1,0 +1,155 @@
+digraph "Perfil Curricular Música Instrumento - Bacharelado" {
+	label="Perfil Curricular de Música Instrumento - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MU271 [label="MU271
+CANTO CORAL 1" shape=box width=3.5]
+		AR005 [label="AR005
+HISTORIA DAS ARTES" shape=box width=3.5]
+		BI030 [label="BI030
+METODOLOGIA DO ESTUDO" shape=box width=3.5]
+		MU055 [label="MU055
+PERCEPCAO RITMICA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		MU819 [label="MU819
+ATIVIDADE ARTÍSTICA CULTURAL 1" shape=box width=3.5]
+		MU272 [label="MU272
+CANTO CORAL 2" shape=box width=3.5]
+		MU207 [label="MU207
+HISTORIA DA MUSICA 1" shape=box width=3.5]
+		MU450 [label="MU450
+PERCEPCAO MELODICA" shape=box width=3.5]
+		MU827 [label="MU827
+PRÁTICA DE MÚSICA DE CÂMARA 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MU208 -> MU207 [constraint=true]
+	MU451 -> MU450 [constraint=true]
+	MU831 -> MU827 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MU825 [label="MU825
+ATIVIDADE ARTÍSTICA CULTURAL 2" shape=box width=3.5]
+		AR421 [label="AR421
+EXPRESSAO CORPORAL 1A" shape=box width=3.5]
+		MU208 [label="MU208
+HISTORIA DA MUSICA 2" shape=box width=3.5]
+		MU451 [label="MU451
+PERCEPCAO POLIFONICA" shape=box width=3.5]
+		MU831 [label="MU831
+PRÁTICA DA MÚSICA DE CÂMARA 2" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MU209 -> MU208 [constraint=true]
+	MU452 -> MU451 [constraint=true]
+	MU833 -> MU831 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MU828 [label="MU828
+ATIVIDADEARTÍSTICA CULTURAL 3" shape=box width=3.5]
+		MU209 [label="MU209
+HISTORIA DA MUSICA 3" shape=box width=3.5]
+		MU452 [label="MU452
+PERCEPCAO HARMONICA" shape=box width=3.5]
+		MU833 [label="MU833
+PRÁTICA DA MÚSICA DE CÂMARA 3" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	MU282 -> MU452 [constraint=true]
+	MU838 -> MU833 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		MU830 [label="MU830
+ATIVIDADE ARTÍSTICA CULTURAL 4" shape=box width=3.5]
+		MU824 [label="MU824
+ESTÁGIO CURRICULAR " shape=box width=3.5]
+		MU282 [label="MU282
+PERCEPCAO E INSTRUMENTACAO" shape=box width=3.5]
+		MU838 [label="MU838
+PRÁTICA DA MÚSICA DE CÂMARA 4" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	MU839 -> MU838 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		MU832 [label="MU832
+ATIVIDADE ARTÍSTICA CULTURAL 5" shape=box width=3.5]
+		MU456 [label="MU456
+ESTETICA E ESTRUTURACAO MUSICAL 1" shape=box width=3.5]
+		MU551 [label="MU551
+FUNDAM DA CONSTRUCAO MUSICAL 1" shape=box width=3.5]
+		MU839 [label="MU839
+PRÁTICA DA MÚSICA DE CÂMARA 5" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	MU457 -> MU456 [constraint=true]
+	MU552 -> MU551 [constraint=true]
+	MU840 -> MU839 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		MU836 [label="MU836
+ATIVIDADE ARTÍSTICA CULTURAL 6" shape=box width=3.5]
+		MU457 [label="MU457
+ESTETICA E ESTRUTURACAO MUSICAL 2" shape=box width=3.5]
+		MU829 [label="MU829
+ESTÁGIO CURRICULAR " shape=box width=3.5]
+		MU552 [label="MU552
+FUNDAM DA CONSTRUCAO MUSICAL 2" shape=box width=3.5]
+		MU840 [label="MU840
+PRÁTICA DA MÚSICA DE CÂMARA 6" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	MU458 -> MU457 [constraint=true]
+	MU553 -> MU552 [constraint=true]
+	MU841 -> MU840 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		MU837 [label="MU837
+ATIVIDADE ARTÍSTICA CULTURAL 7" shape=box width=3.5]
+		MU458 [label="MU458
+ESTETICA E ESTRUTURACAO MUSICAL 3" shape=box width=3.5]
+		MU553 [label="MU553
+FUNDAM DA CONSTRUCAO MUSICAL 3" shape=box width=3.5]
+		MU841 [label="MU841
+PRÁTICA DA MÚSICA DE CÂMARA 7" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	MU459 -> MU458 [constraint=true]
+	MU554 -> MU553 [constraint=true]
+	MU205 -> MU209 [constraint=true]
+	MU842 -> MU841 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		MU459 [label="MU459
+ESTETICA E ESTRUTURACAO MUSICAL 4" shape=box width=3.5]
+		MU834 [label="MU834
+ESTÁGIO CURRICULAR " shape=box width=3.5]
+		MU554 [label="MU554
+FUNDAM DA CONSTRUCAO MUSICAL 4" shape=box width=3.5]
+		MU205 [label="MU205
+HISTORIA DA MUSICA BRASILEIRA" shape=box width=3.5]
+		MU842 [label="MU842
+PRÁTICA DA MÚSICA DE CÂMARA 8" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	MU843 -> MU834 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		MU843 [label="MU843
+RECITAL DE CONCLUSÃO DE CURSO " shape=box width=3.5]
+	}
+}

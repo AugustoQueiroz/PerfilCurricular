@@ -1,0 +1,255 @@
+digraph "Perfil Curricular DIREITO" {
+	label="Perfil Curricular de DIREITO" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		EC001 [label="EC001
+ECONOMIA1" shape=box width=3.5]
+		FL003 [label="FL003
+FILOSOFIA" shape=box width=3.5]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		PR428 [label="PR428
+INTRODUÇÃO AO ESTUDO DO DIREITO 1" shape=box width=3.5]
+		PG516 [label="PG516
+TEORIA POLÍTICA E DO ESTADO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	PR430 -> PR428 [constraint=true]
+	PE464 -> PR428 [constraint=true]
+	PR429 -> PR428 [constraint=true]
+	PR464 -> PR428 [constraint=true]
+	PG518 -> PR428 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		PR430 [label="PR430
+DIREITO CIVIL 1" shape=box width=3.5]
+		PE464 [label="PE464
+DIREITO PENAL 1" shape=box width=3.5]
+		PR429 [label="PR429
+HISTÓRIA DO DIREITO" shape=box width=3.5]
+		PR464 [label="PR464
+INTRODUÇÃO AO ESTUDO DO DIREITO 2" shape=box width=3.5]
+		PG518 [label="PG518
+TEORIA DA CONSTITUIÇÃO" shape=box width=3.5]
+		PG517 [label="PG517
+TEORIA GERAL DO PROCESSO" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	PR431 -> PR430 [constraint=true]
+	PG524 -> PG518 [constraint=true]
+	PE465 -> PE464 [constraint=true]
+	PG519 -> PG517 [constraint=true]
+	PR436 -> PR428 [constraint=true]
+	PR436 -> PR464 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		PR431 [label="PR431
+DIREITO CIVIL 2" shape=box width=3.5]
+		PG524 [label="PG524
+DIREITO CONSTITUCIONAL 1" shape=box width=3.5]
+		PE465 [label="PE465
+DIREITO PENAL 2" shape=box width=3.5]
+		PG519 [label="PG519
+DIREITO PROCESSUAL CIVIL 1" shape=box width=3.5]
+		PR436 [label="PR436
+HERMENÊUTICA JURÍDICA" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	PR432 -> PR431 [constraint=true]
+	PR432 -> PR464 [constraint=true]
+	PG525 -> PG524 [constraint=true]
+	PR438 -> PR430 [constraint=true]
+	PE466 -> PE465 [constraint=true]
+	PG520 -> PG519 [constraint=true]
+	PR437 -> PR428 [constraint=true]
+	PR437 -> PR436 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		PR432 [label="PR432
+DIREITO CIVIL 3" shape=box width=3.5]
+		PG525 [label="PG525
+DIREITO CONSTITUCIONAL 2" shape=box width=3.5]
+		PR438 [label="PR438
+DIREITO EMPRESARIAL 1" shape=box width=3.5]
+		PE466 [label="PE466
+DIREITO PENAL 3" shape=box width=3.5]
+		PG520 [label="PG520
+DIREITO PROCESSUAL CIVIL 2" shape=box width=3.5]
+		PR437 [label="PR437
+PESQUISA E DIREITO" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	AM131 -> PR436 [constraint=true]
+	PE467 -> PE464 [constraint=true]
+	PR433 -> PR432 [constraint=true]
+	PG526 -> PG525 [constraint=true]
+	PR439 -> PR438 [constraint=true]
+	PG521 -> PG520 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		AM131 [label="AM131
+ANTROPOLOGIA JURÍDICA" shape=box width=3.5]
+		PE467 [label="PE467
+CRIMINOLOGIA" shape=box width=3.5]
+		PR433 [label="PR433
+DIREITO CIVIL 4" shape=box width=3.5]
+		PG526 [label="PG526
+DIREITO CONSTITUCIONAL 3" shape=box width=3.5]
+		PR439 [label="PR439
+DIREITO EMPRESARIAL 2" shape=box width=3.5]
+		PG521 [label="PG521
+DIREITO PROCESSUAL CIVIL 3" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	PR434 -> PR433 [constraint=true]
+	PR442 -> PR439 [constraint=true]
+	PR440 -> PR439 [constraint=true]
+	PG522 -> PG521 [constraint=true]
+	PG527 -> PG520 [constraint=true]
+	PS646 -> PR436 [constraint=true]
+	PE468 -> PR433 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		PR434 [label="PR434
+DIREITO CIVIL 5" shape=box width=3.5]
+		PR442 [label="PR442
+DIREITO DO CONSUMIDOR" shape=box width=3.5]
+		PR440 [label="PR440
+DIREITO EMPRESARIAL 3" shape=box width=3.5]
+		PG522 [label="PG522
+DIREITO PROCESSUAL CIVIL 4" shape=box width=3.5]
+		PG527 [label="PG527
+DIREITO PROCESSUAL PENAL I" shape=box width=3.5]
+		PS646 [label="PS646
+PSICOLOGIA E DIREITO" shape=box width=3.5]
+		PE468 [label="PE468
+TEORIA GERAL DO DIREITO DO TRABALHO" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	PE470 -> PG526 [constraint=true]
+	PR435 -> PR434 [constraint=true]
+	PR441 -> PR440 [constraint=true]
+	PG523 -> PG522 [constraint=true]
+	PG528 -> PG527 [constraint=true]
+	PE505 -> PE468 [constraint=true]
+	INT0065 -> PG522 [constraint=true]
+	INT0065 -> PG527 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		PE470 [label="PE470
+DIREITO ADMINISTRATIVO 1" shape=box width=3.5]
+		PR435 [label="PR435
+DIREITO CIVIL 6" shape=box width=3.5]
+		PR441 [label="PR441
+DIREITO EMPRESARIAL 4" shape=box width=3.5]
+		PG523 [label="PG523
+DIREITO PROCESSUAL CIVIL 5" shape=box width=3.5]
+		PG528 [label="PG528
+DIREITO PROCESSUAL PENAL 2" shape=box width=3.5]
+		PE505 [label="PE505
+DIREITO SINDICAL E COLETIVO DO TRABALHO" shape=box width=3.5]
+		INT0065 [label="INT0065
+ESTÁGIO SUPERVISIONADO 1" shape=box width=3.5]
+		PR443 [label="PR443
+SOCIOLOGIA DO DIREITO" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	PE472 -> PE470 [constraint=true]
+	PE473 -> PG524 [constraint=true]
+	PE473 -> PG525 [constraint=true]
+	PE469 -> PE505 [constraint=true]
+	PE471 -> PG526 [constraint=true]
+	INT0066 -> INT0065 [constraint=true]
+	INT0070 -> PG523 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		PE472 [label="PE472
+DIREITO ADMINISTRATIVO 2" shape=box width=3.5]
+		PE473 [label="PE473
+DIREITO FINANCEIRO" shape=box width=3.5]
+		PE469 [label="PE469
+DIREITO INDIVIDUAL DO TRABALHO" shape=box width=3.5]
+		PE471 [label="PE471
+DIREITO INTERNACIONAL PÚBLICO" shape=box width=3.5]
+		INT0066 [label="INT0066
+ESTÁGIO SUPERVISIONADO 2" shape=box width=3.5]
+		INT0067 [label="INT0067
+PROJETO DE TCC" shape=box width=3.5]
+		INT0070 [label="INT0070
+PRÁTICA JURÍDICA CÍVEL" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	PE474 -> PG526 [constraint=true]
+	PG530 -> PE505 [constraint=true]
+	PG530 -> PG517 [constraint=true]
+	PG531 -> PE471 [constraint=true]
+	PG531 -> PG526 [constraint=true]
+	INT0071 -> PG528 [constraint=true]
+	PE476 -> PG524 [constraint=true]
+	PE476 -> PG525 [constraint=true]
+	INT0068 -> INT0067 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		PE474 [label="PE474
+DIREITO INTERNACIONAL PRIVADO 1" shape=box width=3.5]
+		PG530 [label="PG530
+DIREITO PROCESSUAL DO TRABALHO" shape=box width=3.5]
+		PG531 [label="PG531
+DIREITOS HUMANOS 1" shape=box width=3.5]
+		INT0071 [label="INT0071
+PRÁTICA JURÍDICA PENAL" shape=box width=3.5]
+		PE476 [label="PE476
+SISTEMA CONSTITUCIONAL TRIBUTÁRIO" shape=box width=3.5]
+		INT0068 [label="INT0068
+TCC 1" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	PE478 -> PG526 [constraint=true]
+	PE475 -> PE474 [constraint=true]
+	PR444 -> PR464 [constraint=true]
+	PE479 -> PE472 [constraint=true]
+	PE477 -> PG524 [constraint=true]
+	PE477 -> PG525 [constraint=true]
+	PE477 -> PG526 [constraint=true]
+	INT0073 -> PG530 [constraint=true]
+	INT0069 -> INT0067 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		PE478 [label="PE478
+DIREITO AMBIENTAL" shape=box width=3.5]
+		PE475 [label="PE475
+DIREITO INTERNACIONAL PRIVADO 2" shape=box width=3.5]
+		PR444 [label="PR444
+FILOSOFIA DO DIREITO" shape=box width=3.5]
+		PE479 [label="PE479
+FUNDAMENTOS DE SEGURIDADE SOCIAL" shape=box width=3.5]
+		PE477 [label="PE477
+NORMAS GERAIS DE DIREITO TRIBUTÁRIO" shape=box width=3.5]
+		INT0073 [label="INT0073
+PRÁTICA JURÍDICA TRABALHISTA" shape=box width=3.5]
+		INT0069 [label="INT0069
+TCC 2" shape=box width=3.5]
+	}
+	10 -> 11 [dir=none]
+	INT0072 -> INT0068 [constraint=true]
+	PG532 -> PE474 [constraint=true]
+	{
+		rank=same
+		11 [shape=none]
+		INT0072 [label="INT0072
+TCC 3" shape=box width=3.5]
+		PG532 [label="PG532
+ÉTICA E PROFISSÕES JURÍDICAS" shape=box width=3.5]
+	}
+}

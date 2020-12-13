@@ -1,0 +1,144 @@
+digraph "Perfil Curricular Administração - Bacharelado" {
+	label="Perfil Curricular de Administração - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		AD001 [label="AD001
+INTRODUCAO A ADMINISTRACAO" shape=box width=3.5]
+		AD417 [label="AD417
+OBRIGAÇÕES EMPRESARIAIS" shape=box width=3.5]
+		PS001 [label="PS001
+PSICOLOGIA1" shape=box width=3.5]
+		AD416 [label="AD416
+ÉTICA E FILOSOFIA PARA O ADMINISTRADOR" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	AD113 -> AD417 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		AD113 [label="AD113
+ADMINISTRACAO TRIBUTARIA" shape=box width=3.5]
+		AD278 [label="AD278
+COMUNICACAO EMPRESARIAL" shape=box width=3.5]
+		EC217 [label="EC217
+ECONOMIA DAS EMPRESAS" shape=box width=3.5]
+		AD787 [label="AD787
+TECNOLOGIA DA INFORMAÇÃO" shape=box width=3.5]
+		AD418 [label="AD418
+TEORIA GERAL DA ADMINISTRAÇÃO" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	AD291 -> AD418 [constraint=true]
+	EC360 -> EC217 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		AD419 [label="AD419
+ADMINISTRAÇÃO PÚBLICA" shape=box width=3.5]
+		AD291 [label="AD291
+ANÁLISE DAS ORGANIZACOES" shape=box width=3.5]
+		CT458 [label="CT458
+CONTABILIDADE GERAL A" shape=box width=3.5]
+		EC360 [label="EC360
+ECONOMIA BRASILEIRA" shape=box width=3.5]
+		AD400 [label="AD400
+ESTATISTICA APLIC A ADMINISTRACAO" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	CT221 -> CT458 [constraint=true]
+	AD114 -> AD417 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		AD196 [label="AD196
+ADM. DE POLITICAS PUBLICAS" shape=box width=3.5]
+		AD420 [label="AD420
+ADMINISTRAÇÃO NO CONTEXTO BRASILEIRO" shape=box width=3.5]
+		CT221 [label="CT221
+CONTABILIDADE GERENCIAL" shape=box width=3.5]
+		AD421 [label="AD421
+INTRODUÇÃO À FINANÇAS" shape=box width=3.5]
+		AD114 [label="AD114
+RELACOES TRABALHISTAS" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	AD193 -> PS001 [constraint=true]
+	AD423 -> AD421 [constraint=true]
+	AD412 -> AD400 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		AD193 [label="AD193
+COMPORTAMENTO ORGANIZACIONAL" shape=box width=3.5]
+		AD423 [label="AD423
+FINANÇAS 1" shape=box width=3.5]
+		AD422 [label="AD422
+GESTÃO E INOVAÇÃO TECNOLÓGICA" shape=box width=3.5]
+		AD412 [label="AD412
+PESQUISA OPERACIONAL" shape=box width=3.5]
+		AD430 [label="AD430
+PROCESSO DECISÓRIO" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	AD425 -> AD423 [constraint=true]
+	AD424 -> PS001 [constraint=true]
+	AD192 -> AD416 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		AD301 [label="AD301
+ADM. DE MARKETING 1" shape=box width=3.5]
+		AD280 [label="AD280
+ADM. DE OPERACOES" shape=box width=3.5]
+		AD425 [label="AD425
+FINANÇAS 2" shape=box width=3.5]
+		AD424 [label="AD424
+GESTÃO DE PESSOAS 1" shape=box width=3.5]
+		AD192 [label="AD192
+METODOLOGIA DA PESQUISA EM ADMINISTRAÇÃO" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	AD299 -> AD280 [constraint=true]
+	AD302 -> AD301 [constraint=true]
+	AD426 -> AD424 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		AD299 [label="AD299
+ADM. DA QUALIDADE" shape=box width=3.5]
+		AD302 [label="AD302
+ADM. DE MARKETING 2" shape=box width=3.5]
+		AD426 [label="AD426
+GESTÃO DE PESSOAS 2" shape=box width=3.5]
+		AD427 [label="AD427
+GOVERNANÇA E RSAE" shape=box width=3.5]
+		AD290 [label="AD290
+SISTEMAS DE INFORMACOES" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	AD428 -> AD280 [constraint=true]
+	AD429 -> AD280 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		AD428 [label="AD428
+ADMINISTRAÇÃO ESTRATÉGICA" shape=box width=3.5]
+		AD429 [label="AD429
+LOGÍSTICA EMPRESARIAL" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	{
+		rank=same
+		9 [shape=none]
+		AD306 [label="AD306
+ESTAGIO CURRICULAR SUPERVISIONADO" shape=box width=3.5]
+		AD413 [label="AD413
+GESTÃO DE PROJETOS E SERVIÇOS" shape=box width=3.5]
+		AD307 [label="AD307
+SEMINARIO DE ATUALIZACAO EM ADM." shape=box width=3.5]
+	}
+}

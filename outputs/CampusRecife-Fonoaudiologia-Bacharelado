@@ -1,0 +1,211 @@
+digraph "Perfil Curricular Fonoaudiologia - Bacharelado" {
+	label="Perfil Curricular de Fonoaudiologia - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AN224 [label="AN224
+ANATOMIA GERAL PARA FONOAUDIOLOGIA" shape=box width=3.5]
+		CS013 [label="CS013
+ANTROPOLOGIA" shape=box width=3.5]
+		FF253 [label="FF253
+FISIOLOGIA" shape=box width=3.5]
+		BR001 [label="BR001
+FUNDAMENTOS DA BIOFISICA" shape=box width=3.5]
+		HE020 [label="HE020
+FUNDAMENTOS DA BIOLOGIA" shape=box width=3.5]
+		FN058 [label="FN058
+FUNDAMENTOS DA FONOAUDIOLOGIA" shape=box width=3.5]
+		PS574 [label="PS574
+PSICOLOGIA GERAL E DO DESENVOLVIMENTO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	AN225 -> AN224 [constraint=true]
+	FF101 -> FF253 [constraint=true]
+	FN062 -> FN058 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		AN225 [label="AN225
+ANATOMIA APLICADA À FONOAUDIOLOGIA" shape=box width=3.5]
+		FL237 [label="FL237
+ETICA" shape=box width=3.5]
+		FF101 [label="FF101
+FISIOLOGIA APLICADA A FONOAUDIOLOGIA" shape=box width=3.5]
+		BQ006 [label="BQ006
+FUNDAMENTOS DA BIOQUIMICA" shape=box width=3.5]
+		FN059 [label="FN059
+FUNDAMENTOS DA LINGUAGEM" shape=box width=3.5]
+		GN215 [label="GN215
+GENETICA HUMANA 1" shape=box width=3.5]
+		FN060 [label="FN060
+LIBRAS BÁSICA I" shape=box width=3.5]
+		PS573 [label="PS573
+PSICOLOGIA DA APRENDIZAGEM ECLÍNICAFONOAUDIOLÓGICA" shape=box width=3.5]
+		FN062 [label="FN062
+SAÚDE COLETIVA I" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	FN061 -> FN058 [constraint=true]
+	FN066 -> FN060 [constraint=true]
+	FN064 -> FN062 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		FN061 [label="FN061
+BIOÉTICA E BIOSSEGURANÇA" shape=box width=3.5]
+		FN079 [label="FN079
+DESENVOVIMENTO DA COMUNICAÇÃO HUMANA" shape=box width=3.5]
+		FN057 [label="FN057
+FUNDAMENTOS DE NEUROPSIQUIATRIA" shape=box width=3.5]
+		OP360 [label="OP360
+FUNDAMENTOS DE ODONTOLOGIA" shape=box width=3.5]
+		FN009 [label="FN009
+FUNDAMENTOS DE OTORRINOLARINGOLOGIA" shape=box width=3.5]
+		FN063 [label="FN063
+INICIAÇÃO À PESQUISA EM FONOAUDIOLOGIA" shape=box width=3.5]
+		FN066 [label="FN066
+LIBRAS BÁSICAS II" shape=box width=3.5]
+		FN064 [label="FN064
+SAÚDE COLETIVA II" shape=box width=3.5]
+		FN107 [label="FN107
+ÉTICA I" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	FN073 -> FN009 [constraint=true]
+	FN073 -> FN079 [constraint=true]
+	FN068 -> FN066 [constraint=true]
+	FN071 -> FN079 [constraint=true]
+	FN072 -> FN079 [constraint=true]
+	FN072 -> OP360 [constraint=true]
+	PA210 -> AN224 [constraint=true]
+	PA210 -> HE020 [constraint=true]
+	FN067 -> FN064 [constraint=true]
+	FN070 -> FN009 [constraint=true]
+	FN070 -> FN079 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		FN073 [label="FN073
+AUDIOLOGIA I" shape=box width=3.5]
+		FN069 [label="FN069
+FONOAUDIOLOGIA EDUCACIONAL" shape=box width=3.5]
+		FN068 [label="FN068
+LIBRAS BÁSICA III" shape=box width=3.5]
+		FN071 [label="FN071
+LINGUAGEM I" shape=box width=3.5]
+		FN072 [label="FN072
+MOTRICIDADE OROFACIAL I" shape=box width=3.5]
+		PA210 [label="PA210
+PROCESSOS PATOLOGICOS GERAIS" shape=box width=3.5]
+		FN067 [label="FN067
+SAÚDE COLETIVA III" shape=box width=3.5]
+		FN070 [label="FN070
+VOZ I" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	FN080 -> FN073 [constraint=true]
+	FN081 -> FN070 [constraint=true]
+	FN081 -> FN071 [constraint=true]
+	FN081 -> FN072 [constraint=true]
+	FN082 -> FN067 [constraint=true]
+	FN077 -> FN072 [constraint=true]
+	FN075 -> FN070 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		FN080 [label="FN080
+AUDIOLOGIA II" shape=box width=3.5]
+		FN074 [label="FN074
+BIOESTATÍSTICA" shape=box width=3.5]
+		FN078 [label="FN078
+EPIDEMIOLOGIA" shape=box width=3.5]
+		FN081 [label="FN081
+ESTÁGIO EM FONOAUDIOLOGIA I" shape=box width=3.5]
+		FN082 [label="FN082
+ESTÁGIO EM SAÚDE COLETIVA I" shape=box width=3.5]
+		FN076 [label="FN076
+LINGUAGEM II" shape=box width=3.5]
+		FN077 [label="FN077
+MOTRICIDADE OROFACIAL II" shape=box width=3.5]
+		PS575 [label="PS575
+SUBJETIVIDADE E A CLÍNICA TERAPÊUTICA" shape=box width=3.5]
+		FN075 [label="FN075
+VOZ II" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	FN087 -> FN080 [constraint=true]
+	FN086 -> FN077 [constraint=true]
+	FN089 -> FN075 [constraint=true]
+	FN089 -> FN076 [constraint=true]
+	FN089 -> FN077 [constraint=true]
+	FN089 -> FN081 [constraint=true]
+	FN090 -> FN082 [constraint=true]
+	FN108 -> FN062 [constraint=true]
+	FN083 -> FN063 [constraint=true]
+	FN084 -> FN075 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		FN088 [label="FN088
+AUDIOLOGIA EDUCACIONAL" shape=box width=3.5]
+		FN087 [label="FN087
+AUDIOLOGIA III" shape=box width=3.5]
+		FN086 [label="FN086
+DISFAGIA" shape=box width=3.5]
+		FN089 [label="FN089
+ESTÁGIO EM FONOAUDIOLOGIA II" shape=box width=3.5]
+		FN090 [label="FN090
+ESTÁGIO EM SAÚDE COLETIVA II" shape=box width=3.5]
+		FN085 [label="FN085
+LINGUAGEM III" shape=box width=3.5]
+		FN108 [label="FN108
+SAÚDE OCUPACIONAL" shape=box width=3.5]
+		FN083 [label="FN083
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+		FN084 [label="FN084
+VOZ III" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	FN093 -> FN087 [constraint=true]
+	FN092 -> FN084 [constraint=true]
+	FN092 -> FN085 [constraint=true]
+	FN092 -> FN086 [constraint=true]
+	FN092 -> FN089 [constraint=true]
+	FN094 -> FN090 [constraint=true]
+	FN091 -> FN083 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		FN093 [label="FN093
+ESTÁGIO EM AUDIOLOGIA I" shape=box width=3.5]
+		FN092 [label="FN092
+ESTÁGIO EM FONOAUDIOLOGIA III" shape=box width=3.5]
+		FN094 [label="FN094
+ESTÁGIO EM SAÚDE COLETIVA III" shape=box width=3.5]
+		FN095 [label="FN095
+ESTÁGIO TEMÁTICO I" shape=box width=3.5]
+		FN091 [label="FN091
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	FN098 -> FN093 [constraint=true]
+	FN097 -> FN092 [constraint=true]
+	FN100 -> FN094 [constraint=true]
+	FN099 -> FN095 [constraint=true]
+	FN096 -> FN091 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		FN098 [label="FN098
+ESTÁGIO EM AUDIOLOGIA II" shape=box width=3.5]
+		FN097 [label="FN097
+ESTÁGIO EM FONOAUDIOLOGIA IV" shape=box width=3.5]
+		FN100 [label="FN100
+ESTÁGIO SAÚDE COLETIVA IV" shape=box width=3.5]
+		FN099 [label="FN099
+ESTÁGIO TEMÁTICO II" shape=box width=3.5]
+		FN096 [label="FN096
+PRODUÇÃO CIENTÍFICA" shape=box width=3.5]
+	}
+}

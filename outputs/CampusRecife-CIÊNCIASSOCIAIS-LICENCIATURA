@@ -1,0 +1,141 @@
+digraph "Perfil Curricular CIÊNCIAS SOCIAIS - LICENCIATURA" {
+	label="Perfil Curricular de CIÊNCIAS SOCIAIS - LICENCIATURA" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AM076 [label="AM076
+ANTROPOLOGIA" shape=box width=3.5]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		CP002 [label="CP002
+INTRODUÇÃO À CIÊNCIA POLÍTICA" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	AM096 -> AM076 [constraint=true]
+	CS652 -> CS004 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		CS644 [label="CS644
+METODOLOGIA DAS CIÊNCIAS SOCIAIS" shape=box width=3.5]
+		AM096 [label="AM096
+TEORIA ANTROPOLÓGICA 1" shape=box width=3.5]
+		CS652 [label="CS652
+TEORIA SOCIOLÓGICA 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	AM097 -> AM096 [constraint=true]
+	CS653 -> CS652 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		CS651 [label="CS651
+SOCIOLOGIA DA SOCIEDADE BRASILEIRA" shape=box width=3.5]
+		AM097 [label="AM097
+TEORIA ANTROPOLÓGICA 2" shape=box width=3.5]
+		CS653 [label="CS653
+TEORIA SOCIOLÓGICA 2" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	TE739 -> SF451 [constraint=true]
+	AM098 -> AM097 [constraint=true]
+	CP005 -> CP002 [constraint=true]
+	CS654 -> CS653 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		AM100 [label="AM100
+ETNOLOGIA BRASILEIRA" shape=box width=3.5]
+		TE739 [label="TE739
+METODOLOGIA DO ENSINO DE CIÊNCIAS SOCIAIS 1" shape=box width=3.5]
+		AM098 [label="AM098
+TEORIA ANTROPOLÓGICA 3" shape=box width=3.5]
+		CP005 [label="CP005
+TEORIA POLÍTICA" shape=box width=3.5]
+		CS654 [label="CS654
+TEORIA SOCIOLÓGICA 3" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	TE740 -> TE739 [constraint=true]
+	AM094 -> AM096 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		TE741 [label="TE741
+ESTÁGIO CURRICULAR SUPERVISIONADO EM CIÊNCIASSOCIAIS 1" shape=box width=3.5]
+		PO494 [label="PO494
+FUNDAMENTOS DA LÍNGUA BRASILEIRA DE SINAIS -LIBRAS" shape=box width=3.5]
+		TE740 [label="TE740
+METODOLOGIA DO ENSINO DE CIÊNCIAS SOCIAIS 2" shape=box width=3.5]
+		AM113 [label="AM113
+MÉTODOS DA PESQUISA SOCIAL QUALITATIVA" shape=box width=3.5]
+		AM094 [label="AM094
+ORGANIZAÇÃO SOCIAL E PARENTESCO" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	TE742 -> TE741 [constraint=true]
+	AM099 -> AM096 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		TE742 [label="TE742
+ESTÁGIO CURRICULAR SUPERVISIONADO EM CIÊNCIASSOCIAIS 2" shape=box width=3.5]
+		AM099 [label="AM099
+ETNOGRAFIA" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		CS660 [label="CS660
+MÉTODOS DA PESQUISA SOCIAL QUANTITATIVA" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	CS022 -> CS004 [constraint=true]
+	TE743 -> TE740 [constraint=true]
+	TE743 -> TE742 [constraint=true]
+	IN818 -> TE740 [constraint=true]
+	IN818 -> TE742 [constraint=true]
+	IN823 -> AM113 [constraint=true]
+	IN823 -> CS660 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		CS022 [label="CS022
+DESIGUALDADE SOCIAL" shape=box width=3.5]
+		TE743 [label="TE743
+ESTÁGIO CURRICULAR SUPERVISIONADO EM CIÊNCIASSOCIAIS 3" shape=box width=3.5]
+		IN818 [label="IN818
+METODOLOGIA DO ENSINO DE CIÊNCIAS SOCIAIS 3" shape=box width=3.5]
+		IN823 [label="IN823
+SEMINÁRIO DE PESQUISA" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	CS203 -> CS004 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		TE744 [label="TE744
+ESTÁGIO CURRICULAR SUPERVISIONADO EM CIÊNCIASSOCIAIS 4" shape=box width=3.5]
+		CS203 [label="CS203
+MUDANCA SOCIAL" shape=box width=3.5]
+		AM114 [label="AM114
+NOVAS TECNOLOGIAS E O ENSINO DAS CIÊNCIASSOCIAIS" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	IN817 -> IN823 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		IN817 [label="IN817
+TRABALHO DE GRADUAÇÃO" shape=box width=3.5]
+	}
+}

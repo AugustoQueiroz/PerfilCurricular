@@ -1,0 +1,247 @@
+digraph "Perfil Curricular Engenharia de Minas - Bacharelado" {
+	label="Perfil Curricular de Engenharia de Minas - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		EG407 [label="EG407
+INTRODUÇÃO AO DESENHO" shape=box width=3.5]
+		IN701 [label="IN701
+INTRODUÇÃO À ENGENHARIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA046 -> MA036 [constraint=true]
+	MA027 -> MA026 [constraint=true]
+	FI021 -> FI006 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA046 [label="MA046
+ALGEBRA LINEAR 1" shape=box width=3.5]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		IF165 [label="IF165
+COMPUTACAO ELETRONICA" shape=box width=3.5]
+		FI021 [label="FI021
+FISICA EXPERIMENTAL 1" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		QF001 [label="QF001
+QUIMICA GERAL 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA128 -> MA027 [constraint=true]
+	MA128 -> MA036 [constraint=true]
+	IF215 -> IF165 [constraint=true]
+	IF215 -> MA027 [constraint=true]
+	ET625 -> MA027 [constraint=true]
+	FI108 -> FI007 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA128 [label="MA128
+CALCULO DIFERENCIAL E INTEGRAL 3" shape=box width=3.5]
+		IF215 [label="IF215
+CALCULO NUMERICO" shape=box width=3.5]
+		CS005 [label="CS005
+ELEMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		ET625 [label="ET625
+ESTATÍSTICA 1" shape=box width=3.5]
+		FI108 [label="FI108
+FISICA GERAL 3" shape=box width=3.5]
+		GE490 [label="GE490
+GEOLOGIA GERAL E APLICADA" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MA129 -> MA128 [constraint=true]
+	EL321 -> FI108 [constraint=true]
+	EG002 -> EG407 [constraint=true]
+	PG300 -> CS005 [constraint=true]
+	GE562 -> GE490 [constraint=true]
+	GE562 -> QF001 [constraint=true]
+	CA460 -> EG407 [constraint=true]
+	CA460 -> IF215 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MA129 [label="MA129
+CALCULO DIFERENCIAL E INTEGRAL 4" shape=box width=3.5]
+		EL321 [label="EL321
+ELETROTECNICA GERAL 1B" shape=box width=3.5]
+		EG002 [label="EG002
+GEOMETRIA DESCRITIVA1" shape=box width=3.5]
+		PG300 [label="PG300
+INTRODUCAO AO DIREITO" shape=box width=3.5]
+		CI106 [label="CI106
+MECANICA GERAL 1" shape=box width=3.5]
+		GE562 [label="GE562
+MINERALOGIA APLICADA A MINERAÇÃO" shape=box width=3.5]
+		CA460 [label="CA460
+TOPOGRAFIA BÁSICA" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	MI527 -> GE562 [constraint=true]
+	GE326 -> EG002 [constraint=true]
+	GE326 -> GE490 [constraint=true]
+	ME262 -> FI007 [constraint=true]
+	ME262 -> MA128 [constraint=true]
+	GE563 -> GE562 [constraint=true]
+	CI213 -> CI106 [constraint=true]
+	CA461 -> CA460 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		MI527 [label="MI527
+CARACTERIZAÇÃO DE MINÉRIOS" shape=box width=3.5]
+		GE326 [label="GE326
+GEOLOGIA ESTRUTURAL A" shape=box width=3.5]
+		ME262 [label="ME262
+MECANICA DOS FLUIDOS2" shape=box width=3.5]
+		MI528 [label="MI528
+PERFURAÇÃO DE ROCHAS" shape=box width=3.5]
+		GE563 [label="GE563
+PETROGRAFIA DE ROCHAS ÍGNEAS E METAMÓRFICAS" shape=box width=3.5]
+		CI213 [label="CI213
+RESISTENCIA DOS MATERIAIS3" shape=box width=3.5]
+		CA461 [label="CA461
+TOPOGRAFIA APLICADA A MINERAÇÃO" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	MI369 -> GE563 [constraint=true]
+	MI369 -> MI527 [constraint=true]
+	CI224 -> CI213 [constraint=true]
+	GE523 -> GE563 [constraint=true]
+	GE524 -> GE326 [constraint=true]
+	MI530 -> MI528 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		MI369 [label="MI369
+COMINUICAO" shape=box width=3.5]
+		CI224 [label="CI224
+ESTRUTURAS" shape=box width=3.5]
+		GE523 [label="GE523
+GEOLOGIA ECONÔMICA 2A" shape=box width=3.5]
+		GE524 [label="GE524
+INTRODUÇÃO À PROSPECÇÃO GEOLÓGICA" shape=box width=3.5]
+		MI530 [label="MI530
+MECÂNICA DAS ROCHAS APLICADA A MINERAÇÃO" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	AD200 -> PG300 [constraint=true]
+	MI529 -> MI528 [constraint=true]
+	CI220 -> CI213 [constraint=true]
+	MI260 -> MI530 [constraint=true]
+	MI508 -> ME262 [constraint=true]
+	MI508 -> MI369 [constraint=true]
+	GE525 -> GE523 [constraint=true]
+	GE525 -> GE524 [constraint=true]
+	MI239 -> MA129 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		AD200 [label="AD200
+ADMINISTRACAO" shape=box width=3.5]
+		MI529 [label="MI529
+DESMONTE DE ROCHAS E EXPLOSIVOS" shape=box width=3.5]
+		CI220 [label="CI220
+MECANICA DOS SOLOS" shape=box width=3.5]
+		MI260 [label="MI260
+METODOS DE LAVRA A CÉU ABERTO" shape=box width=3.5]
+		MI508 [label="MI508
+METODOS FISICOS DE CONCENTRACAO" shape=box width=3.5]
+		GE525 [label="GE525
+PESQUISA MINERAL 1" shape=box width=3.5]
+		MI239 [label="MI239
+PESQUISA OPERACIONAL" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	MI216 -> MA129 [constraint=true]
+	MI272 -> MI508 [constraint=true]
+	MI512 -> MI260 [constraint=true]
+	MI531 -> GE525 [constraint=true]
+	MI375 -> MI260 [constraint=true]
+	MI325 -> MI508 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		MI216 [label="MI216
+ENGENHARIA ECONOMICA 1A" shape=box width=3.5]
+		MI272 [label="MI272
+FLOTACAO" shape=box width=3.5]
+		MI512 [label="MI512
+INFORMATICA ENGENHARIA DE MINAS" shape=box width=3.5]
+		MI531 [label="MI531
+MEIO AMBIENTE " shape=box width=3.5]
+		MI375 [label="MI375
+METODOS DE LAVRA SUBTERRANEA" shape=box width=3.5]
+		MI325 [label="MI325
+SEPARACAO SOLIDO-LIQUIDO" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	MI532 -> MI531 [constraint=true]
+	MI304 -> MI216 [constraint=true]
+	GE564 -> ET625 [constraint=true]
+	GE564 -> GE525 [constraint=true]
+	MI341 -> MI272 [constraint=true]
+	MI341 -> MI325 [constraint=true]
+	MI534 -> MI260 [constraint=true]
+	MI534 -> MI375 [constraint=true]
+	MI533 -> MI531 [constraint=true]
+	MI536 -> EL321 [constraint=true]
+	MI536 -> MI375 [constraint=true]
+	MI535 -> EL321 [constraint=true]
+	MI535 -> MI375 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		MI532 [label="MI532
+CONTROLE AMBIENTAL NA MINERAÇÃO" shape=box width=3.5]
+		MI304 [label="MI304
+ECONOMIA MINERAL" shape=box width=3.5]
+		GE564 [label="GE564
+GEOESTATÍSTICA APLICADA A PESQUISA MINERAL" shape=box width=3.5]
+		MI341 [label="MI341
+METALURGIA EXTRATIVA" shape=box width=3.5]
+		MI534 [label="MI534
+PLANEJAMENTO DE LAVRA E EQUIPAMENTOS DEMINERAÇÃO" shape=box width=3.5]
+		MI533 [label="MI533
+RECUPERAÇÃO E REABILITAÇÃO AMBIENTAL" shape=box width=3.5]
+		MI536 [label="MI536
+SEGURANÇA EM MINERAÇÃO" shape=box width=3.5]
+		MI535 [label="MI535
+VENTILAÇÃO EM MINERAÇÃO" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	MI513 -> GE564 [constraint=true]
+	MI513 -> MI304 [constraint=true]
+	MI513 -> MI341 [constraint=true]
+	MI513 -> MI532 [constraint=true]
+	MI513 -> MI533 [constraint=true]
+	MI513 -> MI534 [constraint=true]
+	MI513 -> MI535 [constraint=true]
+	MI513 -> MI536 [constraint=true]
+	MI514 -> GE564 [constraint=true]
+	MI514 -> MI304 [constraint=true]
+	MI514 -> MI341 [constraint=true]
+	MI514 -> MI532 [constraint=true]
+	MI514 -> MI533 [constraint=true]
+	MI514 -> MI534 [constraint=true]
+	MI514 -> MI535 [constraint=true]
+	MI514 -> MI536 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		MI513 [label="MI513
+ESTAGIO SUPERVISIONADO" shape=box width=3.5]
+		MI514 [label="MI514
+PROJETO DE GRADUACAO" shape=box width=3.5]
+	}
+}

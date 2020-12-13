@@ -1,0 +1,196 @@
+digraph "Perfil Curricular Geologia - Bacharelado" {
+	label="Perfil Curricular de Geologia - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		GE300 [label="GE300
+GEOLOGIA INTRODUTORIA" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		QF001 [label="QF001
+QUIMICA GERAL 1" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA027 -> MA026 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	GE305 -> GE300 [constraint=true]
+	GE508 -> GE300 [constraint=true]
+	QF002 -> MA026 [constraint=true]
+	QF002 -> QF001 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		GE305 [label="GE305
+GEOLOGIA GERAL" shape=box width=3.5]
+		GE508 [label="GE508
+MINERALOGIA SISTEMÁTICA E CRISTALOGRAFIA" shape=box width=3.5]
+		QF002 [label="QF002
+QUIMICA GERAL 2" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	GE515 -> MA027 [constraint=true]
+	CG221 -> GE305 [constraint=true]
+	GE516 -> GE305 [constraint=true]
+	GE516 -> QF002 [constraint=true]
+	GE509 -> FI007 [constraint=true]
+	GE509 -> GE508 [constraint=true]
+	CA416 -> MA036 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		GE515 [label="GE515
+ESTATÍSTICA APLICADA À GEOLOGIA" shape=box width=3.5]
+		FI105 [label="FI105
+FISICA GERAL 5" shape=box width=3.5]
+		CG221 [label="CG221
+GEOMORFOLOGIA1" shape=box width=3.5]
+		GE516 [label="GE516
+INTRODUÇÃO À GEOQUÍMICA" shape=box width=3.5]
+		GE509 [label="GE509
+MINERALOGIA ÓTICA" shape=box width=3.5]
+		CA416 [label="CA416
+TOPOGRAF NOCOES DE FOTOGRAMETRIA" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	GE301 -> CA416 [constraint=true]
+	GE301 -> FI006 [constraint=true]
+	GE301 -> GE305 [constraint=true]
+	GE301 -> MA026 [constraint=true]
+	GE558 -> GE516 [constraint=true]
+	CA417 -> CA416 [constraint=true]
+	CA417 -> GE305 [constraint=true]
+	GE540 -> GE509 [constraint=true]
+	GE543 -> FI006 [constraint=true]
+	GE543 -> GE305 [constraint=true]
+	GE543 -> GE508 [constraint=true]
+	GE543 -> MA026 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		GE301 [label="GE301
+DESENHO GEOLOGICO" shape=box width=3.5]
+		GE558 [label="GE558
+GEOQUÍMICA ANALÍTICA" shape=box width=3.5]
+		CA417 [label="CA417
+INTERPRETACAO DE IMAGENS" shape=box width=3.5]
+		GE541 [label="GE541
+PALEONTOLOGIA GERAL" shape=box width=3.5]
+		GE540 [label="GE540
+PETROGRAFIA DAS ROCHAS ÍGNEAS E METAMÓRFICAS" shape=box width=3.5]
+		GE543 [label="GE543
+SEDIMENTOLOGIA 1" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	GE542 -> GE541 [constraint=true]
+	GE233 -> GE541 [constraint=true]
+	GE233 -> GE543 [constraint=true]
+	GE433 -> GE558 [constraint=true]
+	GE545 -> GE217 [constraint=true]
+	GE545 -> GE315 [constraint=true]
+	GE545 -> GE516 [constraint=true]
+	GE545 -> GE558 [constraint=true]
+	GE544 -> GE509 [constraint=true]
+	GE544 -> GE543 [constraint=true]
+	GE217 -> GE540 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		GE542 [label="GE542
+BIOESTRATIGRAFIA E GEOLOGIA HISTÓRICA" shape=box width=3.5]
+		GE233 [label="GE233
+ESTRATIGRAFIA1" shape=box width=3.5]
+		GE433 [label="GE433
+GEOLOGIA AMBIENTAL" shape=box width=3.5]
+		GE545 [label="GE545
+ISÓTOPOS ESTÁVEIS E RADIOGÊNICOS" shape=box width=3.5]
+		GE544 [label="GE544
+PETROGRAFIA SEDIMENTAR" shape=box width=3.5]
+		GE217 [label="GE217
+PETROLOGIA IGNEA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	GE321 -> CA417 [constraint=true]
+	GE321 -> GE233 [constraint=true]
+	GE434 -> GE233 [constraint=true]
+	GE434 -> GE301 [constraint=true]
+	GE514 -> GE543 [constraint=true]
+	GE315 -> GE540 [constraint=true]
+	GE315 -> GE544 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		GE321 [label="GE321
+GEOLOGIA DE CAMPO1" shape=box width=3.5]
+		GE434 [label="GE434
+GEOLOGIA ESTRUTURAL" shape=box width=3.5]
+		GE514 [label="GE514
+HIDROGEOLOGIA 1" shape=box width=3.5]
+		GE315 [label="GE315
+PETROLOGIA METAMORFICA" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	GE518 -> FI007 [constraint=true]
+	GE518 -> GE434 [constraint=true]
+	GE518 -> MA036 [constraint=true]
+	GE335 -> GE217 [constraint=true]
+	GE335 -> GE315 [constraint=true]
+	GE335 -> GE434 [constraint=true]
+	GE546 -> GE435 [constraint=true]
+	GE435 -> GE217 [constraint=true]
+	GE435 -> GE315 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		GE518 [label="GE518
+GEOFÍSICA 1" shape=box width=3.5]
+		GE335 [label="GE335
+GEOLOGIA DE CAMPO2" shape=box width=3.5]
+		GE546 [label="GE546
+GEOLOGIA DO BRASIL" shape=box width=3.5]
+		GE510 [label="GE510
+GEOLOGIA ECONÔMICA" shape=box width=3.5]
+		GE435 [label="GE435
+GEOTECTONICA E EVOLUCAO CRUSTAL" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	GE511 -> GE510 [constraint=true]
+	GE548 -> GE434 [constraint=true]
+	GE513 -> GE315 [constraint=true]
+	GE513 -> GE510 [constraint=true]
+	GE512 -> GE510 [constraint=true]
+	GE512 -> GE518 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		GE511 [label="GE511
+GEOLOGIA DE CAMPO 3" shape=box width=3.5]
+		GE548 [label="GE548
+GEOTECNOLOGIA 1" shape=box width=3.5]
+		GE513 [label="GE513
+PROSPECÇÃO MINERAL" shape=box width=3.5]
+		GE512 [label="GE512
+RECURSOS ENERGÉTICOS" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	GE549 -> GE321 [constraint=true]
+	GE549 -> GE335 [constraint=true]
+	GE337 -> GE321 [constraint=true]
+	GE337 -> GE335 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		GE549 [label="GE549
+ESTÁGIO CURRICULAR DO CURSO DE GEOLOGIA" shape=box width=3.5]
+		GE337 [label="GE337
+GEOLOGIA DE CAMPO4" shape=box width=3.5]
+	}
+}

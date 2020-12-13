@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perfis Curriculares da UFPE</title>
+    </head>
+
+    <body>
+        <h1>Perfis Curriculares da UFPE</h1>
+
+        <form>
+            <select name='cursos' id='dropdown-cursos' onchange='loadPDF()'>
+            </select>
+        </form>
+
+        <embed id='pdf-viewer' src="" width="100%" height="800px" />
+
+        <script>
+            function loadFile(filePath) {
+                var result = null;
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.open("GET", filePath, false);
+                xmlhttp.send();
+                if (xmlhttp.status==200) {
+                    result = xmlhttp.responseText;
+                }
+                return result;
+            }
+
+            dropdown = document.getElementById('dropdown-cursos');
+            optgroup = null;
+            campusName = '';
+            lines = loadFile('/course_pdflink.csv').split('\n');
+
+            for (i = 0; i < lines.length; i++) {
+                if (lines[i].split(',').length == 1) {
+                    optgroup = document.createElement('optgroup');
+                    optgroup.label = lines[i];
+                    campusName = lines[i]
+                    dropdown.appendChild(optgroup);
+                } else {
+                    option = document.createElement('option');
+                    option.value = campusName.replace(' ', '') + '-' + lines[i].split(',')[0].replace(/ /g, '');
+                    option.innerHTML = lines[i].split(',')[0];
+                    optgroup.appendChild(option);
+                }
+            }
+        </script>
+        <script>
+            function loadPDF() {
+                document.getElementById('pdf-viewer').src = '/outputs/' + document.getElementById('dropdown-cursos').value + '.pdf';
+            }
+        </script>
+    </body>
+</html>

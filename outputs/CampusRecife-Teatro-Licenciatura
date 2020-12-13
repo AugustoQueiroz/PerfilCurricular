@@ -1,0 +1,137 @@
+digraph "Perfil Curricular Teatro - Licenciatura" {
+	label="Perfil Curricular de Teatro - Licenciatura" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AR539 [label="AR539
+CONSCIÊNCIA CORPORAL E EXPRESSÃO ARTÍSTICA" shape=box width=3.5]
+		AR570 [label="AR570
+FUNDAMENTOS DA ARTE-EDUCAÇÃO" shape=box width=3.5]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		AR579 [label="AR579
+FUNDAMENTOS DA LINGUAGEM TEATRAL" shape=box width=3.5]
+		AR577 [label="AR577
+FUNDAMENTOS DA PEDAGOGIA DO TEATRO" shape=box width=3.5]
+		AR540 [label="AR540
+METODOLOGIAS DO ESTUDO E DA PESQUISA EM ARTES" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		AR578 [label="AR578
+HISTÓRIA DO TEATRO MUNDIAL" shape=box width=3.5]
+		AR607 [label="AR607
+INTERPRETAÇÃO 1" shape=box width=3.5]
+		AR561 [label="AR561
+VOZ E MOVIMENTO 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	AR608 -> AR607 [constraint=true]
+	AR564 -> AR561 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		AR581 [label="AR581
+ELEMENTOS VISUAIS DO ESPETÁCULO 1" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		AR608 [label="AR608
+INTERPRETAÇÃO 2" shape=box width=3.5]
+		AR580 [label="AR580
+METODOLOGIA DO ENSINO DE TEATRO 1" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+		AR564 [label="AR564
+VOZ E MOVIMENTO 2" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	AR609 -> AR608 [constraint=true]
+	AR582 -> AR580 [constraint=true]
+	AR584 -> AR564 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		AR583 [label="AR583
+ELEMENTOS VISUAIS DO ESPETÁCULO 2" shape=box width=3.5]
+		AR609 [label="AR609
+INTERPRETAÇÃO 3" shape=box width=3.5]
+		AR582 [label="AR582
+METODOLOGIA DO ENSINO DE TEATRO 2" shape=box width=3.5]
+		AR563 [label="AR563
+PROCESSOS CULTURAIS NO BRASIL" shape=box width=3.5]
+		AR584 [label="AR584
+VOZ E MOVIMENTO 3" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	AR586 -> AR582 [constraint=true]
+	AR585 -> AR582 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		AR586 [label="AR586
+ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DETEATRO 1" shape=box width=3.5]
+		AR585 [label="AR585
+METODOLOGIA DO ENSINO DE TEATRO 3" shape=box width=3.5]
+		AR587 [label="AR587
+TEATROS DE FORMAS ANIMADAS" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	AR589 -> AR586 [constraint=true]
+	AR591 -> AR581 [constraint=true]
+	AR591 -> AR583 [constraint=true]
+	AR588 -> AR585 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		AR589 [label="AR589
+ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DETEATRO 2" shape=box width=3.5]
+		AR591 [label="AR591
+LABORATÓRIO DA ENCENAÇÃO" shape=box width=3.5]
+		AR590 [label="AR590
+METODOLOGIA DA ENCENAÇÃO" shape=box width=3.5]
+		AR588 [label="AR588
+METODOLOGIA DO ENSINO DE TEATRO 4" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	AR593 -> AR585 [constraint=true]
+	AR592 -> AR588 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		AR593 [label="AR593
+ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DETEATRO 3" shape=box width=3.5]
+		AR595 [label="AR595
+GESTÃO E AÇÃO CULTURAL 1" shape=box width=3.5]
+		LE716 [label="LE716
+INTRODUÇÃO A LIBRAS" shape=box width=3.5]
+		AR592 [label="AR592
+METODOLOGIA DO ENSINO DE TEATRO 5" shape=box width=3.5]
+		AR594 [label="AR594
+TRABALHO DE CONCLUSÃO DE CURSO EM ENSINO DETEATRO 1" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	AR596 -> AR593 [constraint=true]
+	AR598 -> AR581 [constraint=true]
+	AR598 -> AR583 [constraint=true]
+	AR598 -> AR590 [constraint=true]
+	AR597 -> AR594 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		AR596 [label="AR596
+ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DETEATRO 4" shape=box width=3.5]
+		AR598 [label="AR598
+MONTAGEM PEDAGÓGICA" shape=box width=3.5]
+		AR597 [label="AR597
+TRABALHO DE CONCLUSÃO DE CURSO EM ENSINO DETEATRO 2" shape=box width=3.5]
+	}
+}

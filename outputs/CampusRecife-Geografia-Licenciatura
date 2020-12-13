@@ -1,0 +1,113 @@
+digraph "Perfil Curricular Geografia - Licenciatura" {
+	label="Perfil Curricular de Geografia - Licenciatura" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		GE489 [label="GE489
+FUND. DA GEOLOGIA E PETROGRAFIA" shape=box width=3.5]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		PO494 [label="PO494
+FUNDAMENTOS DA LÍNGUA BRASILEIRA DE SINAIS -LIBRAS" shape=box width=3.5]
+		CG643 [label="CG643
+INTRODUÇÃO À CIÊNCIA GEOGRÁFICA L" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		CG645 [label="CG645
+FUNDAMENTOS DE CLIMATOLOGIA L" shape=box width=3.5]
+		CG202 [label="CG202
+GEOGRAFIA DA POPULACAO" shape=box width=3.5]
+		CG506 [label="CG506
+INTRODUCAO A GEOMORFOLOGIA" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	{
+		rank=same
+		3 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		CG648 [label="CG648
+CLIMATOLOGIA DINÂMICA" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		CG622 [label="CG622
+HIDROGEOGRAFIA" shape=box width=3.5]
+		CG649 [label="CG649
+METODOLOGIA DO TRABALHO CIENTÍFICO" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	{
+		rank=same
+		4 [shape=none]
+		CA304 [label="CA304
+CARTOGRAFIA" shape=box width=3.5]
+		CG628 [label="CG628
+FUNDAMENTOS DE PEDOLOGIA E EDAFOLOGIA" shape=box width=3.5]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		CG644 [label="CG644
+GEOMORFOLOGIA DINAMICA" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	{
+		rank=same
+		5 [shape=none]
+		CG652 [label="CG652
+EDUCAÇÃO AMBIENTAL" shape=box width=3.5]
+		INT0005 [label="INT0005
+ESTÁGIO CURRICULAR SUPERVISIONADO DEGEOGRAFIA 1" shape=box width=3.5]
+		CG237 [label="CG237
+GEOGRAFIA AGRARIA" shape=box width=3.5]
+		CG646 [label="CG646
+GEOGRAFIA URBANA" shape=box width=3.5]
+		CG651 [label="CG651
+INTRODUÇÃO E APLICAÇÕES DE GEOTECNOLOGIAS" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	{
+		rank=same
+		6 [shape=none]
+		CG630 [label="CG630
+BIOGEOGRAFIA" shape=box width=3.5]
+		INT0006 [label="INT0006
+ESTÁGIO CURRICULAR SUPERVISIONADO DEGEOGRAFIA 2" shape=box width=3.5]
+		CG647 [label="CG647
+GEOGRAFIA INDUSTRIAL E DOS SERVIÇOS" shape=box width=3.5]
+		INT0003 [label="INT0003
+METODOLOGIA DO ENSINO DA GEOGRAFIA 1" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	{
+		rank=same
+		7 [shape=none]
+		INT0007 [label="INT0007
+ESTÁGIO CURRICULAR SUPERVISIONADO DEGEOGRAFIA 3" shape=box width=3.5]
+		CG650 [label="CG650
+GEOGRAFIA ECONÔMICA DO MUNDO ATUAL" shape=box width=3.5]
+		CG335 [label="CG335
+GEOGRAFIA REGIONAL DO BRASIL" shape=box width=3.5]
+		CG625 [label="CG625
+PESQ APLICADA AO ENSINO GEOGRAFIA" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	{
+		rank=same
+		8 [shape=none]
+		INT0008 [label="INT0008
+ESTÁGIO CURRICULAR SUPERVISIONADO DEGEOGRAFIA 4" shape=box width=3.5]
+		CG633 [label="CG633
+GEOGRAFIA REGIONAL DO NORDESTE" shape=box width=3.5]
+		INT0004 [label="INT0004
+METODOLOGIA DO ENSINO DA GEOGRAFIA 2" shape=box width=3.5]
+		CG653 [label="CG653
+TRABALHO DE CONCLUSÃO DE CURSO " shape=box width=3.5]
+	}
+}

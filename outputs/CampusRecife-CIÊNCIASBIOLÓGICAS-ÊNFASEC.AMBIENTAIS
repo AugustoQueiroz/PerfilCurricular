@@ -1,0 +1,142 @@
+digraph "Perfil Curricular CIÊNCIAS BIOLÓGICAS- ÊNFASE C. AMBIENTAIS" {
+	label="Perfil Curricular de CIÊNCIAS BIOLÓGICAS- ÊNFASE C. AMBIENTAIS" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		CG617 [label="CG617
+ANALISE GEOMORFOLOGICA" shape=box width=3.5]
+		ZO340 [label="ZO340
+BIOLOGIA ANIMAL I" shape=box width=3.5]
+		HE231 [label="HE231
+BIOLOGIA CELULAR" shape=box width=3.5]
+		BQ310 [label="BQ310
+BIOMOLÉCULAS" shape=box width=3.5]
+		BO340 [label="BO340
+INTRODUCAO AS CIENCIAS AMBIENTAIS" shape=box width=3.5]
+		ML338 [label="ML338
+SISTEMAS BIOLÓGICOS" shape=box width=3.5]
+		BO339 [label="BO339
+SISTEMATICA E EVOLUCAO" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	ZO341 -> ZO340 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		CG618 [label="CG618
+ANALISE CLIMATICA" shape=box width=3.5]
+		ZO350 [label="ZO350
+ANATOMIA ANIMAL COMPARADA" shape=box width=3.5]
+		ZO341 [label="ZO341
+BIOLOGIA ANIMAL II" shape=box width=3.5]
+		BQ211 [label="BQ211
+BIOTRANSFORMACOES" shape=box width=3.5]
+		BO341 [label="BO341
+ESTRUTURA VEGETAL" shape=box width=3.5]
+		ML205 [label="ML205
+MICROBIOLOGIA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	ZO375 -> ZO340 [constraint=true]
+	ZO375 -> ZO341 [constraint=true]
+	GN320 -> BQ310 [constraint=true]
+	GN320 -> HE231 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		ZO375 [label="ZO375
+BIOLOGIA ANIMAL 3" shape=box width=3.5]
+		ML314 [label="ML314
+BIOLOGIA DE FUNGOS E LIQUENS" shape=box width=3.5]
+		BO337 [label="BO337
+BIOLOGIA VEGETAL I" shape=box width=3.5]
+		BO342 [label="BO342
+ECOFISIOLOGIA VEGETAL" shape=box width=3.5]
+		GN320 [label="GN320
+FUNDAMENTOS DA GENÉTICA" shape=box width=3.5]
+		ZO339 [label="ZO339
+METODOLOGIA CIENTIFICA" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	BO338 -> BO337 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		ZO342 [label="ZO342
+ANALISE DE DADOS I" shape=box width=3.5]
+		BO338 [label="BO338
+BIOLOGIA VEGETAL II" shape=box width=3.5]
+		BO346 [label="BO346
+ECOLOGIA GERAL 1" shape=box width=3.5]
+		FF240 [label="FF240
+FISIOLOGIA ANIMAL COMPARADA" shape=box width=3.5]
+		GN238 [label="GN238
+GENETICA DE POPULACOES" shape=box width=3.5]
+		ML333 [label="ML333
+ÉTICA NA BIOLOGIA" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	ZO343 -> ZO342 [constraint=true]
+	ZO345 -> BO346 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		AD200 [label="AD200
+ADMINISTRACAO" shape=box width=3.5]
+		ZO343 [label="ZO343
+ANALISE DE DADOS II" shape=box width=3.5]
+		PE325 [label="PE325
+DIREITO AMBIENTAL" shape=box width=3.5]
+		ZO345 [label="ZO345
+ECOLOGIA GERAL II" shape=box width=3.5]
+		BR261 [label="BR261
+ECONOMIA APLICADA A CIÊNCIAS AMBIENTAIS" shape=box width=3.5]
+		SF431 [label="SF431
+EDUCACAO NO MUNDO ATUAL" shape=box width=3.5]
+		CG619 [label="CG619
+POPULACAO E AMBIENTE" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	ZO378 -> ZO345 [constraint=true]
+	ZO376 -> ZO345 [constraint=true]
+	ZO377 -> BO346 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		ZO378 [label="ZO378
+BIOLOGIA DA CONSERVAÇÃO" shape=box width=3.5]
+		ZO376 [label="ZO376
+ECOLOGIA DE ÁGUAS CONTINENTAIS" shape=box width=3.5]
+		CA419 [label="CA419
+GEOPROCESSAMENTO" shape=box width=3.5]
+		CS518 [label="CS518
+MEIO AMBIENTE E SOCIEDADE" shape=box width=3.5]
+		ZO377 [label="ZO377
+POLUIÇÃO QUÍMICA AMBIENTAL" shape=box width=3.5]
+		BO377 [label="BO377
+POLÍTICA E GESTÃO DO MEIO-AMBIENTE" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	IN821 -> BO346 [constraint=true]
+	IN821 -> BQ211 [constraint=true]
+	IN821 -> ML338 [constraint=true]
+	IN821 -> ZO339 [constraint=true]
+	IN821 -> ZO342 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		OC412 [label="OC412
+ECOLOGIA DE SISTEMAS MARINHOS" shape=box width=3.5]
+		IN821 [label="IN821
+ESTÁGIO SUPERVISIONADO" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	IN820 -> IN821 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		IN820 [label="IN820
+TRABALHO DE CONCLUSÃO DE CURSO" shape=box width=3.5]
+	}
+}

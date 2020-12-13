@@ -1,0 +1,262 @@
+digraph "Perfil Curricular ENGENHARIA CIVIL" {
+	label="Perfil Curricular de ENGENHARIA CIVIL" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		EG407 [label="EG407
+INTRODUÇÃO AO DESENHO" shape=box width=3.5]
+		IN701 [label="IN701
+INTRODUÇÃO À ENGENHARIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA046 -> MA036 [constraint=true]
+	MA027 -> MA026 [constraint=true]
+	FI021 -> FI006 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA046 [label="MA046
+ALGEBRA LINEAR 1" shape=box width=3.5]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		IF165 [label="IF165
+COMPUTACAO ELETRONICA" shape=box width=3.5]
+		FI021 [label="FI021
+FISICA EXPERIMENTAL 1" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		QF001 [label="QF001
+QUIMICA GERAL 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA128 -> MA027 [constraint=true]
+	MA128 -> MA036 [constraint=true]
+	IF215 -> IF165 [constraint=true]
+	IF215 -> MA027 [constraint=true]
+	ET625 -> MA027 [constraint=true]
+	FI108 -> FI007 [constraint=true]
+	EG003 -> EG407 [constraint=true]
+	QF002 -> MA026 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA128 [label="MA128
+CALCULO DIFERENCIAL E INTEGRAL 3" shape=box width=3.5]
+		IF215 [label="IF215
+CALCULO NUMERICO" shape=box width=3.5]
+		CS005 [label="CS005
+ELEMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		ET625 [label="ET625
+ESTATÍSTICA 1" shape=box width=3.5]
+		FI108 [label="FI108
+FISICA GERAL 3" shape=box width=3.5]
+		EG003 [label="EG003
+GEOMETRIA DESCRITIVA2" shape=box width=3.5]
+		QF002 [label="QF002
+QUIMICA GERAL 2" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MA129 -> MA046 [constraint=true]
+	MA129 -> MA128 [constraint=true]
+	EG321 -> EG003 [constraint=true]
+	CI110 -> FI007 [constraint=true]
+	GE520 -> QF001 [constraint=true]
+	CI483 -> ET625 [constraint=true]
+	CI302 -> QF002 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MA129 [label="MA129
+CALCULO DIFERENCIAL E INTEGRAL 4" shape=box width=3.5]
+		EG321 [label="EG321
+DESENHO TECNICO 3" shape=box width=3.5]
+		CI105 [label="CI105
+ECOLOGIA APLIC A ENGENHARIA" shape=box width=3.5]
+		CI110 [label="CI110
+FENOMENO DOS TRANSPORTES" shape=box width=3.5]
+		GE520 [label="GE520
+GEOLOGIA APLICADA 1A" shape=box width=3.5]
+		CI483 [label="CI483
+GESTAO DAS INFRA-ESTRUTURAS" shape=box width=3.5]
+		CI302 [label="CI302
+MATERIAIS DE CONSTRUCAO CIVIL 1A" shape=box width=3.5]
+		CI106 [label="CI106
+MECANICA GERAL 1" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	CI465 -> EG321 [constraint=true]
+	CI506 -> CI483 [constraint=true]
+	CI295 -> CI110 [constraint=true]
+	CI203 -> CI302 [constraint=true]
+	CI203 -> FI021 [constraint=true]
+	CI218 -> CI106 [constraint=true]
+	CI218 -> FI007 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		CI465 [label="CI465
+ARQUITETURA E URBANISMO" shape=box width=3.5]
+		CI506 [label="CI506
+ENGENHARIA ECONÔMICA" shape=box width=3.5]
+		CI295 [label="CI295
+HIDRAULICA GERAL" shape=box width=3.5]
+		CI203 [label="CI203
+MATERIAIS DE CONSTRUCAO CIVIL2" shape=box width=3.5]
+		CI406 [label="CI406
+MECANICA GERAL 2-A" shape=box width=3.5]
+		CI218 [label="CI218
+RESISTENCIA DOS MATERIAIS 1A" shape=box width=3.5]
+		CA228 [label="CA228
+TOPOGRAFIA9" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	CI505 -> CI203 [constraint=true]
+	CI364 -> CI110 [constraint=true]
+	CI364 -> ET625 [constraint=true]
+	CI328 -> CI218 [constraint=true]
+	CI328 -> GE520 [constraint=true]
+	CI219 -> CI218 [constraint=true]
+	CI219 -> MA129 [constraint=true]
+	CI470 -> CI105 [constraint=true]
+	CI470 -> CI295 [constraint=true]
+	CA229 -> CA228 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		AD201 [label="AD201
+ADMINISTRACAO" shape=box width=3.5]
+		CI505 [label="CI505
+ENGENHARIA DE SEGURANÇA DO TRABALHO" shape=box width=3.5]
+		CI364 [label="CI364
+HIDROLOGIA APLICADA1" shape=box width=3.5]
+		CI328 [label="CI328
+MECANICA DOS SOLOS 1A" shape=box width=3.5]
+		CI219 [label="CI219
+RESISTENCIA DOS MATERIAIS 2A" shape=box width=3.5]
+		CI470 [label="CI470
+SANEAMENTO AMBIENTAL" shape=box width=3.5]
+		CA229 [label="CA229
+TOPOGRAFIA 10" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	CI233 -> CI219 [constraint=true]
+	CI274 -> CI219 [constraint=true]
+	CI276 -> CI295 [constraint=true]
+	CI276 -> CI328 [constraint=true]
+	CI276 -> CI364 [constraint=true]
+	CI329 -> CI328 [constraint=true]
+	CI471 -> CI470 [constraint=true]
+	CI472 -> CI470 [constraint=true]
+	CI507 -> CA229 [constraint=true]
+	CI507 -> CI203 [constraint=true]
+	CI507 -> EG321 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		CI233 [label="CI233
+CONSTRUCAO DE CONCRETO 1A" shape=box width=3.5]
+		CI274 [label="CI274
+ESTABILIDADE DAS CONSTRUCOES 1A" shape=box width=3.5]
+		CI276 [label="CI276
+ESTRADAS E TRANSPORTES 1A" shape=box width=3.5]
+		CI329 [label="CI329
+MECANICA DOS SOLOS 2A" shape=box width=3.5]
+		CI471 [label="CI471
+SIST DE ABASTECIMENTO DE AGUA" shape=box width=3.5]
+		CI472 [label="CI472
+SISTEMAS DE ESGOTOS SANITARIOS" shape=box width=3.5]
+		CI507 [label="CI507
+TECNOLOGIA DA CONSTRUÇÃO CIVIL 1" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	CI236 -> CI233 [constraint=true]
+	CI509 -> CI295 [constraint=true]
+	CI509 -> CI364 [constraint=true]
+	CI509 -> CI471 [constraint=true]
+	CI275 -> CI274 [constraint=true]
+	CI277 -> CI276 [constraint=true]
+	CI431 -> CI233 [constraint=true]
+	CI431 -> CI329 [constraint=true]
+	CI510 -> AD201 [constraint=true]
+	CI508 -> CI507 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		CI236 [label="CI236
+CONSTRUCAO DE CONCRETO 2A" shape=box width=3.5]
+		CI509 [label="CI509
+ENGENHARIA DE RECURSOS HÍDRICOS" shape=box width=3.5]
+		CI275 [label="CI275
+ESTABILIDADE DAS CONSTRUCOES 2A" shape=box width=3.5]
+		CI277 [label="CI277
+ESTRADAS E TRANSPORTES 2A" shape=box width=3.5]
+		CI431 [label="CI431
+FUNDACOES 1" shape=box width=3.5]
+		CI510 [label="CI510
+GERENCIAMENTO DE PROJETOS E OBRAS" shape=box width=3.5]
+		CI508 [label="CI508
+TECNOLOGIA DA CONSTRUÇÃO CIVIL 2" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	EL429 -> FI108 [constraint=true]
+	CI513 -> CI203 [constraint=true]
+	CI513 -> CI274 [constraint=true]
+	CI512 -> CI203 [constraint=true]
+	CI512 -> CI274 [constraint=true]
+	CI511 -> CI236 [constraint=true]
+	CI511 -> CI431 [constraint=true]
+	CI500 -> AD201 [constraint=true]
+	CI500 -> CI233 [constraint=true]
+	CI500 -> CI274 [constraint=true]
+	CI500 -> CI276 [constraint=true]
+	CI500 -> CI329 [constraint=true]
+	CI500 -> CI470 [constraint=true]
+	CI500 -> CI506 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		CI255 [label="CI255
+ECONOMIA DOS TRANSPORTES" shape=box width=3.5]
+		EL429 [label="EL429
+ELETROTÉCNICA GERAL" shape=box width=3.5]
+		CI513 [label="CI513
+ESTRUTURAS DE MADEIRA" shape=box width=3.5]
+		CI512 [label="CI512
+ESTRUTURAS METÁLICAS 1" shape=box width=3.5]
+		CI504 [label="CI504
+INTRODUÇÃO À ENGENHARIA LEGAL" shape=box width=3.5]
+		CI511 [label="CI511
+PONTES" shape=box width=3.5]
+		CI500 [label="CI500
+TRABALHO DE CONCLUSÃO DE CURSO 1" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	CI435 -> CI431 [constraint=true]
+	CI514 -> FI108 [constraint=true]
+	CI359 -> CI236 [constraint=true]
+	CI359 -> CI295 [constraint=true]
+	CI359 -> CI364 [constraint=true]
+	CI501 -> CI500 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		CI435 [label="CI435
+BARRAGENS" shape=box width=3.5]
+		CI484 [label="CI484
+ESTAGIO SUPERVISIONADO 1" shape=box width=3.5]
+		CI514 [label="CI514
+INSTALAÇÕES PREDIAIS 1" shape=box width=3.5]
+		CI359 [label="CI359
+PORTOS E HIDROVIAS 1" shape=box width=3.5]
+		CI501 [label="CI501
+TRABALHO DE CONCLUSÃO DE CURSO 2" shape=box width=3.5]
+	}
+}

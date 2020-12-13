@@ -1,0 +1,146 @@
+digraph "Perfil Curricular Educação Física - Licenciatura" {
+	label="Perfil Curricular de Educação Física - Licenciatura" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AN233 [label="AN233
+BASES ANATÔMICAS APLICADAS À EDUCAÇÃO FÍSICA" shape=box width=3.5]
+		BR263 [label="BR263
+BASES DE BIOFÍSICA E BIOQUÍMICA APLICADAS ÀEDUCAÇÃO FÍSICA" shape=box width=3.5]
+		HE211 [label="HE211
+BIOLOGIA1" shape=box width=3.5]
+		EDF0088 [label="EDF0088
+EDUCAÇÃO FÍSICA E FILOSOFIA" shape=box width=3.5]
+		EDF0041 [label="EDF0041
+FUNDAMENTOS METODOLÓGICOS DO ENSINO DAGINÁSTICA" shape=box width=3.5]
+		ED307 [label="ED307
+METODOLOGIA DO ENSINO DO BASQUETEBOL" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	FF261 -> AN233 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		AM117 [label="AM117
+BASES ANTROPOLÓGICAS APLICADAS A EDUCAÇÃOFÍSICA" shape=box width=3.5]
+		FF261 [label="FF261
+BASES FISIOLÓGICAS APLICADAS A EDUCAÇÃO FÍSICA" shape=box width=3.5]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		EDF0053 [label="EDF0053
+METODOLOGIA DO ENSINO DA DANÇA" shape=box width=3.5]
+		EDF0042 [label="EDF0042
+METODOLOGIA DO ENSINO DO ATLETISMO" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	EDF0011 -> AN233 [constraint=true]
+	EDF0089 -> FF261 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		EDF0011 [label="EDF0011
+CRESCIMENTO E DESENVOLVIMENTO HUMANO" shape=box width=3.5]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		EDF0089 [label="EDF0089
+FISIOLOGIA DO ESFORÇO" shape=box width=3.5]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		EDF0056 [label="EDF0056
+METODOLOGIA DO ENSINO DAS PRÁTICAS LÚDICAS" shape=box width=3.5]
+		EDF0055 [label="EDF0055
+METODOLOGIA DO ENSINO DO HANDEBOL" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	{
+		rank=same
+		4 [shape=none]
+		EDF0018 [label="EDF0018
+APRENDIZAGEM E CONTROLE MOTOR" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		TE752 [label="TE752
+METODOLOGIA DO ENSINO DA EDUCAÇÃO FÍSICA I" shape=box width=3.5]
+		EDF0058 [label="EDF0058
+METODOLOGIA DO ENSINO DA NATAÇÃO" shape=box width=3.5]
+		EDF0059 [label="EDF0059
+METODOLOGIA DO ENSINO DAS LUTAS" shape=box width=3.5]
+		EDF0061 [label="EDF0061
+METODOLOGIA DO ENSINO DO FUTEBOL E FUTSAL" shape=box width=3.5]
+		EDF0057 [label="EDF0057
+MÉTODOS E TÉCNICAS DA PESQUISA EM EDUCAÇÃOFÍSICA" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	EDF0065 -> EDF0060 [constraint=true]
+	TE753 -> TE752 [constraint=true]
+	EDF0062 -> PO492 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		EDF0065 [label="EDF0065
+ATIVIDADE FÍSICA E PROMOÇÃO DA SAÚDE NA ESCOLA" shape=box width=3.5]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		PO494 [label="PO494
+FUNDAMENTOS DA LÍNGUA BRASILEIRA DE SINAIS -LIBRAS" shape=box width=3.5]
+		TE753 [label="TE753
+METODOLOGIA DO ENSINO DA EDUCAÇÃO FÍSICA II" shape=box width=3.5]
+		EDF0067 [label="EDF0067
+METODOLOGIA DO ENSINO DO VOLEIBOL" shape=box width=3.5]
+		EDF0062 [label="EDF0062
+PSICOLOGIA APLICADA À EDUCAÇÃO FÍSICA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	EDF0024 -> FF261 [constraint=true]
+	EDF0026 -> TE753 [constraint=true]
+	EDF0027 -> EDF0089 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		EDF0024 [label="EDF0024
+BIOMECÂNICA" shape=box width=3.5]
+		EDF0002 [label="EDF0002
+EDUCAÇÃO FÍSICA ADAPTADA" shape=box width=3.5]
+		EDF0026 [label="EDF0026
+ESTÁGIO SUPERVISIONADO EM EDUCAÇÃO FÍSICA I" shape=box width=3.5]
+		EDF0060 [label="EDF0060
+HIGIENE E SOCORROS URGENTES NA ESCOLA" shape=box width=3.5]
+		EDF0027 [label="EDF0027
+MEDIDAS E AVALIAÇÃO EM EDUCAÇÃO FÍSICA" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	EDF0031 -> EDF0065 [constraint=true]
+	EDF0032 -> EDF0026 [constraint=true]
+	EDF0029 -> EDF0011 [constraint=true]
+	EDF0030 -> EDF0057 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		EDF0031 [label="EDF0031
+EDUCAÇÃO FÍSICA " shape=box width=3.5]
+		EDF0032 [label="EDF0032
+ESTÁGIO SUPERVISIONADO EM EDUCAÇÃO FÍSICA II" shape=box width=3.5]
+		EDF0029 [label="EDF0029
+METODOLOGIA DO TREINAMENTO DO ESPORTEESCOLAR" shape=box width=3.5]
+		NU575 [label="NU575
+NUTRIÇÃO APLICADA NA EDUCAÇÃO FÍSICA E DESPORTO" shape=box width=3.5]
+		EDF0030 [label="EDF0030
+SEMINÁRIO DE TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	EDF0035 -> EDF0032 [constraint=true]
+	EDF0036 -> EDF0030 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		EDF0035 [label="EDF0035
+ESTÁGIO SUPERVISIONADO EM EDUCAÇÃO FÍSICA III" shape=box width=3.5]
+		EDF0034 [label="EDF0034
+GESTÃO EM EDUCAÇÃO FÍSICA" shape=box width=3.5]
+		EDF0036 [label="EDF0036
+SEMINÁRIO DE TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}

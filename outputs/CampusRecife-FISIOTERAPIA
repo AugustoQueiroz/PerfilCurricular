@@ -1,0 +1,249 @@
+digraph "Perfil Curricular FISIOTERAPIA" {
+	label="Perfil Curricular de FISIOTERAPIA" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AN001 [label="AN001
+ANATOMIA1" shape=box width=3.5]
+		BQ001 [label="BQ001
+BIOQUIMICA 1" shape=box width=3.5]
+		HE017 [label="HE017
+CITOLOGIA" shape=box width=3.5]
+		HE019 [label="HE019
+EMBRIOLOGIA" shape=box width=3.5]
+		BR011 [label="BR011
+FISICA E BIOFISICA" shape=box width=3.5]
+		HE011 [label="HE011
+HISTOLOGIA" shape=box width=3.5]
+		FT036 [label="FT036
+HISTÓRIA DA FISIOTERAPIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	AN214 -> AN001 [constraint=true]
+	BR012 -> BR011 [constraint=true]
+	FF001 -> AN001 [constraint=true]
+	FF001 -> HE011 [constraint=true]
+	GN215 -> BQ001 [constraint=true]
+	GN215 -> HE017 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		FT007 [label="FT007
+ADMINISTRACAO EM FISIOTERAPIA" shape=box width=3.5]
+		AN214 [label="AN214
+ANATOMIA VI" shape=box width=3.5]
+		BR012 [label="BR012
+FISICA E BIOFISICA2" shape=box width=3.5]
+		FF001 [label="FF001
+FISIOLOGIA" shape=box width=3.5]
+		GN215 [label="GN215
+GENETICA HUMANA 1" shape=box width=3.5]
+		CS006 [label="CS006
+SOCIO-ANTROPOLOGIA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	FT024 -> AN001 [constraint=true]
+	FT024 -> FF001 [constraint=true]
+	PA213 -> AN001 [constraint=true]
+	PA213 -> FF001 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		FT024 [label="FT024
+CINESIOLOGIA" shape=box width=3.5]
+		MS330 [label="MS330
+ETICA E DEONTOLOGIA" shape=box width=3.5]
+		MS200 [label="MS200
+INTRODUCAO A SAUDE PUBLICA" shape=box width=3.5]
+		BI236 [label="BI236
+METODOL DO TRAB CIENTIFICO 1" shape=box width=3.5]
+		PA213 [label="PA213
+PROCESSOS PATOLOGICOS GERAIS3" shape=box width=3.5]
+		PS001 [label="PS001
+PSICOLOGIA1" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	FT012 -> FT024 [constraint=true]
+	FT012 -> PA213 [constraint=true]
+	ET624 -> BI236 [constraint=true]
+	FT004 -> BR012 [constraint=true]
+	FT004 -> FT024 [constraint=true]
+	FT004 -> PA213 [constraint=true]
+	FF243 -> FF001 [constraint=true]
+	FT037 -> FT024 [constraint=true]
+	FT037 -> PA213 [constraint=true]
+	PA315 -> PA213 [constraint=true]
+	FT003 -> BR012 [constraint=true]
+	FT003 -> FT024 [constraint=true]
+	FT003 -> PA213 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		FT012 [label="FT012
+AVALIACAO EM FISIOTERAPIA" shape=box width=3.5]
+		ET624 [label="ET624
+BIOESTATÍSTICA" shape=box width=3.5]
+		FT004 [label="FT004
+ELETROTERAPIA" shape=box width=3.5]
+		FF243 [label="FF243
+FUNDAMENTOS DE FARMACOLOGIA" shape=box width=3.5]
+		FT037 [label="FT037
+HIDROTERAPIA" shape=box width=3.5]
+		PA315 [label="PA315
+PATOLOGIA DOS ORGAOS E SISTEMAS 1" shape=box width=3.5]
+		FT003 [label="FT003
+TERMOFOTOTERAPIA" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	CR203 -> PA315 [constraint=true]
+	MC204 -> PA315 [constraint=true]
+	MF305 -> PA315 [constraint=true]
+	MF301 -> PA315 [constraint=true]
+	MC206 -> PA315 [constraint=true]
+	FT028 -> FT012 [constraint=true]
+	MC205 -> PA315 [constraint=true]
+	CR206 -> PA315 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		CR203 [label="CR203
+ANGIOLOGIA" shape=box width=3.5]
+		MC204 [label="MC204
+CARDIOLOGIA 1" shape=box width=3.5]
+		MF305 [label="MF305
+GINECOLOGIA E OBSTETRICIA" shape=box width=3.5]
+		MF301 [label="MF301
+PEDIATRIA 1" shape=box width=3.5]
+		MC206 [label="MC206
+PNEUMOLOGIA 1" shape=box width=3.5]
+		FT028 [label="FT028
+RECURSOS CINESIOTERAPÊUTICOS" shape=box width=3.5]
+		MC205 [label="MC205
+REUMATOLOGIA 1" shape=box width=3.5]
+		CR206 [label="CR206
+TRAUMATO-ORTOPEDIA 1" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	FT026 -> CR203 [constraint=true]
+	FT026 -> FT012 [constraint=true]
+	FT026 -> FT028 [constraint=true]
+	FT027 -> FT012 [constraint=true]
+	FT027 -> MS200 [constraint=true]
+	NP300 -> PA315 [constraint=true]
+	NP310 -> PA315 [constraint=true]
+	NP310 -> PS001 [constraint=true]
+	FT025 -> FT024 [constraint=true]
+	FT025 -> PA315 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		FT026 [label="FT026
+FISIOTERAPIA APLICADA À ANGIOLOGIA" shape=box width=3.5]
+		FT027 [label="FT027
+FISIOTERAPIA APLICADA À SAÚDE COLETIVA" shape=box width=3.5]
+		NP300 [label="NP300
+NEUROLOGIA" shape=box width=3.5]
+		NP310 [label="NP310
+PSIQUIATRIA" shape=box width=3.5]
+		FT025 [label="FT025
+RECURSOS TERAPÊUTICOS MANUAIS" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	FT039 -> FT012 [constraint=true]
+	FT039 -> FT025 [constraint=true]
+	FT039 -> FT028 [constraint=true]
+	FT039 -> NP300 [constraint=true]
+	FT040 -> FT012 [constraint=true]
+	FT040 -> FT025 [constraint=true]
+	FT040 -> FT028 [constraint=true]
+	FT040 -> MC206 [constraint=true]
+	FT041 -> FT003 [constraint=true]
+	FT041 -> FT004 [constraint=true]
+	FT041 -> FT012 [constraint=true]
+	FT041 -> FT025 [constraint=true]
+	FT041 -> FT028 [constraint=true]
+	FT041 -> MC205 [constraint=true]
+	FT042 -> CR206 [constraint=true]
+	FT042 -> FT003 [constraint=true]
+	FT042 -> FT004 [constraint=true]
+	FT042 -> FT012 [constraint=true]
+	FT042 -> FT025 [constraint=true]
+	FT042 -> FT028 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		FT039 [label="FT039
+FISIOTERAPIA APLICADA À NEUROLOGIA" shape=box width=3.5]
+		FT040 [label="FT040
+FISIOTERAPIA APLICADA À PNEUMOLOGIA" shape=box width=3.5]
+		FT041 [label="FT041
+FISIOTERAPIA APLICADA À REUMATOLOGIA" shape=box width=3.5]
+		FT042 [label="FT042
+FISIOTERAPIA APLICADA À TRAUMATO-ORTOPEDIA" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	FT029 -> FT012 [constraint=true]
+	FT029 -> FT025 [constraint=true]
+	FT029 -> FT028 [constraint=true]
+	FT029 -> MC204 [constraint=true]
+	FT031 -> FT003 [constraint=true]
+	FT031 -> FT004 [constraint=true]
+	FT031 -> FT012 [constraint=true]
+	FT031 -> FT025 [constraint=true]
+	FT031 -> FT028 [constraint=true]
+	FT030 -> FT012 [constraint=true]
+	FT030 -> FT040 [constraint=true]
+	FT030 -> MC204 [constraint=true]
+	FT043 -> FT012 [constraint=true]
+	FT043 -> FT025 [constraint=true]
+	FT043 -> FT028 [constraint=true]
+	FT043 -> MF301 [constraint=true]
+	FT044 -> FT012 [constraint=true]
+	FT044 -> FT040 [constraint=true]
+	FT044 -> FT042 [constraint=true]
+	FT044 -> MF305 [constraint=true]
+	FT032 -> ET624 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		FT029 [label="FT029
+FISIOTERAPIA APLICADA À CARDIOLOGIA" shape=box width=3.5]
+		FT031 [label="FT031
+FISIOTERAPIA APLICADA À DERMATOFUNCIONAL" shape=box width=3.5]
+		FT030 [label="FT030
+FISIOTERAPIA APLICADA À PACIENTESEM UTI" shape=box width=3.5]
+		FT043 [label="FT043
+FISIOTERAPIA APLICADA À PEDIATRIA" shape=box width=3.5]
+		FT044 [label="FT044
+FISIOTERAPIA APLICADA À SAÚDE DA MULHER" shape=box width=3.5]
+		FT032 [label="FT032
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	FT034 -> FT027 [constraint=true]
+	FT034 -> FT029 [constraint=true]
+	FT034 -> FT030 [constraint=true]
+	FT034 -> FT031 [constraint=true]
+	FT034 -> FT039 [constraint=true]
+	FT034 -> FT041 [constraint=true]
+	FT034 -> FT043 [constraint=true]
+	FT034 -> FT044 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		FT034 [label="FT034
+PRÁTICA SUPERVISIONADA I" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	FT035 -> FT034 [constraint=true]
+	FT033 -> FT034 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		FT035 [label="FT035
+PRÁTICA SUPERVISIONADA II" shape=box width=3.5]
+		FT033 [label="FT033
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}

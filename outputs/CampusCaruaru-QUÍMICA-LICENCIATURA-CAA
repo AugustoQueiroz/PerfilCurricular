@@ -1,0 +1,172 @@
+digraph "Perfil Curricular QUÍMICA - LICENCIATURA - CAA" {
+	label="Perfil Curricular de QUÍMICA - LICENCIATURA - CAA" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		FISC0005 [label="FISC0005
+INTRODUÇÃO À FÍSICA" shape=box width=3.5]
+		QUIM0003 [label="QUIM0003
+INTRODUÇÃO À QUÍMICA" shape=box width=3.5]
+		MATM0020 [label="MATM0020
+MATEMÁTICA BÁSICA" shape=box width=3.5]
+		EDUC0157 [label="EDUC0157
+METODOLOGIA DO ESTUDO" shape=box width=3.5]
+		EDUC0043 [label="EDUC0043
+PORTUGUÊS INSTRUMENTAL" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	QUIM0074 -> MATM0020 [constraint=true]
+	QUIM0076 -> QUIM0003 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		QUIM0074 [label="QUIM0074
+CÁLCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		QUIM0077 [label="QUIM0077
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		QUIM0075 [label="QUIM0075
+GEOMETRIA ANALÍTICA" shape=box width=3.5]
+		EDUC0058 [label="EDUC0058
+LIBRAS" shape=box width=3.5]
+		QUIM0076 [label="QUIM0076
+QUÍMICA GERAL I" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	QUIM0078 -> QUIM0074 [constraint=true]
+	QUIM0079 -> FISC0005 [constraint=true]
+	QUIM0082 -> QUIM0076 [constraint=true]
+	QUIM0080 -> QUIM0076 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		QUIM0078 [label="QUIM0078
+CÁLCULO DIFERENCIAL E INTEGRAL II" shape=box width=3.5]
+		QUIM0079 [label="QUIM0079
+FUNDAMENTOS DE FÍSICA I" shape=box width=3.5]
+		QUIM0081 [label="QUIM0081
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO I" shape=box width=3.5]
+		QUIM0082 [label="QUIM0082
+LABORATÓRIO DE QUÍMICA GERAL" shape=box width=3.5]
+		QUIM0080 [label="QUIM0080
+QUÍMICA GERAL II" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	QUIM0083 -> QUIM0074 [constraint=true]
+	QUIM0083 -> QUIM0079 [constraint=true]
+	QUIM0085 -> QUIM0081 [constraint=true]
+	QUIM0005 -> QUIM0080 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		QUIM0084 [label="QUIM0084
+DIDÁTICA" shape=box width=3.5]
+		QUIM0083 [label="QUIM0083
+FUNDAMENTOS DE FÍSICA II" shape=box width=3.5]
+		QUIM0085 [label="QUIM0085
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO II" shape=box width=3.5]
+		QUIM0087 [label="QUIM0087
+INTRODUÇÃO À QUIMIOMETRIA" shape=box width=3.5]
+		QUIM0086 [label="QUIM0086
+POLÍTICAS EDUCACIONAIS " shape=box width=3.5]
+		QUIM0005 [label="QUIM0005
+QUÍMICA INORGÂNICA I" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	QUIM0089 -> QUIM0005 [constraint=true]
+	QUIM0020 -> QUIM0076 [constraint=true]
+	QUIM0088 -> QUIM0005 [constraint=true]
+	QUIM0007 -> QUIM0080 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		QUIM0091 [label="QUIM0091
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		EDUC0174 [label="EDUC0174
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		EDUC0001 [label="EDUC0001
+INTRODUÇÃO À EDUCAÇÃO" shape=box width=3.5]
+		QUIM0089 [label="QUIM0089
+LABORATÓRIO DE QUÍMICA INORGÂNICA" shape=box width=3.5]
+		QUIM0020 [label="QUIM0020
+METODOLOGIA DO ENSINO DA QUÍMICA I" shape=box width=3.5]
+		QUIM0088 [label="QUIM0088
+QUÍMICA INORGÂNICA II" shape=box width=3.5]
+		QUIM0007 [label="QUIM0007
+QUÍMICA ORGÂNICA I" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	QUIM0096 -> QUIM0020 [constraint=true]
+	QUIM0095 -> QUIM0080 [constraint=true]
+	QUIM0094 -> QUIM0020 [constraint=true]
+	QUIM0093 -> QUIM0080 [constraint=true]
+	QUIM0092 -> QUIM0007 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		QUIM0096 [label="QUIM0096
+ESTÁGIO SUPERVISIONADO I" shape=box width=3.5]
+		QUIM0095 [label="QUIM0095
+FÍSICO-QUÍMICA I" shape=box width=3.5]
+		QUIM0094 [label="QUIM0094
+METODOLOGIA DO ENSINO DE QUÍMICA II" shape=box width=3.5]
+		QUIM0093 [label="QUIM0093
+QUÍMICA ANALÍTICA I" shape=box width=3.5]
+		QUIM0092 [label="QUIM0092
+QUÍMICA ORGÂNICA II" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	QUIM0102 -> QUIM0096 [constraint=true]
+	QUIM0098 -> QUIM0095 [constraint=true]
+	QUIM0100 -> QUIM0092 [constraint=true]
+	QUIM0101 -> QUIM0094 [constraint=true]
+	QUIM0099 -> QUIM0093 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		QUIM0102 [label="QUIM0102
+ESTÁGIO SUPERVISIONADO II" shape=box width=3.5]
+		QUIM0098 [label="QUIM0098
+FÍSICO " shape=box width=3.5]
+		QUIM0100 [label="QUIM0100
+LABORATÓRIO DE QUÍMICA ORGÂNICA" shape=box width=3.5]
+		QUIM0101 [label="QUIM0101
+METODOLOGIA DO ENSINO DA QUÍMICA III" shape=box width=3.5]
+		QUIM0099 [label="QUIM0099
+QUÍMICA ANALÍTICA II" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	QUIM0105 -> QUIM0102 [constraint=true]
+	QUIM0106 -> QUIM0098 [constraint=true]
+	QUIM0104 -> QUIM0098 [constraint=true]
+	QUIM0103 -> QUIM0099 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		QUIM0105 [label="QUIM0105
+ESTÁGIO SUPERVISIONADO III" shape=box width=3.5]
+		QUIM0106 [label="QUIM0106
+INTRODUÇÃO À QUÍMICA QUÂNTICA" shape=box width=3.5]
+		QUIM0104 [label="QUIM0104
+LABORATÓRIO DE FÍSICO-QUÍMICA" shape=box width=3.5]
+		QUIM0050 [label="QUIM0050
+METODOLOGIA DA PESQUISA EDUCACIONAL" shape=box width=3.5]
+		QUIM0103 [label="QUIM0103
+QUÍMICA ANALÍTICA III" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	QUIM0048 -> QUIM0105 [constraint=true]
+	QUIM0110 -> QUIM0080 [constraint=true]
+	QUIM0112 -> QUIM0050 [constraint=true]
+	QUIM0112 -> QUIM0101 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		QUIM0048 [label="QUIM0048
+ESTÁGIO SUPERVISIONADO IV" shape=box width=3.5]
+		QUIM0110 [label="QUIM0110
+HISTÓRIA DA QUÍMICA" shape=box width=3.5]
+		QUIM0112 [label="QUIM0112
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+}

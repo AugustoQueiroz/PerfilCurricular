@@ -1,0 +1,174 @@
+digraph "Perfil Curricular Educação Física - Bacharelado" {
+	label="Perfil Curricular de Educação Física - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AN233 [label="AN233
+BASES ANATÔMICAS APLICADAS À EDUCAÇÃO FÍSICA" shape=box width=3.5]
+		EDF0086 [label="EDF0086
+BASES DE BIOFÍSICA E BIOQUÍMICA APLICADAS ÀEDUCAÇÃO FÍSICA" shape=box width=3.5]
+		EDF0003 [label="EDF0003
+GINÁSTICA" shape=box width=3.5]
+		EDF0005 [label="EDF0005
+MODALIDADE DO ESPORTE COLETIVO " shape=box width=3.5]
+		EDF0004 [label="EDF0004
+MODALIDADE DO ESPORTE INDIVIDUAL" shape=box width=3.5]
+		EDF0006 [label="EDF0006
+SOCIEDADE " shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	FF261 -> AN233 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		EDF0009 [label="EDF0009
+ATIVIDADES RÍTMICAS E DANÇA" shape=box width=3.5]
+		FF261 [label="FF261
+BASES FISIOLÓGICAS APLICADAS A EDUCAÇÃO FÍSICA" shape=box width=3.5]
+		HE249 [label="HE249
+BIOLOGIA 1" shape=box width=3.5]
+		EDF0007 [label="EDF0007
+DIMENSÕES DIDÁTICO-PEDAGÓGICAS DA EDUCAÇÃOFÍSICA" shape=box width=3.5]
+		EDF0010 [label="EDF0010
+MODALIDADE DO ESPORTE INDIVIDUAL " shape=box width=3.5]
+		EDF0008 [label="EDF0008
+SAÚDE PÚBLICA E ATIVIDADE FÍSICA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	EDF0011 -> HE249 [constraint=true]
+	EDF0090 -> AN233 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		EDF0013 [label="EDF0013
+ATIVIDADES AQUÁTICAS" shape=box width=3.5]
+		EDF0011 [label="EDF0011
+CRESCIMENTO E DESENVOLVIMENTO HUMANO" shape=box width=3.5]
+		EDF0045 [label="EDF0045
+EDUCAÇÃO FÍSICA " shape=box width=3.5]
+		EDF0090 [label="EDF0090
+FISIOLOGIA DO EXERCÍCIO" shape=box width=3.5]
+		EDF0014 [label="EDF0014
+FUNDAMENTOS E PRÁTICAS DE LAZER" shape=box width=3.5]
+		EDF0012 [label="EDF0012
+MODALIDADE DO ESPORTE COLETIVO " shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	EDF0018 -> EDF0011 [constraint=true]
+	EDF0047 -> EDF0011 [constraint=true]
+	EDF0047 -> FF261 [constraint=true]
+	EDF0016 -> EDF0008 [constraint=true]
+	EDF0015 -> EDF0011 [constraint=true]
+	EDF0015 -> FF261 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		EDF0018 [label="EDF0018
+APRENDIZAGEM E CONTROLE MOTOR" shape=box width=3.5]
+		EDF0047 [label="EDF0047
+ATIVIDADES EM ACADEMIAS" shape=box width=3.5]
+		EDF0016 [label="EDF0016
+EDUCAÇÃO FÍSICA " shape=box width=3.5]
+		EDF0046 [label="EDF0046
+GESTÃO DO ESPORTE" shape=box width=3.5]
+		EDF0019 [label="EDF0019
+METODOLOGIA DA PESQUISA EM EDUCAÇÃO FÍSICA" shape=box width=3.5]
+		EDF0017 [label="EDF0017
+MODALIDADE DO ESPORTE INDIVIDUAL " shape=box width=3.5]
+		EDF0015 [label="EDF0015
+TREINAMENTO FÍSICO E ESPORTIVO" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	EDF0020 -> EDF0016 [constraint=true]
+	EDF0021 -> EDF0019 [constraint=true]
+	FT045 -> EDF0090 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		EDF0020 [label="EDF0020
+ATIVIDADE FÍSICA E PROMOÇÃO DA SAÚDE" shape=box width=3.5]
+		EDF0021 [label="EDF0021
+BIOESTATÍSTICA" shape=box width=3.5]
+		FT045 [label="FT045
+CINESIOLOGIA 3" shape=box width=3.5]
+		EDF0022 [label="EDF0022
+MODALIDADE DO ESPORTE COLETIVO " shape=box width=3.5]
+		EDF0025 [label="EDF0025
+MODALIDADE DO ESPORTE COLETIVO " shape=box width=3.5]
+		EDF0023 [label="EDF0023
+PSICOLOGIA DO ESPORTE" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	EDF0039 -> FT045 [constraint=true]
+	EDF0028 -> EDF0047 [constraint=true]
+	EDF0040 -> EDF0003 [constraint=true]
+	EDF0040 -> EDF0004 [constraint=true]
+	EDF0040 -> EDF0005 [constraint=true]
+	EDF0040 -> EDF0007 [constraint=true]
+	EDF0040 -> EDF0012 [constraint=true]
+	EDF0040 -> EDF0013 [constraint=true]
+	EDF0040 -> EDF0017 [constraint=true]
+	EDF0040 -> EDF0018 [constraint=true]
+	EDF0040 -> EDF0022 [constraint=true]
+	EDF0040 -> EDF0025 [constraint=true]
+	EDF0038 -> EDF0021 [constraint=true]
+	NU574 -> EDF0090 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		EDF0039 [label="EDF0039
+BIOMECÂNICA DO MOVIMENTO HUMANO" shape=box width=3.5]
+		EDF0037 [label="EDF0037
+EDUCAÇÃO FÍSICA E ESPORTES ADAPTADOS" shape=box width=3.5]
+		EDF0028 [label="EDF0028
+ESTUDOS AVANÇADOS EM CONDICIONAMENTO FÍSICO" shape=box width=3.5]
+		EDF0040 [label="EDF0040
+ESTÁGIO EM INICIAÇÃO ESPORTIVA E LAZER" shape=box width=3.5]
+		EDF0038 [label="EDF0038
+MEDIDAS " shape=box width=3.5]
+		NU574 [label="NU574
+NUTRIÇÃO APLICADA A EDUCAÇÃO FÍSICA E DESPORTO" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	EDF0083 -> HE249 [constraint=true]
+	EDF0080 -> EDF0090 [constraint=true]
+	EDF0048 -> EDF0040 [constraint=true]
+	EDF0049 -> EDF0047 [constraint=true]
+	EDF0044 -> EDF0019 [constraint=true]
+	EDF0044 -> EDF0021 [constraint=true]
+	EDF0043 -> EDF0006 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		EDF0083 [label="EDF0083
+EDUCAÇÃO FÍSICA " shape=box width=3.5]
+		EDF0080 [label="EDF0080
+ESTUDOS FARMACOLÓGICOS APLICADOS A EDUCAÇÃOFÍSICA" shape=box width=3.5]
+		EDF0048 [label="EDF0048
+ESTÁGIO EM ESPORTE DE ALTO RENDIMENTO" shape=box width=3.5]
+		EDF0049 [label="EDF0049
+MUSCULAÇÃO" shape=box width=3.5]
+		EDF0044 [label="EDF0044
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+		EDF0043 [label="EDF0043
+ÉTICA PROFISSIONAL EM EDUCAÇÃO FÍSICA" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	EDF0087 -> EDF0021 [constraint=true]
+	EDF0052 -> EDF0048 [constraint=true]
+	EDF0054 -> EDF0046 [constraint=true]
+	EDF0051 -> EDF0044 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		EDF0087 [label="EDF0087
+EPIDEMIOLOGIA DA ATIVIDADE FÍSICA" shape=box width=3.5]
+		EDF0052 [label="EDF0052
+ESTÁGIO EM ATIVIDADE FÍSICA " shape=box width=3.5]
+		EDF0054 [label="EDF0054
+POLÍTICAS PÚBLICAS PARA ESPORTE E LAZER" shape=box width=3.5]
+		EDF0051 [label="EDF0051
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}

@@ -1,0 +1,121 @@
+digraph "Perfil Curricular Filosofia - Licenciatura" {
+	label="Perfil Curricular de Filosofia - Licenciatura" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		SF451 [label="SF451
+FUNDAMENTOS DA EDUCAÇÃO" shape=box width=3.5]
+		PO492 [label="PO492
+FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO" shape=box width=3.5]
+		FL211 [label="FL211
+HISTORIA DA FILOSOFIA ANTIGA1" shape=box width=3.5]
+		FL468 [label="FL468
+INICIAÇÃO À PESQUISA FILOSÓFICA" shape=box width=3.5]
+		FL010 [label="FL010
+INTRODUCAO A FILOSOFIA 1" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	{
+		rank=same
+		2 [shape=none]
+		TE707 [label="TE707
+DIDÁTICA" shape=box width=3.5]
+		FL261 [label="FL261
+FILOSOFIA DA ARTE" shape=box width=3.5]
+		AP492 [label="AP492
+GESTÃO EDUCACIONAL E GESTÃO ESCOLAR" shape=box width=3.5]
+		FL212 [label="FL212
+HISTORIA DA FILOSOFIA ANTIGA2" shape=box width=3.5]
+		FL517 [label="FL517
+LÓGICA" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	{
+		rank=same
+		3 [shape=none]
+		FL237 [label="FL237
+ETICA" shape=box width=3.5]
+		FL260 [label="FL260
+FILOSOFIA DA CIENCIA" shape=box width=3.5]
+		FL213 [label="FL213
+HISTORIA DA FILOSOFIA MEDIEVAL1" shape=box width=3.5]
+		IN731 [label="IN731
+METODOLOGIA DO ENSINO DE FILOSOFIA 1" shape=box width=3.5]
+		AP493 [label="AP493
+POLÍTICAS EDUCACIONAIS" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	{
+		rank=same
+		4 [shape=none]
+		PO493 [label="PO493
+AVALIAÇÃO DA APRENDIZAGEM" shape=box width=3.5]
+		FL518 [label="FL518
+FILOSOFIA SOCIAL E POLÍTICA" shape=box width=3.5]
+		FL214 [label="FL214
+HISTORIA DA FILOSOFIA MEDIEVAL2" shape=box width=3.5]
+		FL505 [label="FL505
+LABORATÓRIO DE HISTÓRIA DA FILOSOFIA ANTIGA" shape=box width=3.5]
+		FL519 [label="FL519
+TEORIA DO CONHECIMENTO" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	{
+		rank=same
+		5 [shape=none]
+		IN734 [label="IN734
+ESTÁGIO CURRICULAR SUPERVISIONADO DE FILOSOFIA 1" shape=box width=3.5]
+		FL215 [label="FL215
+HISTORIA DA FILOSOFIA MODERNA1" shape=box width=3.5]
+		FL325 [label="FL325
+METAFISICA" shape=box width=3.5]
+		IN732 [label="IN732
+METODOLOGIA DO ENSINO DE FILOSOFIA 2" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	{
+		rank=same
+		6 [shape=none]
+		IN735 [label="IN735
+ESTÁGIO CURRICULAR SUPERVISIONADO DE FILOSOFIA II" shape=box width=3.5]
+		FL520 [label="FL520
+FILOSOFIA DA LINGUAGEM" shape=box width=3.5]
+		PO494 [label="PO494
+FUNDAMENTOS DA LÍNGUA BRASILEIRA DE SINAIS -LIBRAS" shape=box width=3.5]
+		FL216 [label="FL216
+HISTORIA DA FILOSOFIA MODERNA2" shape=box width=3.5]
+		FL506 [label="FL506
+LABORATÓRIO DE HISTÓRIA DA FILOSOFIA MEDIEVAL" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	{
+		rank=same
+		7 [shape=none]
+		IN736 [label="IN736
+ESTÁGIO CURRICULAR SUPERVISIONADO DE FILOSOFIA 3" shape=box width=3.5]
+		FL515 [label="FL515
+HISTÓRIA DA FILOSOFIA CONTEMPORÂNEA 1" shape=box width=3.5]
+		FL507 [label="FL507
+LABORATÓRIO DE HISTÓRIA DA FILOSOFIA MODERNA" shape=box width=3.5]
+		IN733 [label="IN733
+METODOLOGIA DO ENSINO FILOSOFIA 3" shape=box width=3.5]
+		FL522 [label="FL522
+TRABALHO DE CONCLUSÃO DE CURSO 1" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	{
+		rank=same
+		8 [shape=none]
+		IN737 [label="IN737
+ESTÁGIO CURRICULAR SUPERVISIONADO DE FILOSOFIA 4" shape=box width=3.5]
+		FL516 [label="FL516
+HISTÓRIA DA FILOSOFIA CONTEMPORÂNEA 2" shape=box width=3.5]
+		FL508 [label="FL508
+LABORATÓRIO DE HISTÓRIA DA FILOSOFIACONTEMPORÂNEA" shape=box width=3.5]
+		FL521 [label="FL521
+PENSAMENTO FILOSÓFICO BRASILEIRO" shape=box width=3.5]
+		FL523 [label="FL523
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}

@@ -1,0 +1,135 @@
+digraph "Perfil Curricular BIOMEDICINA" {
+	label="Perfil Curricular de BIOMEDICINA" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		AN001 [label="AN001
+ANATOMIA1" shape=box width=3.5]
+		BQ001 [label="BQ001
+BIOQUIMICA 1" shape=box width=3.5]
+		HE017 [label="HE017
+CITOLOGIA" shape=box width=3.5]
+		HE019 [label="HE019
+EMBRIOLOGIA" shape=box width=3.5]
+		BR011 [label="BR011
+FISICA E BIOFISICA" shape=box width=3.5]
+		HE011 [label="HE011
+HISTOLOGIA" shape=box width=3.5]
+		ML005 [label="ML005
+INTRODUCAO A CIENCIA BIOMEDICA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	BR012 -> BR011 [constraint=true]
+	FF001 -> AN001 [constraint=true]
+	FF001 -> HE011 [constraint=true]
+	GN215 -> HE017 [constraint=true]
+	GN215 -> BQ001 [constraint=true]
+	MT207 -> BQ001 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		BR012 [label="BR012
+FISICA E BIOFISICA2" shape=box width=3.5]
+		FF001 [label="FF001
+FISIOLOGIA" shape=box width=3.5]
+		GN215 [label="GN215
+GENETICA HUMANA 1" shape=box width=3.5]
+		BR242 [label="BR242
+MATEMATICA APLICADA 2" shape=box width=3.5]
+		MT207 [label="MT207
+MICROBIOLOGIA E IMUNOLOGIA 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	BQ005 -> BQ001 [constraint=true]
+	FF218 -> FF001 [constraint=true]
+	MT217 -> AN001 [constraint=true]
+	MT217 -> FF001 [constraint=true]
+	BR223 -> BR012 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		BQ005 [label="BQ005
+BIOQUIMICA 2" shape=box width=3.5]
+		FF218 [label="FF218
+FARMACOLOGIA 3A" shape=box width=3.5]
+		MT217 [label="MT217
+PARASITOLOGIA 1" shape=box width=3.5]
+		BR223 [label="BR223
+RADIOBIOLOGIA A" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	BR241 -> BR242 [constraint=true]
+	ZO310 -> GN215 [constraint=true]
+	ML203 -> MT207 [constraint=true]
+	PA227 -> BQ005 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		BR241 [label="BR241
+BIOESTATISTICA 1" shape=box width=3.5]
+		ZO310 [label="ZO310
+ECOLOGIA" shape=box width=3.5]
+		ZO225 [label="ZO225
+METODOLOG INVESTIGACAO CIENTIFICA" shape=box width=3.5]
+		ML203 [label="ML203
+MICOLOGIA 2" shape=box width=3.5]
+		PA227 [label="PA227
+PROCESSOS PATOLOGICOS GERAIS 1B" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	BQ312 -> BQ005 [constraint=true]
+	BQ312 -> FF218 [constraint=true]
+	BQ312 -> PA227 [constraint=true]
+	PA412 -> PA227 [constraint=true]
+	BR256 -> PA227 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		BQ312 [label="BQ312
+BIOQUÍMICA CLÍNICA" shape=box width=3.5]
+		PA412 [label="PA412
+CITOPATOLOGIA" shape=box width=3.5]
+		BR256 [label="BR256
+EXAMES HEMATOLÓGICOS 1" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	AT252 -> MT207 [constraint=true]
+	AT252 -> FF218 [constraint=true]
+	MT242 -> MT217 [constraint=true]
+	PA228 -> PA227 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		MS233 [label="MS233
+ETICA PROFISSIONAL3" shape=box width=3.5]
+		AT252 [label="AT252
+EXAMES BACTERIOLOGICOS A" shape=box width=3.5]
+		MT242 [label="MT242
+EXAMES PARASITOLOGICOS A" shape=box width=3.5]
+		PA228 [label="PA228
+IMUNOLOGIA E SOROLOGIA 1A" shape=box width=3.5]
+		MS211 [label="MS211
+INTRODUCAO A SAUDE PUBLICA 1" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	PA226 -> PA228 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		PA226 [label="PA226
+IMUNOPATOLOGIA" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	BC406 -> AT252 [constraint=true]
+	BC406 -> BQ312 [constraint=true]
+	BC406 -> BR256 [constraint=true]
+	BC406 -> MS233 [constraint=true]
+	BC406 -> MT242 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		BC406 [label="BC406
+ESTAGIO 1" shape=box width=3.5]
+	}
+}

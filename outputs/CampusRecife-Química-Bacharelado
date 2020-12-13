@@ -1,0 +1,144 @@
+digraph "Perfil Curricular Química - Bacharelado" {
+	label="Perfil Curricular de Química - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		QF541 [label="QF541
+PROCEDIMENTOS DE SEGURANÇA EM LABORATÓRIOS DEQUÍMICA" shape=box width=3.5]
+		QF001 [label="QF001
+QUIMICA GERAL 1" shape=box width=3.5]
+		QF021 [label="QF021
+QUIMICA GERAL EXPERIMENTAL 1" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA046 -> MA036 [constraint=true]
+	MA027 -> MA026 [constraint=true]
+	QF022 -> QF021 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA046 [label="MA046
+ALGEBRA LINEAR 1" shape=box width=3.5]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		QF002 [label="QF002
+QUIMICA GERAL 2" shape=box width=3.5]
+		QF022 [label="QF022
+QUIMICA GERAL EXPERIMENTAL 2" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA128 -> MA027 [constraint=true]
+	MA128 -> MA036 [constraint=true]
+	FI021 -> FI006 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	QF221 -> QF002 [constraint=true]
+	QF547 -> QF001 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA128 [label="MA128
+CALCULO DIFERENCIAL E INTEGRAL 3" shape=box width=3.5]
+		FI021 [label="FI021
+FISICA EXPERIMENTAL 1" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		QF536 [label="QF536
+PLANEJAMENTO E OTIMIZAÇÃO DE EXPERIMENTOS" shape=box width=3.5]
+		QF221 [label="QF221
+QUIMICA ORGANICA 11" shape=box width=3.5]
+		QF547 [label="QF547
+QUÍMICA ANALÍTICA 11 A" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MA129 -> MA128 [constraint=true]
+	FI108 -> FI007 [constraint=true]
+	QF250 -> FI007 [constraint=true]
+	QF250 -> MA027 [constraint=true]
+	QF250 -> QF002 [constraint=true]
+	QF222 -> QF221 [constraint=true]
+	QF548 -> QF001 [constraint=true]
+	QF548 -> QF022 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MA129 [label="MA129
+CALCULO DIFERENCIAL E INTEGRAL 4" shape=box width=3.5]
+		FI108 [label="FI108
+FISICA GERAL 3" shape=box width=3.5]
+		QF250 [label="QF250
+FISICO-QUIMICA 11" shape=box width=3.5]
+		QF222 [label="QF222
+QUIMICA ORGANICA 12" shape=box width=3.5]
+		QF548 [label="QF548
+QUÍMICA ANALÍTICAEXPERIMENTAL 11A" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	FI122 -> FI021 [constraint=true]
+	FI122 -> FI108 [constraint=true]
+	FI109 -> FI108 [constraint=true]
+	QF252 -> QF250 [constraint=true]
+	QF561 -> QF022 [constraint=true]
+	QF223 -> QF222 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		FI122 [label="FI122
+FISICA EXPERIMENTAL 2" shape=box width=3.5]
+		FI109 [label="FI109
+FISICA GERAL 4" shape=box width=3.5]
+		QF252 [label="QF252
+FISICO-QUIMICA 12" shape=box width=3.5]
+		QF561 [label="QF561
+FÍSICO-QUÍMICA EXPERIMENTAL 1" shape=box width=3.5]
+		QF223 [label="QF223
+QUIMICA ORGANICA 13" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	QF253 -> FI109 [constraint=true]
+	QF253 -> MA129 [constraint=true]
+	QF253 -> QF002 [constraint=true]
+	QF211 -> QF002 [constraint=true]
+	QF233 -> QF022 [constraint=true]
+	QF556 -> QF547 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		QF253 [label="QF253
+FISICO-QUIMICA 13" shape=box width=3.5]
+		QF211 [label="QF211
+QUIMICA INORGANICA 11" shape=box width=3.5]
+		QF233 [label="QF233
+QUIMICA ORGANICA EXPERIMENTAL 1A" shape=box width=3.5]
+		QF556 [label="QF556
+QUÍMICA ANALÍTICA 12A " shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	QF212 -> QF211 [constraint=true]
+	QF215 -> QF022 [constraint=true]
+	QF215 -> QF211 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		QF212 [label="QF212
+QUIMICA INORGANICA 12" shape=box width=3.5]
+		QF215 [label="QF215
+QUIMICA INORGANICA EXPERIMENTAL" shape=box width=3.5]
+		QF557 [label="QF557
+TRABALHOS DIRIGIDOS EM QUÍMICA " shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	QF558 -> QF557 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		QF558 [label="QF558
+TRABALHOS DIRIGIDOS EM QUÍMICA 2 " shape=box width=3.5]
+	}
+}

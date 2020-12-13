@@ -1,0 +1,243 @@
+digraph "Perfil Curricular ENGENHARIA DE ALIMENTOS" {
+	label="Perfil Curricular de ENGENHARIA DE ALIMENTOS" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		EG407 [label="EG407
+INTRODUÇÃO AO DESENHO" shape=box width=3.5]
+		IN701 [label="IN701
+INTRODUÇÃO À ENGENHARIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA046 -> MA036 [constraint=true]
+	MA027 -> MA026 [constraint=true]
+	FI021 -> FI006 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA046 [label="MA046
+ALGEBRA LINEAR 1" shape=box width=3.5]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		IF165 [label="IF165
+COMPUTACAO ELETRONICA" shape=box width=3.5]
+		FI021 [label="FI021
+FISICA EXPERIMENTAL 1" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		QF011 [label="QF011
+QUIMICA GERAL 11" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA128 -> MA027 [constraint=true]
+	IF215 -> IF165 [constraint=true]
+	IF215 -> MA027 [constraint=true]
+	ET625 -> MA027 [constraint=true]
+	FI122 -> FI021 [constraint=true]
+	FI108 -> FI006 [constraint=true]
+	EQ663 -> QF011 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA128 [label="MA128
+CALCULO DIFERENCIAL E INTEGRAL 3" shape=box width=3.5]
+		IF215 [label="IF215
+CALCULO NUMERICO" shape=box width=3.5]
+		ET625 [label="ET625
+ESTATÍSTICA 1" shape=box width=3.5]
+		FI122 [label="FI122
+FISICA EXPERIMENTAL 2" shape=box width=3.5]
+		FI108 [label="FI108
+FISICA GERAL 3" shape=box width=3.5]
+		CI106 [label="CI106
+MECANICA GERAL 1" shape=box width=3.5]
+		EQ695 [label="EQ695
+METODOLOGIA CIENTÍFICA" shape=box width=3.5]
+		EQ663 [label="EQ663
+QUÍMICA GERAL E INORGÂNICA" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MA129 -> MA128 [constraint=true]
+	EQ706 -> IF215 [constraint=true]
+	EQ657 -> ET625 [constraint=true]
+	EG408 -> EG407 [constraint=true]
+	EL268 -> FI108 [constraint=true]
+	EQ630 -> EQ663 [constraint=true]
+	EQ664 -> EQ663 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MA129 [label="MA129
+CALCULO DIFERENCIAL E INTEGRAL 4" shape=box width=3.5]
+		EQ706 [label="EQ706
+COMPUTAÇÃO APLICADA À ENGENHARI DE ALIMENTOS" shape=box width=3.5]
+		EQ657 [label="EQ657
+CONTROLE ESTATÍSTICO" shape=box width=3.5]
+		EG408 [label="EG408
+DESENHO DE MÁQUINAS 2" shape=box width=3.5]
+		EL268 [label="EL268
+ELETROTECNICA GERAL 1A" shape=box width=3.5]
+		EQ670 [label="EQ670
+FUNDAMENTOS DA BIOLOGIA" shape=box width=3.5]
+		EQ630 [label="EQ630
+QUÍMICA ANALÍTICA" shape=box width=3.5]
+		EQ664 [label="EQ664
+QUÍMICA ORGÂNICA" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	EC442 -> ET625 [constraint=true]
+	EQ690 -> MA129 [constraint=true]
+	EQ671 -> EQ670 [constraint=true]
+	EQ633 -> EQ630 [constraint=true]
+	EQ665 -> EQ664 [constraint=true]
+	CI213 -> CI106 [constraint=true]
+	CI213 -> MA128 [constraint=true]
+	EQ668 -> EQ663 [constraint=true]
+	EQ668 -> FI007 [constraint=true]
+	EQ668 -> MA027 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		EC442 [label="EC442
+ECONOMIA" shape=box width=3.5]
+		EQ690 [label="EQ690
+FENÔMENOS DE TRANSPORTE 1" shape=box width=3.5]
+		EQ671 [label="EQ671
+FUNDAMENTOS DA MICROBIOLOGIA" shape=box width=3.5]
+		EQ633 [label="EQ633
+QUÍMICA ANALÍTICA EXPERIMENTAL" shape=box width=3.5]
+		EQ665 [label="EQ665
+QUÍMICA DE ALIMENTOS" shape=box width=3.5]
+		CI213 [label="CI213
+RESISTENCIA DOS MATERIAIS3" shape=box width=3.5]
+		EQ703 [label="EQ703
+SOCIOLOGIA E LEGISLAÇÃO" shape=box width=3.5]
+		EQ668 [label="EQ668
+TERMODINÂMICA QUÍMICA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	AD200 -> EC442 [constraint=true]
+	EQ674 -> EQ630 [constraint=true]
+	EQ666 -> EQ664 [constraint=true]
+	EQ691 -> EQ690 [constraint=true]
+	EQ669 -> EQ668 [constraint=true]
+	EQ673 -> EQ671 [constraint=true]
+	EQ682 -> MA129 [constraint=true]
+	EQ683 -> MA129 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		AD200 [label="AD200
+ADMINISTRACAO" shape=box width=3.5]
+		EQ674 [label="EQ674
+ANÁLISE DE ALIMENTOS" shape=box width=3.5]
+		EQ666 [label="EQ666
+BIOQUÍMICA DE ALIMENTOS" shape=box width=3.5]
+		EQ691 [label="EQ691
+FENÔMENOS DE TRANSPORTE 2" shape=box width=3.5]
+		EQ669 [label="EQ669
+FÍSICO-QUÍMICA" shape=box width=3.5]
+		EQ673 [label="EQ673
+HIGIENE INDUSTRIAL E LEGISLAÇÃO DE ALIMENTOS" shape=box width=3.5]
+		EQ682 [label="EQ682
+OPERAÇÕES UNITÁRIAS 1" shape=box width=3.5]
+		EQ683 [label="EQ683
+OPERAÇÕES UNITÁRIAS 2" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	NU534 -> ET625 [constraint=true]
+	EQ675 -> EQ657 [constraint=true]
+	EQ675 -> EQ671 [constraint=true]
+	EQ675 -> EQ674 [constraint=true]
+	EQ675 -> ET625 [constraint=true]
+	EQ692 -> EQ691 [constraint=true]
+	EQ677 -> EQ671 [constraint=true]
+	EQ672 -> EQ671 [constraint=true]
+	NU533 -> EQ666 [constraint=true]
+	EQ709 -> EQ683 [constraint=true]
+	EQ684 -> EQ690 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		NU534 [label="NU534
+ANÁLISE SENSORIAL" shape=box width=3.5]
+		EQ675 [label="EQ675
+CONTROLE DE QUALIDADE NA INDÚSTRIA DE ALIMENTOS" shape=box width=3.5]
+		EQ692 [label="EQ692
+FENÔMENOS DE TRANSPORTE 3" shape=box width=3.5]
+		EQ677 [label="EQ677
+MATÉRIAS-PRIMAS AGROPECUÁRIAS" shape=box width=3.5]
+		EQ672 [label="EQ672
+MICROBILOGIA DE ALIMENTOS" shape=box width=3.5]
+		NU533 [label="NU533
+NUTRIÇÃO BÁSICA" shape=box width=3.5]
+		EQ709 [label="EQ709
+OPERAÇÕES UNITÁRIAS 3" shape=box width=3.5]
+		EQ684 [label="EQ684
+OTIMIZAÇÃO DE PROCESSOS QUÍMICOS" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	EQ686 -> EQ690 [constraint=true]
+	EQ685 -> EQ677 [constraint=true]
+	EC337 -> EC442 [constraint=true]
+	EQ687 -> EQ691 [constraint=true]
+	EQ676 -> EQ671 [constraint=true]
+	EQ676 -> EQ682 [constraint=true]
+	EQ681 -> EQ671 [constraint=true]
+	EQ679 -> EQ671 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		EQ686 [label="EQ686
+ANÁLISE E CONTROLE DE PROCESSOS" shape=box width=3.5]
+		EQ685 [label="EQ685
+DESENVOLVIMENTO DE NOVOS PRODUTOS" shape=box width=3.5]
+		EC337 [label="EC337
+ENGENHARIA ECONOMICA" shape=box width=3.5]
+		EQ687 [label="EQ687
+LABORATÓRIO DE ENGENHARIA DE ALIMENTOS 1" shape=box width=3.5]
+		EQ676 [label="EQ676
+PRINCÍPIOS DE CONSERVAÇÃO DOS ALIMENTOS" shape=box width=3.5]
+		EQ681 [label="EQ681
+PROCESSOS FERMENTATIVOS" shape=box width=3.5]
+		EQ678 [label="EQ678
+SEGURANÇA INDUSTRIAL" shape=box width=3.5]
+		EQ679 [label="EQ679
+TRATAMENTO DE EFLUENTES INDUSTRIAIS" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	EQ667 -> EQ671 [constraint=true]
+	EQ688 -> EQ687 [constraint=true]
+	EQ680 -> AD200 [constraint=true]
+	EQ693 -> EQ676 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		EQ667 [label="EQ667
+ENGENHARIA BIOQUÍMICA" shape=box width=3.5]
+		EQ688 [label="EQ688
+LABORATÓRIO DE ENGENHARIA DE ALIMENTOS 2" shape=box width=3.5]
+		EQ704 [label="EQ704
+PROJETO FINAL DE CURSO" shape=box width=3.5]
+		EQ680 [label="EQ680
+PROJETOS NA INDÚSTRIA DE ALIMENTOS" shape=box width=3.5]
+		EQ693 [label="EQ693
+TECNOLOGIA DE FRUTAS E HORTALIÇAS" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	EQ705 -> EQ704 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		EQ705 [label="EQ705
+ESTÁGIO CURRICULAR" shape=box width=3.5]
+	}
+}

@@ -1,0 +1,229 @@
+digraph "Perfil Curricular ENGENHARIA NAVAL" {
+	label="Perfil Curricular de ENGENHARIA NAVAL" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MA026 [label="MA026
+CALCULO DIFERENCIAL E INTEGRAL 1" shape=box width=3.5]
+		FI006 [label="FI006
+FISICA GERAL 1" shape=box width=3.5]
+		MA036 [label="MA036
+GEOMETRIA ANALITICA 1" shape=box width=3.5]
+		EG407 [label="EG407
+INTRODUÇÃO AO DESENHO" shape=box width=3.5]
+		IN701 [label="IN701
+INTRODUÇÃO À ENGENHARIA" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MA046 -> MA036 [constraint=true]
+	MA027 -> MA026 [constraint=true]
+	FI021 -> FI006 [constraint=true]
+	FI007 -> FI006 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MA046 [label="MA046
+ALGEBRA LINEAR 1" shape=box width=3.5]
+		MA027 [label="MA027
+CALCULO DIFERENCIAL E INTEGRAL 2" shape=box width=3.5]
+		IF165 [label="IF165
+COMPUTACAO ELETRONICA" shape=box width=3.5]
+		FI021 [label="FI021
+FISICA EXPERIMENTAL 1" shape=box width=3.5]
+		FI007 [label="FI007
+FISICA GERAL 2" shape=box width=3.5]
+		QF001 [label="QF001
+QUIMICA GERAL 1" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	MA128 -> MA027 [constraint=true]
+	MA128 -> MA036 [constraint=true]
+	IF215 -> IF165 [constraint=true]
+	IF215 -> MA027 [constraint=true]
+	ET625 -> MA027 [constraint=true]
+	FI108 -> FI007 [constraint=true]
+	ME590 -> EG407 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		MA128 [label="MA128
+CALCULO DIFERENCIAL E INTEGRAL 3" shape=box width=3.5]
+		IF215 [label="IF215
+CALCULO NUMERICO" shape=box width=3.5]
+		ET625 [label="ET625
+ESTATÍSTICA 1" shape=box width=3.5]
+		ME440 [label="ME440
+ESTÁTICA" shape=box width=3.5]
+		FI108 [label="FI108
+FISICA GERAL 3" shape=box width=3.5]
+		ME588 [label="ME588
+INTRODUÇÃO À ENGENHARIA NAVAL E OCEÂNICA" shape=box width=3.5]
+		ME590 [label="ME590
+REPRESENTAÇÃO GRÁFICA PARA ENGENHARIA" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	AD214 -> ET625 [constraint=true]
+	MA129 -> MA128 [constraint=true]
+	ME105 -> QF001 [constraint=true]
+	ME572 -> ME440 [constraint=true]
+	EL246 -> FI108 [constraint=true]
+	ME098 -> MA128 [constraint=true]
+	ME098 -> ME440 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		AD214 [label="AD214
+ADMINISTRACAO" shape=box width=3.5]
+		ME589 [label="ME589
+ARTE NAVAL" shape=box width=3.5]
+		MA129 [label="MA129
+CALCULO DIFERENCIAL E INTEGRAL 4" shape=box width=3.5]
+		ME105 [label="ME105
+CIENCIA ENGENHARIA DOS MATERIAIS" shape=box width=3.5]
+		ME572 [label="ME572
+DINÂMICA" shape=box width=3.5]
+		EL246 [label="EL246
+ELETROTECNICA GERAL" shape=box width=3.5]
+		ME098 [label="ME098
+MECANICA DOS SOLIDOS 1" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	ME591 -> MA128 [constraint=true]
+	ME591 -> ME588 [constraint=true]
+	EC337 -> ET625 [constraint=true]
+	ME262 -> FI006 [constraint=true]
+	ME262 -> MA128 [constraint=true]
+	ME469 -> ME098 [constraint=true]
+	ME592 -> ME105 [constraint=true]
+	ME593 -> FI108 [constraint=true]
+	ME593 -> QF001 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		ME591 [label="ME591
+ARQUITETURA NAVAL 1" shape=box width=3.5]
+		EC337 [label="EC337
+ENGENHARIA ECONOMICA" shape=box width=3.5]
+		ME262 [label="ME262
+MECANICA DOS FLUIDOS2" shape=box width=3.5]
+		ME469 [label="ME469
+MECÂNICA DOS SÓLIDOS 2" shape=box width=3.5]
+		ME592 [label="ME592
+PROCESSOS DE FABRICAÇÃO" shape=box width=3.5]
+		ME593 [label="ME593
+TERMODINÂMICA" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	ME595 -> ME591 [constraint=true]
+	ME603 -> ME262 [constraint=true]
+	ME594 -> ME589 [constraint=true]
+	ME604 -> ET625 [constraint=true]
+	ME596 -> ME469 [constraint=true]
+	ME436 -> ME262 [constraint=true]
+	ME436 -> ME593 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		ME595 [label="ME595
+ARQUITETURA NAVAL 2" shape=box width=3.5]
+		CS005 [label="CS005
+ELEMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		ME603 [label="ME603
+HIDRODINÂMICA DO NAVIO 1" shape=box width=3.5]
+		ME594 [label="ME594
+PLANEJAMENTO E CONTROLE DA CONSTRUÇÃO NAVAL" shape=box width=3.5]
+		ME604 [label="ME604
+PROCESSOS ESTOCÁSTICOS" shape=box width=3.5]
+		ME596 [label="ME596
+PROJETO ESTRUTURAL 1" shape=box width=3.5]
+		ME436 [label="ME436
+TRANSMISSÃO DE CALOR 1 A" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	ME611 -> ME603 [constraint=true]
+	ME610 -> ET625 [constraint=true]
+	ME610 -> MA128 [constraint=true]
+	ME600 -> ME595 [constraint=true]
+	ME599 -> ME262 [constraint=true]
+	ME599 -> ME593 [constraint=true]
+	ME605 -> ME105 [constraint=true]
+	ME602 -> ME596 [constraint=true]
+	ME601 -> ME105 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		ME611 [label="ME611
+HIDRODINÂMICA DO NAVIO 2" shape=box width=3.5]
+		ME610 [label="ME610
+LOGÍSTICA E TRANSPORTE AQUAVIÁRIO" shape=box width=3.5]
+		ME600 [label="ME600
+METODOLOGIAS DE PROJETO NAVAL" shape=box width=3.5]
+		ME599 [label="ME599
+MÁQUINAS MARÍTIMAS" shape=box width=3.5]
+		ME605 [label="ME605
+PROCESSOS DE FABRICAÇÃO POR CONFORMAÇÃOMECÂNICA" shape=box width=3.5]
+		ME602 [label="ME602
+PROJETO ESTRUTURAL 2" shape=box width=3.5]
+		ME601 [label="ME601
+TECNOLOGIAS DE SOLDAGEM" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	ME606 -> ME589 [constraint=true]
+	ME632 -> ME611 [constraint=true]
+	ME608 -> ME603 [constraint=true]
+	ME597 -> ME262 [constraint=true]
+	ME624 -> ME262 [constraint=true]
+	ME609 -> ME602 [constraint=true]
+	ME607 -> ME600 [constraint=true]
+	ME607 -> ME603 [constraint=true]
+	{
+		rank=same
+		8 [shape=none]
+		ME606 [label="ME606
+CONSTRUÇÃO DE SISTEMAS OCEÂNICOS" shape=box width=3.5]
+		ME632 [label="ME632
+HIDRODINÂMICA DO NAVIO 3" shape=box width=3.5]
+		ME608 [label="ME608
+INSTALAÇÃO DE MÁQUINAS MARÍTIMAS" shape=box width=3.5]
+		ME597 [label="ME597
+INTRODUÇÃO À ENGENHARIA AMBIENTAL" shape=box width=3.5]
+		ME624 [label="ME624
+PORTOS E HIDROVIAS" shape=box width=3.5]
+		ME609 [label="ME609
+PROJETO ESTRUTURAL 3" shape=box width=3.5]
+		ME607 [label="ME607
+PROJETO NAVAL E OFFSHORE 1" shape=box width=3.5]
+	}
+	8 -> 9 [dir=none]
+	ME618 -> ME609 [constraint=true]
+	ME615 -> ME572 [constraint=true]
+	ME614 -> ME602 [constraint=true]
+	ME614 -> ME606 [constraint=true]
+	ME614 -> ME607 [constraint=true]
+	ME613 -> ME589 [constraint=true]
+	ME616 -> ME600 [constraint=true]
+	ME616 -> ME609 [constraint=true]
+	{
+		rank=same
+		9 [shape=none]
+		ME618 [label="ME618
+ESTÁGIO SUPERVISIONADO" shape=box width=3.5]
+		ME615 [label="ME615
+INSTALAÇÕES PROPULSORAS" shape=box width=3.5]
+		ME614 [label="ME614
+PROJETO NAVAL E OFFSHORE 2" shape=box width=3.5]
+		ME613 [label="ME613
+QUALIDADE E SEGURANÇA NA INDÚSTRIA NAVAL EOCEÂNICA" shape=box width=3.5]
+		ME616 [label="ME616
+TCC 1" shape=box width=3.5]
+	}
+	9 -> 10 [dir=none]
+	ME617 -> ME616 [constraint=true]
+	{
+		rank=same
+		10 [shape=none]
+		ME617 [label="ME617
+TCC 2" shape=box width=3.5]
+	}
+}

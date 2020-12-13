@@ -1,0 +1,122 @@
+digraph "Perfil Curricular Museologia - Bacharelado" {
+	label="Perfil Curricular de Museologia - Bacharelado" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		MUSL0002 [label="MUSL0002
+ANTROPOLOGIA E MUSEUS I" shape=box width=3.5]
+		HI523 [label="HI523
+HISTÓRIA DA ARTE" shape=box width=3.5]
+		MUSL0007 [label="MUSL0007
+PATRIMÔNIOS " shape=box width=3.5]
+		MUSL0017 [label="MUSL0017
+TEORIA MUSEOLÓGICA I" shape=box width=3.5]
+		MUSL0013 [label="MUSL0013
+TÓPICOS ESPECIAIS EM MUSEOLOGIA I" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	MUSL0011 -> MUSL0002 [constraint=true]
+	DCP0003 -> MUSL0017 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		MUSL0011 [label="MUSL0011
+ANTROPOLOGIA E MUSEUS II" shape=box width=3.5]
+		MUSL0021 [label="MUSL0021
+COMUNICAÇÃO E MUSEUS" shape=box width=3.5]
+		DCP0001 [label="DCP0001
+LEGISLAÇÃO PATRIMONIAL" shape=box width=3.5]
+		DCP0002 [label="DCP0002
+TEORIA DO CONHECIMENTO APLICADA À MUSEOLOGIA" shape=box width=3.5]
+		DCP0003 [label="DCP0003
+TEORIA MUSEOLÓGICA II" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	AM074 -> MUSL0002 [constraint=true]
+	AM071 -> DCP0003 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		AM072 [label="AM072
+CONSERVAÇÃO DE BENS CULTURAIS I" shape=box width=3.5]
+		AM073 [label="AM073
+EDUCAÇÃO E MUSEUS" shape=box width=3.5]
+		AM074 [label="AM074
+ETNOMUSEOLOGIA I" shape=box width=3.5]
+		AM075 [label="AM075
+TEORIA DOS OBJETOS E DAS COLEÇÕES" shape=box width=3.5]
+		AM071 [label="AM071
+TEORIA MUSEOLÓGICA III" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	MUSL0032 -> MUSL0002 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		MUSL0032 [label="MUSL0032
+CONSERVAÇÃO DE BENS CULTURAIS II" shape=box width=3.5]
+		MUSL0024 [label="MUSL0024
+DOCUMENTAÇÃO MUSEOLÓGICA I" shape=box width=3.5]
+		MUSL0023 [label="MUSL0023
+ETNOMUSEOLOGIA II" shape=box width=3.5]
+		AR005 [label="AR005
+HISTORIA DAS ARTES" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	MUSL0025 -> MUSL0024 [constraint=true]
+	MUSL0030 -> MUSL0021 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		MUSL0025 [label="MUSL0025
+DOCUMENTAÇÃO MUSEOLÓGICA II" shape=box width=3.5]
+		MUSL0030 [label="MUSL0030
+EXPOGRAFIA I" shape=box width=3.5]
+		AM116 [label="AM116
+HISTÓRIA DA ARTE NO BRASIL" shape=box width=3.5]
+		MUSL0022 [label="MUSL0022
+OBJETOS E COLEÇÕES ETNOGRÁFICAS" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	AM118 -> MUSL0007 [constraint=true]
+	MUSL0036 -> MUSL0030 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		AM118 [label="AM118
+CIDADE PATRIMÔNIO E MUSEALIZAÇÃO" shape=box width=3.5]
+		MUSL0036 [label="MUSL0036
+EXPOGRAFIA II" shape=box width=3.5]
+		MUSL0033 [label="MUSL0033
+GESTÃO E PLANEJAMENTO EM MUSEUS" shape=box width=3.5]
+		CS532 [label="CS532
+PROBLEMAS CENTRAIS DA SOCIOLOGIA DA ARTE" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	{
+		rank=same
+		7 [shape=none]
+		MUSL0028 [label="MUSL0028
+CURADORIA DE EXPOSIÇÃOI" shape=box width=3.5]
+		MUSL0037 [label="MUSL0037
+ESTÁGIO SUPERVISIONADO EM MUSEOLOGIA I" shape=box width=3.5]
+		MUSL0020 [label="MUSL0020
+PATRIMÔNIO NATURAL E CIENTÍFICO" shape=box width=3.5]
+		MUSL0034 [label="MUSL0034
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	{
+		rank=same
+		8 [shape=none]
+		MUSL0040 [label="MUSL0040
+ESTÁGIO SUPERVISIONADO EM MUSEOLOGIA II" shape=box width=3.5]
+		MUSL0031 [label="MUSL0031
+POLÍTICAS CULTURAIS NO BRASIL" shape=box width=3.5]
+		MUSL0039 [label="MUSL0039
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+		MUSL0016 [label="MUSL0016
+TÓPICOS ESPECIAIS EM MUSEOLOGIA IV" shape=box width=3.5]
+	}
+}

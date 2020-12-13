@@ -1,0 +1,127 @@
+digraph "Perfil Curricular CIÊNCIAS CONTABEIS" {
+	label="Perfil Curricular de CIÊNCIAS CONTABEIS" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		CT460 [label="CT460
+CONTABILIDADE INTRODUTÓRIA" shape=box width=3.5]
+		EC001 [label="EC001
+ECONOMIA1" shape=box width=3.5]
+		CS004 [label="CS004
+FUNDAMENTOS DE SOCIOLOGIA" shape=box width=3.5]
+		CT459 [label="CT459
+MÉTODOS QUANTITATIVOS APLICADOS ÀS CIÊNCIASCONTÁBEIS 1" shape=box width=3.5]
+		LE006 [label="LE006
+PORTUGUES INSTRUMENTAL" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	CT462 -> CT460 [constraint=true]
+	EC452 -> EC001 [constraint=true]
+	CT461 -> CT459 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		CT462 [label="CT462
+CONTABILIDADE GERAL" shape=box width=3.5]
+		EC452 [label="EC452
+ECONOMIA DAS EMPRESAS" shape=box width=3.5]
+		AD216 [label="AD216
+INTRODUCAO A ADMINISTRACAO" shape=box width=3.5]
+		CT463 [label="CT463
+METODOLOGIA CIENTÍFICA APLICADA ÀS CIÊNCIASCONTÁBEIS" shape=box width=3.5]
+		CT461 [label="CT461
+MÉTODOS QUANTITATIVOS APLICADOS ÀS CIÊNCIASCONTÁBEIS 2" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	CT465 -> CT462 [constraint=true]
+	CT464 -> CT461 [constraint=true]
+	AD332 -> AD216 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		CT465 [label="CT465
+CONTABILIDADE INTERMEDIÁRIA" shape=box width=3.5]
+		CT464 [label="CT464
+CONTABILOMETRIA" shape=box width=3.5]
+		PR426 [label="PR426
+DIREITO COMERCIAL" shape=box width=3.5]
+		AD332 [label="AD332
+MARKETING" shape=box width=3.5]
+		CT466 [label="CT466
+ÉTICA E NORMAS DA PROFISSÃO CONTÁBIL" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	CT467 -> CT465 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		CT469 [label="CT469
+COMPUTAÇÃO APLICADA À CONTABILIDADE" shape=box width=3.5]
+		CT467 [label="CT467
+CONTABILIDADE SOCIETÁRIA 1" shape=box width=3.5]
+		PE219 [label="PE219
+DIREITO TRIBUTARIO" shape=box width=3.5]
+		CT468 [label="CT468
+FINANÇAS E PLANEJAMENTO PÚBLICO" shape=box width=3.5]
+		EC277 [label="EC277
+MATEMATICA FINANCEIRA 2" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	CT470 -> CT465 [constraint=true]
+	CT473 -> CT465 [constraint=true]
+	CT474 -> CT468 [constraint=true]
+	CT472 -> CT467 [constraint=true]
+	CT471 -> CT462 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		CT470 [label="CT470
+ANÁLISE DAS DEMONSTRAÇÕES CONTÁBEIS" shape=box width=3.5]
+		CT473 [label="CT473
+AUDITORIA" shape=box width=3.5]
+		CT474 [label="CT474
+CONTABILIDADE APLICADA AO SETOR PÚBLICO" shape=box width=3.5]
+		CT472 [label="CT472
+CONTABILIDADE SOCIETÁRIA 2" shape=box width=3.5]
+		CT471 [label="CT471
+CUSTOS" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	CT475 -> CT465 [constraint=true]
+	CT478 -> CT471 [constraint=true]
+	CT476 -> CT472 [constraint=true]
+	CT477 -> CT465 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		CT475 [label="CT475
+CONTABILIDADE TRIBUTÁRIA" shape=box width=3.5]
+		CT478 [label="CT478
+CONTROLADORIA" shape=box width=3.5]
+		PE220 [label="PE220
+LEGISLACAO SOCIAL" shape=box width=3.5]
+		CT476 [label="CT476
+TEORIA DA CONTABILIDADE" shape=box width=3.5]
+		CT477 [label="CT477
+TÓPICOS CONTEMPORÂNEOS DE CONTABILIDADE" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	CT479 -> CT473 [constraint=true]
+	CT480 -> CT469 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		CT479 [label="CT479
+PERÍCIA CONTÁBIL" shape=box width=3.5]
+		CT480 [label="CT480
+SISTEMAS DE INFORMAÇÕES CONTÁBEIS E GERENCIAIS" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	{
+		rank=same
+		8 [shape=none]
+		CT496 [label="CT496
+TRABALHO DE CONCLUSÃO DE CURSO" shape=box width=3.5]
+	}
+}

@@ -1,0 +1,138 @@
+digraph "Perfil Curricular Ciências Econômicas" {
+	label="Perfil Curricular de Ciências Econômicas" labelloc=t
+	rankdir=LR splines=ortho
+	{
+		rank=same
+		1 [shape=none]
+		CSOC0002 [label="CSOC0002
+EVOLUÇÃO DAS IDÉIAS SOCIAIS" shape=box width=3.5]
+		ECON0020 [label="ECON0020
+INTRODUÇÃO À ECONOMIA" shape=box width=3.5]
+		ECON0062 [label="ECON0062
+INTRODUÇÃO AOS ESTUDOS HISTÓRICOS" shape=box width=3.5]
+		ECON0070 [label="ECON0070
+MATEMÁTICA I" shape=box width=3.5]
+	}
+	1 -> 2 [dir=none]
+	ECON0075 -> ECON0020 [constraint=true]
+	ECON0074 -> ECON0062 [constraint=true]
+	ECON0073 -> ECON0070 [constraint=true]
+	ECON0071 -> ECON0070 [constraint=true]
+	{
+		rank=same
+		2 [shape=none]
+		ECON0072 [label="ECON0072
+ÁLGEBRA LINEAR" shape=box width=3.5]
+		ECON0075 [label="ECON0075
+CONTABILIDADE SOCIAL" shape=box width=3.5]
+		ECON0074 [label="ECON0074
+HISTÓRIA ECONÔMICA GERAL I" shape=box width=3.5]
+		ECON0073 [label="ECON0073
+INTRODUÇÃO À ESTATÍSTICA ECONÔMICA" shape=box width=3.5]
+		ECON0071 [label="ECON0071
+MATEMÁTICA II" shape=box width=3.5]
+	}
+	2 -> 3 [dir=none]
+	ECON0029 -> ECON0073 [constraint=true]
+	ECON0078 -> ECON0074 [constraint=true]
+	ECON0080 -> ECON0075 [constraint=true]
+	ECON0079 -> ECON0020 [constraint=true]
+	{
+		rank=same
+		3 [shape=none]
+		ECON0077 [label="ECON0077
+ECONOMIA POLÍTICA I" shape=box width=3.5]
+		ECON0029 [label="ECON0029
+ESTATÍSTICA ECONÔMICA E INTRODUÇÃO ÀECONOMETRIA" shape=box width=3.5]
+		ECON0078 [label="ECON0078
+HISTÓRIA ECONÔMICA GERAL II" shape=box width=3.5]
+		ECON0080 [label="ECON0080
+MACROECONOMIA I" shape=box width=3.5]
+		ECON0079 [label="ECON0079
+MICROECONOMIA I" shape=box width=3.5]
+	}
+	3 -> 4 [dir=none]
+	ECON0015 -> ECON0029 [constraint=true]
+	ECON0008 -> ECON0074 [constraint=true]
+	ECON0146 -> CSOC0002 [constraint=true]
+	ECON0082 -> ECON0080 [constraint=true]
+	ECON0081 -> ECON0079 [constraint=true]
+	{
+		rank=same
+		4 [shape=none]
+		ECON0015 [label="ECON0015
+ECONOMETRIA" shape=box width=3.5]
+		ECON0008 [label="ECON0008
+FORMAÇÃO ECONÔMICA DO BRASIL" shape=box width=3.5]
+		ECON0146 [label="ECON0146
+HISTÓRIA DO PENSAMENTO ECONÔMICO I" shape=box width=3.5]
+		ECON0082 [label="ECON0082
+MACROECONOMIA II" shape=box width=3.5]
+		ECON0081 [label="ECON0081
+MICROECONOMIA II" shape=box width=3.5]
+	}
+	4 -> 5 [dir=none]
+	ECON0017 -> ECON0008 [constraint=true]
+	ECON0084 -> ECON0082 [constraint=true]
+	ECON0034 -> ECON0070 [constraint=true]
+	ECON0083 -> ECON0081 [constraint=true]
+	{
+		rank=same
+		5 [shape=none]
+		ECON0016 [label="ECON0016
+CONTABILIDADE E ANÁLISE DE BALANÇO" shape=box width=3.5]
+		ECON0017 [label="ECON0017
+ECONOMIA BRASILEIRA 1" shape=box width=3.5]
+		ECON0084 [label="ECON0084
+MACROECONOMIA III" shape=box width=3.5]
+		ECON0034 [label="ECON0034
+MATEMÁTICA FINANCEIRA" shape=box width=3.5]
+		ECON0083 [label="ECON0083
+MICROECONOMIA III" shape=box width=3.5]
+	}
+	5 -> 6 [dir=none]
+	ECON0039 -> ECON0017 [constraint=true]
+	ECON0147 -> ECON0082 [constraint=true]
+	ECON0021 -> ECON0082 [constraint=true]
+	ECON0012 -> ECON0020 [constraint=true]
+	{
+		rank=same
+		6 [shape=none]
+		ECON0039 [label="ECON0039
+ECONOMIA BRASILEIRA 2" shape=box width=3.5]
+		ECON0147 [label="ECON0147
+ECONOMIA INTERNACIONAL I" shape=box width=3.5]
+		ECON0021 [label="ECON0021
+ECONOMIA MONETÁRIA" shape=box width=3.5]
+		ECON0012 [label="ECON0012
+METODOLOGIA DA CIÊNCIA ECONÔMICA" shape=box width=3.5]
+		ECON0085 [label="ECON0085
+TÉCNICAS DE PESQUISA EM ECONOMIA" shape=box width=3.5]
+	}
+	6 -> 7 [dir=none]
+	ECON0086 -> ECON0082 [constraint=true]
+	ECON0024 -> ECON0083 [constraint=true]
+	ECON0087 -> ECON0081 [constraint=true]
+	ECON0088 -> ECON0085 [constraint=true]
+	{
+		rank=same
+		7 [shape=none]
+		ECON0086 [label="ECON0086
+DESENVOLVIMENTO ECONÔMICO I" shape=box width=3.5]
+		ECON0024 [label="ECON0024
+ECONOMIA DO SETOR PÚBLICO" shape=box width=3.5]
+		ECON0087 [label="ECON0087
+ORGANIZAÇÃO INDUSTRIAL" shape=box width=3.5]
+		ECON0088 [label="ECON0088
+TRABALHO DE CONCLUSÃO DE CURSO I" shape=box width=3.5]
+	}
+	7 -> 8 [dir=none]
+	{
+		rank=same
+		8 [shape=none]
+		ADMT0001 [label="ADMT0001
+INTRODUÇÃO À ADMINISTRAÇÃO" shape=box width=3.5]
+		ECON0089 [label="ECON0089
+TRABALHO DE CONCLUSÃO DE CURSO II" shape=box width=3.5]
+	}
+}
