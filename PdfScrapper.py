@@ -42,7 +42,7 @@ class PDFScapper:
                 "creditos",
             ]
             df.drop(0, inplace=True)
-    
+
         return semester_tables
 
     @staticmethod
@@ -115,6 +115,7 @@ class PDFScapper:
 
         return curso
 
-if __name__ == '__main__':
-    biomed = PDFScapper.scrape('pdfs/perfil_curricular_biomed.pdf')
-    biomed.perfil_curricular_dot().render('perfil_biomed')
+
+if __name__ == "__main__":
+    biomed = PDFScapper.scrape("pdfs/perfil_curricular_biomed.pdf")
+    biomed.perfil_curricular_dot().render("perfil_biomed")
